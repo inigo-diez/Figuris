@@ -1,0 +1,16 @@
+Scientific Figure Intelligence
+Copyright 2026 The Scientific Figure Intelligence Authors
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+"The Scientific Figure Intelligence Authors" refers to the contributors
+recorded in the project's git history.
+
+The Apache-2.0 license covers only the project's own code and documentation.
+Scientific articles, figures, datasets, models, weights and third-party
+dependencies remain under their respective licenses. Article attributions
+for the test corpus are listed in data/stage0/manifest.json.
+
+The web interface (Figuris) bundles third-party assets under their own licenses:
+IBM Plex Sans and Source Serif 4 fonts (SIL Open Font License 1.1, license texts
+in src/sfi/web/static/fonts/) and Lucide icons (ISC License, notice in
+src/sfi/web/static/icons.js).

@@ -1,0 +1,53 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "scientific-figure-intelligence"
+version = "0.1.0"
+description = "Extract, explain and trace figures from scientific articles."
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115",
+    "numpy>=2.0",
+    "openai>=2.0",
+    "pillow>=11.0",
+    "pydantic>=2.8",
+    "pypdfium2>=4.30",
+    "python-multipart>=0.0.9",
+    "uvicorn>=0.30",
+]
+
+[project.optional-dependencies]
+dev = ["httpx>=0.27", "pytest>=8.0", "ruff>=0.6"]
+# Building the SFI-48 reference (scripts/corpus/build_reference.py) and the PDF batches
+# for an external reviewer (scripts/eval/export_judge_packet.py, uses an installed Chrome).
+eval = ["opencv-python-headless>=4.10", "playwright>=1.40"]
+# Text inside figures (evidence layer, experiment E03): RapidOCR (Apache-2.0) on ONNX
+# Runtime (MIT) with PaddleOCR models (Apache-2.0), downloaded once on first use.
+ocr = ["rapidocr>=3.9,<4", "onnxruntime>=1.24"]
+
+[project.scripts]
+sfi = "sfi.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/sfi"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+# Python only: code blocks in the Markdown docs are illustrative sketches.
+extend-exclude = ["*.md"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+# Line length is handled by `ruff format`; long string literals (HTML, SQL) are allowed.
+ignore = ["E501"]

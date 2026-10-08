@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Figuris</title>
+  <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="/static/fonts/plex-sans-latin-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/static/fonts/plex-sans-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/static/app.css">
+  <script src="/static/icons.js" defer></script>
+  <script src="/static/app.js" defer></script>
+  <script src="/static/pages.js" defer></script>
+  <script src="/static/workspace.js" defer></script>
+  <script src="/static/figure.js" defer></script>
+  <script src="/static/review.js" defer></script>
+</head>
+<body>
+  <button type="button" class="skip" id="skip">Saltar al contenido</button>
+  <aside class="sidebar" id="sidebar" aria-label="Navegación principal">
+    <a class="brand" href="#/" aria-label="Figuris, inicio">
+      <img class="brand-mark" src="/static/figuris-mark.svg" alt="" width="28" height="28">
+      <span class="brand-word">FIGURIS</span>
+    </a>
+    <nav class="side-nav" id="side-nav"></nav>
+    <div class="side-foot" id="side-foot"></div>
+  </aside>
+  <div class="scrim" id="scrim" hidden></div>
+  <div class="main">
+    <header class="topbar" id="topbar"></header>
+    <main id="view" class="page" tabindex="-1"></main>
+  </div>
+  <div class="toasts" id="toasts" role="status" aria-live="polite"></div>
+  <input type="file" id="global-file" accept="application/pdf,.pdf" multiple hidden>
+  <noscript><p class="notice">Figuris necesita JavaScript.</p></noscript>
+</body>
+</html>
