@@ -1,0 +1,3 @@
+2026-10-08T08:23:46+00:00 sfi48_eval --include-test
+2026-10-08T08:24:47+00:00 panel_eval --include-test
+2026-10-08T09:17:21+00:00 reference_check --include-test

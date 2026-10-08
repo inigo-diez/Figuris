@@ -1,0 +1,657 @@
+{
+  "corpus": "SFI-48",
+  "allowed_licenses": [
+    "CC BY",
+    "CC0"
+  ],
+  "seed": 20261006,
+  "created_at": "2026-10-06T22:08:46+00:00",
+  "selection_rules": {
+    "min_figures": 3,
+    "max_figures": 10,
+    "multipanel": "at least one figure caption with two or more panel markers",
+    "scanned": "PMC is_historical_ocr flag"
+  },
+  "splits": {
+    "dev": 12,
+    "validation": 12,
+    "test": 24
+  },
+  "search_log": [
+    {
+      "stratum": "biomedicine/born_digital",
+      "term": "(microscopy[Title/Abstract] OR immunohistochemistry[Title/Abstract] OR \"western blot\"[Title/Abstract]) AND 2016:2024[pdat] AND \"cc by license\"[filter] AND (\"Sci Rep\"[journal] OR \"PLoS One\"[journal] OR \"Nat Commun\"[journal] OR \"R Soc Open Sci\"[journal] OR \"Heliyon\"[journal] OR \"PeerJ\"[journal])",
+      "results": 2000,
+      "inspected": 5,
+      "accepted": 2
+    },
+    {
+      "stratum": "biomedicine/scanned",
+      "term": "\"Br J Cancer\"[journal] AND 1975:1995[pdat] AND \"cc by license\"[filter]",
+      "results": 2000,
+      "inspected": 10,
+      "accepted": 4
+    },
+    {
+      "stratum": "chemistry_materials/born_digital",
+      "term": "(nanoparticles[Title] OR catalyst[Title] OR catalytic[Title] OR polymer[Title] OR \"crystal structure\"[Title] OR electrochemical[Title]) AND 2016:2024[pdat] AND \"cc by license\"[filter] AND (\"Sci Rep\"[journal] OR \"PLoS One\"[journal] OR \"Nat Commun\"[journal] OR \"R Soc Open Sci\"[journal] OR \"Heliyon\"[journal] OR \"PeerJ\"[journal])",
+      "results": 2000,
+      "inspected": 11,
+      "accepted": 6
+    },
+    {
+      "stratum": "physics_astronomy/born_digital",
+      "term": "(astrophysics[Title/Abstract] OR galaxy[Title] OR quantum[Title] OR laser[Title] OR plasma[Title] OR optical[Title]) AND 2016:2024[pdat] AND \"cc by license\"[filter] AND (\"Sci Rep\"[journal] OR \"PLoS One\"[journal] OR \"Nat Commun\"[journal] OR \"R Soc Open Sci\"[journal] OR \"Heliyon\"[journal] OR \"PeerJ\"[journal])",
+      "results": 2000,
+      "inspected": 15,
+      "accepted": 6
+    },
+    {
+      "stratum": "environment_geo/born_digital",
+      "term": "(\"land use\"[Title] OR \"remote sensing\"[Title] OR climate[Title] OR hydrolog*[Title] OR \"air pollution\"[Title] OR groundwater[Title]) AND 2016:2024[pdat] AND \"cc by license\"[filter] AND (\"Sci Rep\"[journal] OR \"PLoS One\"[journal] OR \"Nat Commun\"[journal] OR \"R Soc Open Sci\"[journal] OR \"Heliyon\"[journal] OR \"PeerJ\"[journal])",
+      "results": 2000,
+      "inspected": 16,
+      "accepted": 6
+    },
+    {
+      "stratum": "computer_science_engineering/born_digital",
+      "term": "(\"deep learning\"[Title] OR \"neural network\"[Title] OR robot*[Title] OR algorithm[Title] OR sensor[Title]) NOT (patients[Title] OR clinical[Title]) AND 2016:2024[pdat] AND \"cc by license\"[filter] AND (\"Sci Rep\"[journal] OR \"PLoS One\"[journal] OR \"Nat Commun\"[journal] OR \"R Soc Open Sci\"[journal] OR \"Heliyon\"[journal] OR \"PeerJ\"[journal])",
+      "results": 2000,
+      "inspected": 21,
+      "accepted": 6
+    },
+    {
+      "stratum": "social_sciences/born_digital",
+      "term": "(survey[Title] OR \"public opinion\"[Title] OR economic[Title] OR education[Title] OR policy[Title] OR voting[Title]) NOT (patients[Title] OR clinical[Title]) AND 2016:2024[pdat] AND \"cc by license\"[filter] AND (\"Sci Rep\"[journal] OR \"PLoS One\"[journal] OR \"Nat Commun\"[journal] OR \"R Soc Open Sci\"[journal] OR \"Heliyon\"[journal] OR \"PeerJ\"[journal])",
+      "results": 2000,
+      "inspected": 45,
+      "accepted": 6
+    }
+  ],
+  "articles": [
+    {
+      "pmcid": "PMC10368530",
+      "discipline": "biomedicine",
+      "pdf_kind": "born_digital",
+      "split": "dev",
+      "stratum": "pilot"
+    },
+    {
+      "pmcid": "PMC8359101",
+      "discipline": "biomedicine",
+      "pdf_kind": "born_digital",
+      "split": "dev",
+      "stratum": "pilot"
+    },
+    {
+      "pmcid": "PMC6291436",
+      "discipline": "biomedicine",
+      "pdf_kind": "born_digital",
+      "split": "dev",
+      "stratum": "pilot"
+    },
+    {
+      "pmcid": "PMC9608490",
+      "discipline": "chemistry",
+      "pdf_kind": "born_digital",
+      "split": "dev",
+      "stratum": "pilot"
+    },
+    {
+      "pmcid": "PMC7270115",
+      "discipline": "materials",
+      "pdf_kind": "born_digital",
+      "split": "dev",
+      "stratum": "pilot"
+    },
+    {
+      "pmcid": "PMC6599010",
+      "discipline": "physics",
+      "pdf_kind": "born_digital",
+      "split": "dev",
+      "stratum": "pilot"
+    },
+    {
+      "pmcid": "PMC7280498",
+      "discipline": "environmental",
+      "pdf_kind": "born_digital",
+      "split": "dev",
+      "stratum": "pilot"
+    },
+    {
+      "pmcid": "PMC8913360",
+      "discipline": "environmental",
+      "pdf_kind": "born_digital",
+      "split": "dev",
+      "stratum": "pilot"
+    },
+    {
+      "pmcid": "PMC10290119",
+      "discipline": "computer_science",
+      "pdf_kind": "born_digital",
+      "split": "dev",
+      "stratum": "pilot"
+    },
+    {
+      "pmcid": "PMC7786143",
+      "discipline": "social_science",
+      "pdf_kind": "born_digital",
+      "split": "dev",
+      "stratum": "pilot"
+    },
+    {
+      "pmcid": "PMC1971560",
+      "discipline": "biomedicine",
+      "pdf_kind": "scanned",
+      "split": "dev",
+      "stratum": "pilot"
+    },
+    {
+      "pmcid": "PMC1971548",
+      "discipline": "biomedicine",
+      "pdf_kind": "scanned",
+      "split": "dev",
+      "stratum": "pilot"
+    },
+    {
+      "pmcid": "PMC10663543",
+      "discipline": "biomedicine",
+      "pdf_kind": "born_digital",
+      "title": "Dimensional accuracy, mechanical property, and optical stability of zirconia orthodontic bracket according to yttria proportions",
+      "journal_citation": "Sci Rep. 2023 Nov 21;13:20418. doi: 10.1038/s41598-023-47827-w",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 7,
+      "multipanel_figures_estimate": 1,
+      "split": "validation",
+      "stratum": "biomedicine/born_digital"
+    },
+    {
+      "pmcid": "PMC11534244",
+      "discipline": "biomedicine",
+      "pdf_kind": "born_digital",
+      "title": "Tumour assessment of ROR1 levels in various adult leukaemia and lymphoma types",
+      "journal_citation": "PLoS One. 2024 Nov 4;19(11):e0313026. doi: 10.1371/journal.pone.0313026",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 4,
+      "multipanel_figures_estimate": 3,
+      "split": "test",
+      "stratum": "biomedicine/born_digital"
+    },
+    {
+      "pmcid": "PMC1968592",
+      "discipline": "biomedicine",
+      "pdf_kind": "scanned",
+      "title": "Phase I/pharmacokinetic/biochemical study of the nitroimadazole hypoxic cell sensitiser SR2508 (etanidazole) in combination with cyclophosphamide",
+      "journal_citation": "Br J Cancer. 1993 Oct;68(4):756–66. doi: 10.1038/bjc.1993.424",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 0,
+      "multipanel_figures_estimate": 0,
+      "expected_labels": [
+        "Figure 1",
+        "Figure 2",
+        "Figure 3",
+        "Figure 4",
+        "Figure 5",
+        "Figure 6",
+        "Figure 7"
+      ],
+      "expected_labels_source": "ocr_text_draft",
+      "split": "test",
+      "stratum": "biomedicine/scanned"
+    },
+    {
+      "pmcid": "PMC1968582",
+      "discipline": "biomedicine",
+      "pdf_kind": "scanned",
+      "title": "Structural and functional contributions to the G1 blocking action of the retinoblastoma protein. (the 1992 Gordon Hamilton Fairley Memorial Lecture)",
+      "journal_citation": "Br J Cancer. 1993 Aug;68(2):264–8. doi: 10.1038/bjc.1993.325",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 3,
+      "multipanel_figures_estimate": 0,
+      "expected_labels": [
+        "Figure 1",
+        "Figure 2",
+        "Figure 3",
+        "Figure 4"
+      ],
+      "expected_labels_source": "ocr_text_draft",
+      "split": "validation",
+      "stratum": "biomedicine/scanned"
+    },
+    {
+      "pmcid": "PMC1968824",
+      "discipline": "biomedicine",
+      "pdf_kind": "scanned",
+      "title": "Increased mdr1 gene transcript levels in high-grade carcinoma of the bladder determined by quantitative PCR-based assay",
+      "journal_citation": "Br J Cancer. 1994 Apr;69(4):680–6. doi: 10.1038/bjc.1994.130",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 1,
+      "multipanel_figures_estimate": 0,
+      "expected_labels": [
+        "Figure 1",
+        "Figure 2",
+        "Figure 3",
+        "Figure 4",
+        "Figure 5",
+        "Figure 6"
+      ],
+      "expected_labels_source": "ocr_text_draft",
+      "split": "test",
+      "stratum": "biomedicine/scanned"
+    },
+    {
+      "pmcid": "PMC2033889",
+      "discipline": "biomedicine",
+      "pdf_kind": "scanned",
+      "title": "Enhancement of photodynamic therapy with 5-aminolaevulinic acid-induced porphyrin photosensitisation in normal rat colon by threshold and light fractionation studies",
+      "journal_citation": "Br J Cancer. 1995 Sep;72(3):589–94. doi: 10.1038/bjc.1995.378",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 1,
+      "multipanel_figures_estimate": 0,
+      "expected_labels": [
+        "Figure 1",
+        "Figure 2",
+        "Figure 3"
+      ],
+      "expected_labels_source": "ocr_text_draft",
+      "split": "test",
+      "stratum": "biomedicine/scanned"
+    },
+    {
+      "pmcid": "PMC11544223",
+      "discipline": "chemistry_materials",
+      "pdf_kind": "born_digital",
+      "title": "mRNA delivery enabled by metal–organic nanoparticles",
+      "journal_citation": "Nat Commun. 2024 Nov 8;15:9664. doi: 10.1038/s41467-024-53969-w",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 6,
+      "multipanel_figures_estimate": 3,
+      "split": "test",
+      "stratum": "chemistry_materials/born_digital"
+    },
+    {
+      "pmcid": "PMC9807572",
+      "discipline": "chemistry_materials",
+      "pdf_kind": "born_digital",
+      "title": "Preparation, characteristics and cytotoxicity of green synthesized selenium nanoparticles using Paenibacillus motobuensis LY5201 isolated from the local specialty food of longevity area",
+      "journal_citation": "Sci Rep. 2023 Jan 2;13:53. doi: 10.1038/s41598-022-26396-4",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 5,
+      "multipanel_figures_estimate": 4,
+      "split": "test",
+      "stratum": "chemistry_materials/born_digital"
+    },
+    {
+      "pmcid": "PMC10067821",
+      "discipline": "chemistry_materials",
+      "pdf_kind": "born_digital",
+      "title": "Structural and functional characterization of the catalytic domain of a cell-wall anchored bacterial lytic polysaccharide monooxygenase from Streptomyces coelicolor",
+      "journal_citation": "Sci Rep. 2023 Apr 1;13:5345. doi: 10.1038/s41598-023-32263-7",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 7,
+      "multipanel_figures_estimate": 5,
+      "split": "validation",
+      "stratum": "chemistry_materials/born_digital"
+    },
+    {
+      "pmcid": "PMC10024689",
+      "discipline": "chemistry_materials",
+      "pdf_kind": "born_digital",
+      "title": "Antioxidant and hypoglycemic potential of phytogenic cerium oxide nanoparticles",
+      "journal_citation": "Sci Rep. 2023 Mar 18;13:4514. doi: 10.1038/s41598-023-31498-8",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 7,
+      "multipanel_figures_estimate": 5,
+      "split": "test",
+      "stratum": "chemistry_materials/born_digital"
+    },
+    {
+      "pmcid": "PMC9424280",
+      "discipline": "chemistry_materials",
+      "pdf_kind": "born_digital",
+      "title": "Circularly polarized light-sensitive, hot electron transistor with chiral plasmonic nanoparticles",
+      "journal_citation": "Nat Commun. 2022 Aug 29;13:5081. doi: 10.1038/s41467-022-32721-2",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 7,
+      "multipanel_figures_estimate": 4,
+      "split": "test",
+      "stratum": "chemistry_materials/born_digital"
+    },
+    {
+      "pmcid": "PMC11720905",
+      "discipline": "chemistry_materials",
+      "pdf_kind": "born_digital",
+      "title": "Polystyrene nanoparticles induce DNA damage and apoptosis in HeLa cells",
+      "journal_citation": "Heliyon. 2024 Dec 18;11(1):e41298. doi: 10.1016/j.heliyon.2024.e41298",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 4,
+      "multipanel_figures_estimate": 2,
+      "split": "validation",
+      "stratum": "chemistry_materials/born_digital"
+    },
+    {
+      "pmcid": "PMC10917806",
+      "discipline": "physics_astronomy",
+      "pdf_kind": "born_digital",
+      "title": "Label-free nonlinear optical signatures of extracellular vesicles in liquid and tissue biopsies of human breast cancer",
+      "journal_citation": "Sci Rep. 2024 Mar 6;14:5528. doi: 10.1038/s41598-024-55781-4",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 6,
+      "multipanel_figures_estimate": 6,
+      "split": "test",
+      "stratum": "physics_astronomy/born_digital"
+    },
+    {
+      "pmcid": "PMC11332950",
+      "discipline": "physics_astronomy",
+      "pdf_kind": "born_digital",
+      "title": "Determination of Rhodamine 6G with direct immersion single-drop microextraction combined with an optical probe",
+      "journal_citation": "PLoS One. 2024 Aug 19;19(8):e0309121. doi: 10.1371/journal.pone.0309121",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 6,
+      "multipanel_figures_estimate": 3,
+      "split": "validation",
+      "stratum": "physics_astronomy/born_digital"
+    },
+    {
+      "pmcid": "PMC10079764",
+      "discipline": "physics_astronomy",
+      "pdf_kind": "born_digital",
+      "title": "All-optical closed-loop voltage clamp for precise control of muscles and neurons in live animals",
+      "journal_citation": "Nat Commun. 2023 Apr 6;14:1939. doi: 10.1038/s41467-023-37622-6",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 7,
+      "multipanel_figures_estimate": 2,
+      "split": "test",
+      "stratum": "physics_astronomy/born_digital"
+    },
+    {
+      "pmcid": "PMC10924975",
+      "discipline": "physics_astronomy",
+      "pdf_kind": "born_digital",
+      "title": "A deep learning method for empirical spectral prediction and inverse design of all-optical nonlinear plasmonic ring resonator switches",
+      "journal_citation": "Sci Rep. 2024 Mar 9;14:5787. doi: 10.1038/s41598-024-56522-3",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 7,
+      "multipanel_figures_estimate": 3,
+      "split": "test",
+      "stratum": "physics_astronomy/born_digital"
+    },
+    {
+      "pmcid": "PMC10918091",
+      "discipline": "physics_astronomy",
+      "pdf_kind": "born_digital",
+      "title": "Wandering principal optical axes in van der Waals triclinic materials",
+      "journal_citation": "Nat Commun. 2024 Mar 6;15:1552. doi: 10.1038/s41467-024-45266-3",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 4,
+      "multipanel_figures_estimate": 4,
+      "split": "validation",
+      "stratum": "physics_astronomy/born_digital"
+    },
+    {
+      "pmcid": "PMC10276837",
+      "discipline": "physics_astronomy",
+      "pdf_kind": "born_digital",
+      "title": "Red narrow-linewidth lasing and frequency comb from gain-switched self-injection-locked Fabry–Pérot laser diode",
+      "journal_citation": "Sci Rep. 2023 Jun 17;13:9830. doi: 10.1038/s41598-023-36229-7",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 3,
+      "multipanel_figures_estimate": 3,
+      "split": "test",
+      "stratum": "physics_astronomy/born_digital"
+    },
+    {
+      "pmcid": "PMC11368080",
+      "discipline": "environment_geo",
+      "pdf_kind": "born_digital",
+      "title": "Temperature and land use change are associated with Rana temporaria reproductive success and phenology",
+      "journal_citation": "PeerJ. 2024 Aug 30;12:e17901. doi: 10.7717/peerj.17901",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 4,
+      "multipanel_figures_estimate": 4,
+      "split": "test",
+      "stratum": "environment_geo/born_digital"
+    },
+    {
+      "pmcid": "PMC9790012",
+      "discipline": "environment_geo",
+      "pdf_kind": "born_digital",
+      "title": "Quantum computing and preconditioners for hydrological linear systems",
+      "journal_citation": "Sci Rep. 2022 Dec 24;12:22285. doi: 10.1038/s41598-022-25727-9",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 5,
+      "multipanel_figures_estimate": 2,
+      "split": "validation",
+      "stratum": "environment_geo/born_digital"
+    },
+    {
+      "pmcid": "PMC10519943",
+      "discipline": "environment_geo",
+      "pdf_kind": "born_digital",
+      "title": "Remote sensing and model analysis of biomass burning smoke transported across the Atlantic during the 2020 Western US wildfire season",
+      "journal_citation": "Sci Rep. 2023 Sep 25;13:16014. doi: 10.1038/s41598-023-39312-1",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 7,
+      "multipanel_figures_estimate": 4,
+      "split": "validation",
+      "stratum": "environment_geo/born_digital"
+    },
+    {
+      "pmcid": "PMC9794059",
+      "discipline": "environment_geo",
+      "pdf_kind": "born_digital",
+      "title": "The combined effect of surface water and groundwater on environmental heterogeneity reveals the basis of beta diversity pattern in desert oasis communities",
+      "journal_citation": "PLoS One. 2022 Dec 27;17(12):e0279704. doi: 10.1371/journal.pone.0279704",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 7,
+      "multipanel_figures_estimate": 2,
+      "split": "test",
+      "stratum": "environment_geo/born_digital"
+    },
+    {
+      "pmcid": "PMC9700714",
+      "discipline": "environment_geo",
+      "pdf_kind": "born_digital",
+      "title": "Extensive archaeobotanical data estimate carrying capacity, duration, and land use of the Late Bronze Age settlement site Březnice (Czech Republic)",
+      "journal_citation": "Sci Rep. 2022 Nov 25;12:20323. doi: 10.1038/s41598-022-24753-x",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 9,
+      "multipanel_figures_estimate": 1,
+      "split": "test",
+      "stratum": "environment_geo/born_digital"
+    },
+    {
+      "pmcid": "PMC10770173",
+      "discipline": "environment_geo",
+      "pdf_kind": "born_digital",
+      "title": "Association of air pollution and weather conditions during infection course with COVID-19 case fatality rate in the United Kingdom",
+      "journal_citation": "Sci Rep. 2024 Jan 6;14:683. doi: 10.1038/s41598-023-50474-w",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 3,
+      "multipanel_figures_estimate": 1,
+      "split": "test",
+      "stratum": "environment_geo/born_digital"
+    },
+    {
+      "pmcid": "PMC11211412",
+      "discipline": "computer_science_engineering",
+      "pdf_kind": "born_digital",
+      "title": "Micromachined needle-like calorimetric flow sensor for sap flux density measurement in the xylem of plants",
+      "journal_citation": "Sci Rep. 2024 Jun 27;14:14838. doi: 10.1038/s41598-024-65046-9",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 7,
+      "multipanel_figures_estimate": 7,
+      "split": "validation",
+      "stratum": "computer_science_engineering/born_digital"
+    },
+    {
+      "pmcid": "PMC10628111",
+      "discipline": "computer_science_engineering",
+      "pdf_kind": "born_digital",
+      "title": "LensAge index as a deep learning-based biological age for self-monitoring the risks of age-related diseases and mortality",
+      "journal_citation": "Nat Commun. 2023 Nov 6;14:7126. doi: 10.1038/s41467-023-42934-8",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 5,
+      "multipanel_figures_estimate": 2,
+      "split": "test",
+      "stratum": "computer_science_engineering/born_digital"
+    },
+    {
+      "pmcid": "PMC11020849",
+      "discipline": "computer_science_engineering",
+      "pdf_kind": "born_digital",
+      "title": "A novel improved total variation algorithm for the elimination of scratch-type defects in high-voltage cable cross-sections",
+      "journal_citation": "PLoS One. 2024 Apr 16;19(4):e0300260. doi: 10.1371/journal.pone.0300260",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 7,
+      "multipanel_figures_estimate": 2,
+      "split": "test",
+      "stratum": "computer_science_engineering/born_digital"
+    },
+    {
+      "pmcid": "PMC10731088",
+      "discipline": "computer_science_engineering",
+      "pdf_kind": "born_digital",
+      "title": "Visible and angular interrogation of Kretschmann-based SPR using hybrid Au–ZnO optical sensor for hyperuricemia detection",
+      "journal_citation": "Heliyon. 2023 Nov 28;9(12):e22926. doi: 10.1016/j.heliyon.2023.e22926",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 7,
+      "multipanel_figures_estimate": 2,
+      "split": "test",
+      "stratum": "computer_science_engineering/born_digital"
+    },
+    {
+      "pmcid": "PMC11315888",
+      "discipline": "computer_science_engineering",
+      "pdf_kind": "born_digital",
+      "title": "Graph neural network recommendation algorithm based on improved dual tower model",
+      "journal_citation": "Sci Rep. 2024 Feb 15;14:3853. doi: 10.1038/s41598-024-54376-3",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 6,
+      "multipanel_figures_estimate": 1,
+      "split": "validation",
+      "stratum": "computer_science_engineering/born_digital"
+    },
+    {
+      "pmcid": "PMC11627371",
+      "discipline": "computer_science_engineering",
+      "pdf_kind": "born_digital",
+      "title": "Recognition of Conus species using a combined approach of supervised learning and deep learning-based feature extraction",
+      "journal_citation": "PLoS One. 2024 Dec 9;19(12):e0313329. doi: 10.1371/journal.pone.0313329",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 10,
+      "multipanel_figures_estimate": 5,
+      "split": "test",
+      "stratum": "computer_science_engineering/born_digital"
+    },
+    {
+      "pmcid": "PMC9911162",
+      "discipline": "social_sciences",
+      "pdf_kind": "born_digital",
+      "title": "Challenges of carbon emission reduction by the workshop education pattern",
+      "journal_citation": "Heliyon. 2023 Feb 10;9(3):e13404. doi: 10.1016/j.heliyon.2023.e13404",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 10,
+      "multipanel_figures_estimate": 2,
+      "split": "test",
+      "stratum": "social_sciences/born_digital"
+    },
+    {
+      "pmcid": "PMC11432874",
+      "discipline": "social_sciences",
+      "pdf_kind": "born_digital",
+      "title": "Measurement of economic resilience under the COVID-19 based on nighttime light remote sensing: Case of Hubei province",
+      "journal_citation": "PLoS One. 2024 Sep 27;19(9):e0307613. doi: 10.1371/journal.pone.0307613",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 9,
+      "multipanel_figures_estimate": 5,
+      "split": "validation",
+      "stratum": "social_sciences/born_digital"
+    },
+    {
+      "pmcid": "PMC10042159",
+      "discipline": "social_sciences",
+      "pdf_kind": "born_digital",
+      "title": "Economic costs of invasive rodents worldwide: the tip of the iceberg",
+      "journal_citation": "PeerJ. 2023 Mar 24;11:e14935. doi: 10.7717/peerj.14935",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 5,
+      "multipanel_figures_estimate": 1,
+      "split": "test",
+      "stratum": "social_sciences/born_digital"
+    },
+    {
+      "pmcid": "PMC10434887",
+      "discipline": "social_sciences",
+      "pdf_kind": "born_digital",
+      "title": "Survey of clinicians on the use of adjuvant therapy for premenopausal women with breast cancer",
+      "journal_citation": "PLoS One. 2023 Aug 17;18(8):e0290174. doi: 10.1371/journal.pone.0290174",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 3,
+      "multipanel_figures_estimate": 1,
+      "split": "test",
+      "stratum": "social_sciences/born_digital"
+    },
+    {
+      "pmcid": "PMC10673845",
+      "discipline": "social_sciences",
+      "pdf_kind": "born_digital",
+      "title": "Adaptation constraints in scenarios of socio-economic development",
+      "journal_citation": "Sci Rep. 2023 Nov 24;13:19604. doi: 10.1038/s41598-023-46931-1",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 4,
+      "multipanel_figures_estimate": 1,
+      "split": "test",
+      "stratum": "social_sciences/born_digital"
+    },
+    {
+      "pmcid": "PMC10397266",
+      "discipline": "social_sciences",
+      "pdf_kind": "born_digital",
+      "title": "Experimental and techno-economic investigation of industrial para-xylene plant revamping to produce meta-xylene",
+      "journal_citation": "Sci Rep. 2023 Aug 2;13:12534. doi: 10.1038/s41598-023-39526-3",
+      "license_code": "CC BY",
+      "language": "en",
+      "figures_in_jats": 7,
+      "multipanel_figures_estimate": 1,
+      "split": "validation",
+      "stratum": "social_sciences/born_digital"
+    }
+  ]
+}

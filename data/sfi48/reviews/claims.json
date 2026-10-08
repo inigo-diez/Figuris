@@ -1,0 +1,6725 @@
+{
+ "schema": "sfi-claim-reviews/1",
+ "updated_at": "2026-10-07T09:47:02+00:00",
+ "reviews": [
+  {
+   "analysis": "an_68dc62d9133d40858119",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "ce54e1ec7a1d7d8aa888e4d8414e2f409b3d2b2df4bf0d38346f490dd76e00fc",
+   "filename": "PMC10067821.pdf",
+   "pmcid": "PMC10067821",
+   "split": "validation",
+   "figure_label": "Figure 2",
+   "page": 4,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.4",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": null,
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El dibujo es un árbol filogenético radial con ramas que conectan un nodo central con numerosas etiquetas de secuencias AA10.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Las regiones coloreadas distinguen grupos; entre las etiquetas legibles aparecen A1, A2, A3, B, C y D.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El árbol muestra rótulos de actividad, entre ellos “Cellulose-active (C1-ox)” y “Chitin-active (C1-ox)”; en la región rosa se indica actividad C1/C4 en celulosa y C1 en quitina.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Se ven estrellas junto a algunas posiciones del árbol; varias etiquetas están en azul y otras en púrpura.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "observed",
+     "confidence": "high",
+     "text": "La leyenda inferior derecha asigna símbolos a dominios CBM y a otras características, incluidas Fn3, GbpA2, GbpA3, Ig-like, CWSS, GH18, GH5 y “Catalytic His lacking”.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El árbol se construyó a partir de 150 secuencias AA10, usando solo los dominios catalíticos para el árbol; los dominios C-terminales también se muestran para ilustrar diferencias de arquitectura.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Según el pie de figura, las enzimas resaltadas se clasifican por actividad conocida: oxidación estricta C1 de celulosa, actividad mixta C1/C4 en celulosa con actividad C1 en quitina, o oxidación C1 en quitina.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c8",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pie identifica las etiquetas azules y púrpuras como enzimas de S. coelicolor y M. aurantiaca, respectivamente, y dice que las cuatro enzimas usadas en el estudio están marcadas con estrellas.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c9",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El texto indica que ScLPMO10DCD no se agrupa con los subclados AA10 establecidos y que el subclado A se dividió aquí en A1–A3.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c10",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pasaje atribuye a A1 enzimas activas en celulosa con oxidación C1; describe A2 como el grupo de enzimas similares a ScLPMO10D y A3 como proteínas cuyas actividades aún no se conocían.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c11",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El texto señala que las secuencias de A2 y A3 se agrupan con un subclado de enzimas de origen actinobacteriano activas en celulosa con oxidación C1, y que la mayoría de ellas se predicen como ancladas a la pared celular.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c12",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pie señala que dos secuencias de A3 marcadas con estrellas amarillas carecen de una o dos histidinas catalíticas, sustituidas por glutaminas.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c13",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El texto identifica a ScLPMO10DCD en A2, MaLPMO10ACD en A3, SmLPMO10A en D y CjLPMO10ACD sin subclado.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c14",
+     "type": "uncertain",
+     "confidence": "medium",
+     "text": "Aunque el pie describe los colores de resaltado y el significado de las estrellas, la imagen no permite asignar con seguridad todos los colores y símbolos a cada etiqueta individual de secuencia.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    }
+   ],
+   "scored_at": "2026-10-07T09:47:02+00:00",
+   "packet_item": "E17"
+  },
+  {
+   "analysis": "an_b10f7168ef424370bd92",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "ce54e1ec7a1d7d8aa888e4d8414e2f409b3d2b2df4bf0d38346f490dd76e00fc",
+   "filename": "PMC10067821.pdf",
+   "pmcid": "PMC10067821",
+   "split": "validation",
+   "figure_label": "Figure 3",
+   "page": 6,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.4",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": null,
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En A, la estructura se representa con una lámina de hebras violetas y hélices cian-verdes, y se etiquetan las hebras S1-S9 y las hélices H1-H6.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En A, el cobre aparece como una esfera naranja cerca de His34 y His134; Tyr73 también está señalado con representación de bastones.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "La leyenda identifica el panel A como una representación del dominio catalítico y señala que H5 es una hélice 310.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En B se muestran His34 e His134 junto al cobre, además de Ala132, Phe205 y Gly77; también se señalan Glu203, Arg198 y Arg79 alrededor del centro.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En B aparecen valores de distancia en Å, incluidos 2.9 Å entre Arg198 y Glu203 y 2.9 Å entre Glu203 y Arg79.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores describen la coordinación del cobre por His34 e His134 en una geometría en T y destacan la disposición de Arg79, Glu203 y Arg198.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En C se representa otro centro catalítico con cobre y residuos etiquetados Arg191, Glu196, Asn70, His127, Phe198, His25, Ala125 y Glu68.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c8",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "La leyenda identifica C como el centro catalítico del homólogo TmLPMO10A y afirma que carece de la disposición Arg-Glu-Arg mostrada para ScLPMO10D.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c9",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El texto indica que no se puede especular sobre el impacto de Arg79 en la reactividad de ScLPMO10D.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    }
+   ],
+   "scored_at": "2026-10-07T09:42:34+00:00",
+   "packet_item": "E01"
+  },
+  {
+   "analysis": "an_72ecbc6d81694bfca07b",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "6876ccf6fe5c84fa4490d42a0d18ef94ffa5e364f7ad76ed91adce661eb5d933",
+   "filename": "PMC10290119.pdf",
+   "pmcid": "PMC10290119",
+   "split": "dev",
+   "figure_label": "Figure 2",
+   "page": 7,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.3",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": "La descripción general y los valores visibles son correctos; c8 formula de manera demasiado amplia lo que no puede identificarse en los diagramas y no aporta evidencia.",
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "La columna de la izquierda está encabezada «Original» y las tres columnas a su derecha están agrupadas bajo «Top-3 predictions».",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "high",
+     "text": "La figura muestra varios ejemplos en filas; cada uno incluye una estructura original a la izquierda y hasta tres estructuras predichas a la derecha.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Bajo las estructuras predichas se ven valores decimales, entre ellos 0.78, 0.76, 0.58, 0.74, 0.40, 0.49, 0.82 y 0.26.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pie de figura identifica los ejemplos como casos en que Spec2Mol identificó correctamente subestructuras clave y describe las estructuras mostradas como las predicciones más probables.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pie de figura dice que los valores de similitud coseno se expresan con respecto a las estructuras originales de referencia.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El texto indica que los ejemplos muestran reconocimiento de subestructuras clave, como anillos, cadenas largas, átomos raros y grupos funcionales.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Según el pasaje, estos casos demuestran que el modelo aprendió a asociar características de espectros con estructuras moleculares, pese al amplio espacio de estructuras posibles.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c8",
+     "type": "uncertain",
+     "confidence": "medium",
+     "text": "No se identifican nombres de moléculas ni se especifica en la imagen qué átomos o grupos corresponden a cada estructura; no es posible asignarlos con seguridad a partir de los diagramas solamente.",
+     "scores": {
+      "correctness": 1,
+      "support": 0,
+      "citation": 0,
+      "claim_type": 1,
+      "calibration": 1,
+      "usefulness": 1
+     },
+     "critical": null,
+     "note": "No aparecen nombres moleculares, pero los diagramas sí permiten reconocer diversos átomos y grupos; además, la afirmación aporta evidencia «ninguna»."
+    }
+   ],
+   "scored_at": "2026-10-07T09:03:09+00:00",
+   "packet_item": "E07"
+  },
+  {
+   "analysis": "an_d056555f412b40849039",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "8861116fa19869e462e019dc07c627c893396cae1ef188e301ffa194ca8a53e9",
+   "filename": "PMC10368530.pdf",
+   "pmcid": "PMC10368530",
+   "split": "dev",
+   "figure_label": "Figure 3",
+   "page": 41,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.3",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": "Las afirmaciones sobre los paneles y el texto son precisas, excepto la página indicada en c6 y la referencia inexistente a una nota de extracción en c13.",
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En a se muestran tres vistas de una misma sección: Orion IF, H&E y una superposición.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "La sección de a procede de un área de colon normal del espécimen C02.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores indican que eosinófilos, neutrófilos y células en mitosis pueden reconocerse morfológicamente en H&E, aunque no estén específicamente identificados por los marcadores del panel Orion.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En b, la columna de células mitóticas muestra ejemplos rotulados P, M, A y T, acompañados de contornos discontinuos.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En c, los puntos rojos se superponen a un mapa espacial del espécimen C01; el recuadro presenta un diagrama de caja titulado All Specimens.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "En la cohorte 1, los autores informan que la fracción de células sin identidad clara por IF varió de 6,5 a 42% de los núcleos totales, con una mediana de 16%.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 1,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": "La cita está en p30, pero el material sitúa ese fragmento en la página 6, no en la 7."
+    },
+    {
+     "id": "c7",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En d, el mapa espacial usa puntos de distintos colores para las clases tisulares, y el gráfico de barras compara la fracción de células asignada a las clases de la leyenda.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c8",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores dicen que más del 50% de las células sin etiquetas fueron predichas como músculo liso, fibroblastos estromales o adipocitos.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c9",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En e se muestran dos pares de imágenes: células negativas para marcadores y la H&E correspondiente, con predicciones rotuladas Muscle y Stromal.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c10",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores indican que las predicciones de identidad tisular se confirmaron mediante inspección visual de las imágenes H&E.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c11",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "En f, los autores describen un área de adenoma serrado con células que tiñen débilmente con pan-citoqueratina, E-cadherina y marcadores inmunitarios.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c12",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores señalan que, en C26, las células con tinción débil correspondían a un adenoma serrado distinto de un área cercana de adenocarcinoma invasivo de bajo grado.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c13",
+     "type": "uncertain",
+     "confidence": "medium",
+     "text": "El pie de figura podría estar truncado según la nota de extracción; con el material disponible no se puede confirmar si contiene texto adicional.",
+     "scores": {
+      "correctness": 0,
+      "support": 0,
+      "citation": 0,
+      "claim_type": 1,
+      "calibration": 0,
+      "usefulness": 0
+     },
+     "critical": "invented_reference",
+     "note": "El material no contiene ninguna nota de extracción que indique que el pie esté truncado."
+    }
+   ],
+   "scored_at": "2026-10-07T09:03:09+00:00",
+   "packet_item": "E11"
+  },
+  {
+   "analysis": "an_8cb519c1e3824b7eab0f",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "035b343638770ad813d4d6252b888bb71a45a8f57e9d2752ee43ceccce6ddb71",
+   "filename": "PMC10397266.pdf",
+   "pmcid": "PMC10397266",
+   "split": "validation",
+   "figure_label": "Figure 3",
+   "page": 7,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.4",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": null,
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El eje horizontal está etiquetado «Time (s)» y abarca de 0 a 700; el eje vertical está etiquetado «C (g/l)» y abarca de 0 a 800.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "high",
+     "text": "La leyenda identifica cinco series: Ethylbenzene (EB), Iso-octane (i-oct), Meta-xylene (MX), Ortho-xylene (OX) y Para-diethylbenzene (PDEB).",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Los puntos de Meta-xylene (MX) aparecen cerca de cero en los primeros tiempos y, desde aproximadamente 180 s, se sitúan alrededor de 390–400 g/l.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Los puntos de Ortho-xylene (OX) aparecen cerca de cero al inicio; más adelante alcanzan aproximadamente 170–180 g/l y se mantienen en torno a ese nivel durante el resto del intervalo mostrado.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Los puntos de Ethylbenzene (EB) se sitúan alrededor de 100–110 g/l desde aproximadamente 155 s hasta el final de la serie mostrada.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Los puntos de Iso-octane (i-oct) se mantienen cerca de cero al inicio y luego aparecen alrededor de 25–30 g/l en los tiempos posteriores.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Los puntos de Para-diethylbenzene (PDEB) están cerca de 700 g/l en los primeros tiempos mostrados; después aparecen cerca de 220 g/l en un punto y cerca de cero en los tiempos siguientes.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c8",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pie de figura indica que los resultados de la curva de ruptura corresponden a 185 ◦C y 8.7 bar.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c9",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pasaje afirma que la curva de ruptura se obtuvo experimentalmente mediante análisis dinámico y remite a la Figura 3.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c10",
+     "type": "uncertain",
+     "confidence": "high",
+     "text": "La figura no especifica qué componente o componentes corresponden a las concentraciones iniciales altas, ni permite determinar a partir de la imagen sola la explicación del cambio de las series.",
+     "scores": {
+      "correctness": 1,
+      "support": 1,
+      "citation": "na",
+      "claim_type": 1,
+      "calibration": 0,
+      "usefulness": 1
+     },
+     "critical": "contradiction",
+     "note": "La leyenda y los símbolos identifican la serie inicialmente cercana a 700 g/l como PDEB; solo la causa del cambio no puede determinarse con la figura."
+    }
+   ],
+   "scored_at": "2026-10-07T09:42:34+00:00",
+   "packet_item": "E10"
+  },
+  {
+   "analysis": "an_ea7185fb4dc44d379be3",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "035b343638770ad813d4d6252b888bb71a45a8f57e9d2752ee43ceccce6ddb71",
+   "filename": "PMC10397266.pdf",
+   "pmcid": "PMC10397266",
+   "split": "validation",
+   "figure_label": "Figure 1",
+   "page": 4,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.4",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": null,
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "A la izquierda aparecen dos columnas verticales etiquetadas “T-2001 A” y “T-2001 B”, con bombas identificadas como “Pump A” y “Pump B”.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Entre las dos columnas se muestra un bloque de “On/off valves”; debajo se indican las corrientes “FEED”, “DESORBENT”, “EXTRACT” y “RAFFINATE”.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En la zona central aparecen un “Mixing Drum” (D-2003), un “Desorbent Surge Drum” (D-2004) y un intercambiador identificado como “E-2007”.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "observed",
+     "confidence": "high",
+     "text": "La columna central-derecha está etiquetada “T-2004 Column” y “79 TRAY”; alrededor se representan un condensador, un recipiente de cabeza, bombas y un rehervidor.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El esquema marca corrientes mediante rombos numerados, entre ellos 1, 2, 3, 4, 5, 6 y 7; también se ve una corriente azul conectada a “MAKE UP DESORBENT”.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores describen la SMB como dos torres que contienen 12 lechos, conectadas para formar una circulación en bucle cerrado.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Según los autores, las corrientes de rafinado y extracto se envían a torres de destilación para separar el desorbente de los isómeros de xileno.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c8",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores indican que la corriente de extracto entra en la torre de destilación y que una corriente rica en meta-xileno purificado se extrae de la bandeja 76, como corriente 6; el para-dietilbenceno se separa por el fondo, como corriente 7.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c9",
+     "type": "uncertain",
+     "confidence": "medium",
+     "text": "El diagrama no permite identificar de forma fiable la composición o el caudal de todas las corrientes numeradas; esos datos no se especifican para cada corriente en el texto proporcionado.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    }
+   ],
+   "scored_at": "2026-10-07T09:42:34+00:00",
+   "packet_item": "E02"
+  },
+  {
+   "analysis": "an_459ceafd81be4ba1aa9c",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "e1208158c6e0568ad3bf63b6f9c7778d6e0834357ca260be68da5aaebab1a361",
+   "filename": "PMC10519943.pdf",
+   "pmcid": "PMC10519943",
+   "split": "validation",
+   "figure_label": "Figure 5",
+   "page": 5,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.4",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": null,
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El eje horizontal está rotulado «UTC time» y el vertical «Height (km)»; la escala vertical visible llega aproximadamente a 12 km y se extiende algo más arriba.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "high",
+     "text": "La barra de color está rotulada «Range corrected signal, 532 nm (a.u.)» y muestra marcas de 10⁻⁴ y 10⁻³.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El 11 de septiembre se observa una franja elevada de señal, aproximadamente entre 5 y 7 km, que se prolonga durante buena parte del día.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "observed",
+     "confidence": "medium",
+     "text": "El 12 de septiembre la franja de señal elevada entre aproximadamente 5 y 7 km todavía se distingue, aunque su aspecto y continuidad varían a lo largo del día.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores indican que la estación METIS detectó humo el 11 de septiembre y que la capa de aerosol observada entre 5 y 7 km seguía visible el día 12.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pie de figura especifica que se representa el perfil vertical de la señal lidar corregida por rango a 532 nm, en unidades arbitrarias, los días 11 y 12 de septiembre de 2020, con el lidar METIS en Villeneuve d’Ascq, Francia.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "uncertain",
+     "confidence": "high",
+     "text": "La imagen no permite asignar valores numéricos precisos de señal o de hora a los rasgos coloreados; la escala y las posiciones se pueden leer solo de forma aproximada.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    }
+   ],
+   "scored_at": "2026-10-07T09:47:02+00:00",
+   "packet_item": "E15"
+  },
+  {
+   "analysis": "an_56986be07d594a62b568",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "e1208158c6e0568ad3bf63b6f9c7778d6e0834357ca260be68da5aaebab1a361",
+   "filename": "PMC10519943.pdf",
+   "pmcid": "PMC10519943",
+   "split": "validation",
+   "figure_label": "Figure 7",
+   "page": 7,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.4",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": null,
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En (a), la serie azul de AOD desciende en conjunto durante el intervalo mostrado, aunque presenta fluctuaciones; la serie naranja también termina por debajo de sus primeros puntos visibles.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores indican que AOD disminuye en las dos fuentes: la media pasa de 0.5 y 0.4 al salir del oeste de EE. UU. a 0.2 para ambos conjuntos de datos al observarse sobre Europa.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "medium",
+     "text": "En (b), ambas series de CO fluctúan: la serie azul se mantiene aproximadamente en torno a 2 × 10¹⁸ moléculas/cm² durante gran parte del tramo visible, mientras que la verde muestra variaciones más marcadas.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Para las trayectorias hacia atrás, los autores informan que CO disminuye durante el transporte: de 3.02× 10¹⁸ a 2.26× 10¹⁸ moléculas/cm² para IASI y de 2.30× 10¹⁸ a 1.96× 10¹⁸ moléculas/cm² para CAMS.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "En (c), según los autores, la razón de los logaritmos disminuye ligeramente con el tiempo en ambas series; la media de CAMS pasa de −0.016 a −0.035 y la de las observaciones satelitales de −0.023 a −0.042.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los paneles (d)–(f) corresponden a trayectorias hacia delante de parcelas con AOD superior a 2.3 sobre el oeste de EE. UU.; los autores describen descensos de AOD y CO durante el transporte.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Para (f), los autores informan que la razón de los logaritmos disminuye en 0.047 para CAMS y en 0.043 para los datos satelitales.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c8",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores señalan que el análisis presentado no permite determinar si los aerosoles de la quema de biomasa se dispersan por dilución o se eliminan por precipitación durante el transporte.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c9",
+     "type": "uncertain",
+     "confidence": "high",
+     "text": "No se puede establecer solo a partir de esta figura cuál de los mecanismos —dilución o eliminación por precipitación— explica la reducción de aerosoles.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    }
+   ],
+   "scored_at": "2026-10-07T09:42:34+00:00",
+   "packet_item": "E06"
+  },
+  {
+   "analysis": "an_2b9620737d3f4c3299c8",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "272ee427553d24233d88a8383f3f8682f38ecdf93d3d3a61786d7670945a1070",
+   "filename": "PMC10663543.pdf",
+   "pmcid": "PMC10663543",
+   "split": "validation",
+   "figure_label": "Figure 5",
+   "page": 9,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.4",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": null,
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "La ilustración muestra una ranura de bracket de perfil, con una línea horizontal R y varias líneas negras oblicuas que atraviesan o bordean la abertura.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "high",
+     "text": "La línea horizontal está etiquetada R; las líneas oblicuas están etiquetadas B, U y L.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Las marcas SBA, UA y LA aparecen junto a arcos rojos que indican ángulos entre líneas.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "observed",
+     "confidence": "high",
+     "text": "La expresión “slot base width” aparece junto a la base de la ranura, y unas flechas rojas de doble punta señalan la anchura entre sus lados.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "La leyenda define R como línea de referencia horizontal y B como una línea paralela a la base de la ranura, situada a 100 μm de ella.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "La leyenda define U y L como líneas paralelas, respectivamente, a la pared superior e inferior de la ranura, situadas a 100 μm de esas paredes.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "La leyenda define SBA como el ángulo entre R y B, UA como el ángulo entre R y U, y LA como el ángulo entre R y L.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c8",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El texto indica que las mediciones se realizaron a 100 μm de la base y las paredes para reducir el posible sesgo debido a la forma redondeada de los ángulos de la ranura.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c9",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pasaje señala que las mediciones posteriores incluyeron la anchura de la base de la ranura, el ángulo de ranura y el paralelismo de sus paredes.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c10",
+     "type": "model_inference",
+     "confidence": "high",
+     "text": "El esquema explica cómo se definen geométricamente las mediciones; por sí solo no comunica valores medidos de brackets ni comparaciones entre grupos.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c11",
+     "type": "uncertain",
+     "confidence": "high",
+     "text": "La figura no permite determinar valores observados de anchura o de ángulos para una muestra; tampoco muestra una escala para obtenerlos visualmente.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    }
+   ],
+   "scored_at": "2026-10-07T09:47:02+00:00",
+   "packet_item": "E18"
+  },
+  {
+   "analysis": "an_fe34c1625a744c13b6b0",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "272ee427553d24233d88a8383f3f8682f38ecdf93d3d3a61786d7670945a1070",
+   "filename": "PMC10663543.pdf",
+   "pmcid": "PMC10663543",
+   "split": "validation",
+   "figure_label": "Figure 6",
+   "page": 10,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.4",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": null,
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "La imagen muestra un aparato de ensayo con componentes de sujeción superior e inferior alineados verticalmente.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Entre las mordazas se ve una pieza de color naranja, sostenida por la sujeción inferior.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Un elemento delgado se extiende desde la pieza naranja hacia la sujeción superior.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores indican que cada grupo aportó una muestra de diez brackets para el ensayo de resistencia a la fractura.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Según el texto, los brackets se fijaron a moldes acrílicos sujetos a la mordaza de tracción inferior de una máquina universal de ensayos.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El texto indica que un alambre de acero inoxidable se pasó bajo el ala distoincisal del bracket y se fijó a la mordaza de tracción superior.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "uncertain",
+     "confidence": "medium",
+     "text": "La fotografía no permite identificar por sí sola si la pieza naranja visible corresponde al molde acrílico, al bracket o a otra parte de la muestra.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    }
+   ],
+   "scored_at": "2026-10-07T09:47:02+00:00",
+   "packet_item": "E22"
+  },
+  {
+   "analysis": "an_2837f06c042f4662b560",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "d7fbba519810509ea753edc5bcbd1642adaa61c3a07901a9cbaedac8e2bc6e6f",
+   "filename": "PMC10918091.pdf",
+   "pmcid": "PMC10918091",
+   "split": "validation",
+   "figure_label": "Figure 1",
+   "page": 2,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.4",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": null,
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En el panel a se ve una red de esferas azules y amarillas, y se indican las direcciones a-axis y b-axis.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El panel b muestra tres disposiciones de la red en bandas aproximadamente horizontales, junto con las indicaciones c-axis y b-axis.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El panel c identifica la estructura como «Triclinic crystal» y muestra las relaciones a ≠ b ≠ c y α ≠ β ≠ γ ≠ 90°.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "La leyenda describe las vistas de la estructura de ReS₂ y ReSe₂ a lo largo de los ejes c y a, y una vista tridimensional de la celda unitaria.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El panel d está titulado «Hermitian part of ε» y muestra dos superficies asociadas con λ1 y λ2, junto con las etiquetas εxx, εyy y εzz.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El panel e está titulado «Skew-Hermitian part of ε» y también muestra dos superficies asociadas con λ1 y λ2, junto con las etiquetas εxx, εyy y εzz.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores indican que las bases de diagonalización de las partes hermitiana y skew-Hermitiana pueden diferir y variar con la longitud de onda.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c8",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pasaje vincula esa variación con ejes ópticos principales dispersivos en longitud de onda.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c9",
+     "type": "model_inference",
+     "confidence": "medium",
+     "text": "Al comparar los esquemas, la figura sugiere que las orientaciones representadas para λ1 y λ2 no coinciden en ambas partes del tensor.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c10",
+     "type": "uncertain",
+     "confidence": "high",
+     "text": "Los paneles d y e son esquemáticos: la figura no proporciona valores numéricos ni permite determinar orientaciones o ángulos medidos de los ejes ópticos.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    }
+   ],
+   "scored_at": "2026-10-07T09:47:02+00:00",
+   "packet_item": "E13"
+  },
+  {
+   "analysis": "an_4b830120605c4fcea4f9",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "d7fbba519810509ea753edc5bcbd1642adaa61c3a07901a9cbaedac8e2bc6e6f",
+   "filename": "PMC10918091.pdf",
+   "pmcid": "PMC10918091",
+   "split": "validation",
+   "figure_label": "Figure 2",
+   "page": 3,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.4",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": null,
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Los paneles (a) y (b) muestran micrografías de una muestra de ReS₂; en ambas se señalan los ejes a-axis y b-axis y una región de medición con contorno rojo discontinuo.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En el panel (c) se muestran diagramas polares de transmitancia para tres resonancias, etiquetadas Exc-1, Exc-2 y Exc-3.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El panel (d) muestra espectros de transmitancia para ángulos etiquetados entre 0° y 360°; las líneas verticales discontinuas están etiquetadas 774 nm, 816 nm y 830 nm.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En el mapa del panel (e), las orientaciones de los ejes ópticos principales varían con la longitud de onda; la variación más marcada aparece en la zona próxima a 800 nm.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores describen el cambio del ángulo de máxima transmitancia entre excitones y la dependencia de los ejes ópticos principales con las resonancias excitónicas.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores indican que, a longitudes de onda grandes, los ejes ópticos principales casi coinciden con los ejes cristalográficos y que cambian rápidamente cerca de las frecuencias de excitones fundamentales.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El panel (f) representa dos excitones con direcciones de enlace y vectores de polarización distintos, etiquetados n₁ y n₂.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c8",
+     "type": "observed",
+     "confidence": "medium",
+     "text": "En el panel (g), las partes real e imaginaria de los componentes de la permitividad presentan cambios espectrales en la región aproximada de 780–850 nm.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c9",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En el panel (h), la curva del modelo biexcitónico y los puntos experimentales muestran un aumento pronunciado de la variación del eje óptico cerca de 810 nm y un descenso posterior.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c10",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores afirman que el modelo biexcitónico reproduce la variación de los ejes ópticos principales y que su concordancia con el experimento respalda el papel principal de los excitones en el comportamiento observado.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    }
+   ],
+   "scored_at": "2026-10-07T09:42:34+00:00",
+   "packet_item": "E03"
+  },
+  {
+   "analysis": "an_9fecc707c22a4a2b870f",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "a50b746f50823610b4dd55674bf2a35074f22d177d00223670a50bd940cfcc1d",
+   "filename": "PMC11211412.pdf",
+   "pmcid": "PMC11211412",
+   "split": "validation",
+   "figure_label": "Figure 2",
+   "page": 4,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.4",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": null,
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Las micrografías muestran el chip desde arriba en (a), de lado en (b) y desde abajo en (c).",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En (b) se ve una barra de escala rotulada «0.5 mm».",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En (c) está rotulado «Dummy handle»; flechas naranjas señalan líneas estrechas en (b) y (c), y una etiqueta las identifica como «Scribe trench».",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "observed",
+     "confidence": "high",
+     "text": "La línea discontinua A–A’ de (a) se corresponde con la indicación «Cross section of A-A’» en (h).",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Los esquemas (d)–(h) muestran distintas configuraciones de capas y del sustrato; (g) presenta un rebaje en el sustrato y (h) muestra una sección con grabado desde ambos lados indicado mediante flechas.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pie de figura identifica (a)–(c) como vistas superior, lateral e inferior, y (d)–(h) como representaciones del proceso de fabricación.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Según el texto, el tamaño total del dado es aproximadamente 1.5 mm × 0.7 mm e incluye el dummy handle.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c8",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El texto atribuye al grabado del lado frontal una profundidad de 120 µm y al grabado posterior pasante una profundidad de 180 µm.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c9",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pie de figura describe las etapas esquemáticas como estructura resistiva, patrón de capa de aislamiento, mini bump plating y grabado profundo de silicio desde los lados frontal y posterior.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c10",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El texto indica que el grabado posterior produce cuerpos de silicio flotantes unidos al dummy handle y que las trincheras de marcado siguen la dirección [110].",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    }
+   ],
+   "scored_at": "2026-10-07T09:47:02+00:00",
+   "packet_item": "E21"
+  },
+  {
+   "analysis": "an_f95e538dc7a44f579f6b",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "a50b746f50823610b4dd55674bf2a35074f22d177d00223670a50bd940cfcc1d",
+   "filename": "PMC11211412.pdf",
+   "pmcid": "PMC11211412",
+   "split": "validation",
+   "figure_label": "Figure 7",
+   "page": 8,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.4",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": null,
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Los paneles (a)–(d) identifican el árbol y el sensor: (a) Tree #1, Sensor #1; (b) Tree #2, Sensor #2; (c) Tree #3, Sensor #3; y (d) Tree #3, Sensor #4.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En los cuatro registros de flujo de savia, los valores son bajos durante la noche y aumentan durante las horas diurnas; al final de cada jornada vuelven a valores próximos a cero.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En los paneles (a)–(d), las curvas muestran fluctuaciones durante el día y descensos abruptos en algunos momentos; el patrón no es idéntico entre sensores.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En el panel (e), la radiación exterior (naranja) presenta valores mayores que la interior (azul) en varios intervalos diurnos; la curva interior muestra descensos marcados en ciertos momentos.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En el panel (f), el déficit de presión de vapor aumenta desde valores bajos al inicio de cada jornada, fluctúa durante el día y desciende hacia la noche.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Las líneas verdes discontinuas verticales aparecen en los paneles como marcadores de los momentos de riego.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pie de figura indica que los resultados corresponden a las fechas del 15 al 17 de junio y enumera los horarios de inicio del riego.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c8",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores describen patrones diurnos de flujo de savia comparables entre los tres árboles y señalan que el flujo aumenta con la salida del sol junto con la radiación y el VPD.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c9",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores indican que el flujo de savia fluctuaba de acuerdo con la presencia o ausencia de la pantalla solar y que disminuía a un nivel despreciable al atardecer.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c10",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Según los autores, se observó un aumento del flujo de savia inmediatamente después del riego; fue más marcado en el primer riego del día y se atenuó o desapareció con riegos repetidos, dependiendo del clima y del árbol.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c11",
+     "type": "uncertain",
+     "confidence": "medium",
+     "text": "El pie de figura menciona el periodo hasta el 17 de junio, pero el eje temporal visible solo etiqueta 6/15 y 6/16; la figura no permite identificar aquí un registro del día 17.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    }
+   ],
+   "scored_at": "2026-10-07T09:47:02+00:00",
+   "packet_item": "E24"
+  },
+  {
+   "analysis": "an_159e0bbb026e4a649eaa",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "e4b1d447334609e5b079ba149b13690c191cba7529c78221570b932a5eedf695",
+   "filename": "PMC11315888.pdf",
+   "pmcid": "PMC11315888",
+   "split": "validation",
+   "figure_label": "Figure 4",
+   "page": 8,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.4",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": null,
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En (a), Recall@N aumenta a medida que Top(K) pasa de 10 a 100.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En (a), NDCG@N aumenta gradualmente a medida que Top(K) pasa de 10 a 100.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En (a), Pre@N disminuye a medida que Top(K) pasa de 10 a 100.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En (a), HR@N aumenta y luego se mantiene cerca de la parte superior del rango mostrado en el eje Value.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En (b), Recall@N aumenta a medida que Top(K) pasa de 10 a 100.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En (b), NDCG@N aumenta gradualmente a medida que Top(K) pasa de 10 a 100.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En (b), Pre@N disminuye a medida que Top(K) pasa de 10 a 100.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c8",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En (b), HR@N aumenta y luego se mantiene cerca de la parte superior del rango mostrado en el eje Value.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c9",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores indican que los gráficos muestran el rendimiento de IHDT en dos conjuntos de datos, con longitudes de lista de recomendación de 10 a 100.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c10",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pasaje afirma que Recall y NDCG aumentan al crecer la longitud de la lista, y que el aumento de Recall es significativo.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c11",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pasaje describe una disminución suave del indicador de precisión y afirma que el algoritmo funcionó bien al aumentar la longitud de la lista.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c12",
+     "type": "uncertain",
+     "confidence": "high",
+     "text": "La imagen no identifica qué conjunto de datos corresponde a (a) y cuál a (b), por lo que no se puede asignar con seguridad cada panel a un conjunto de datos.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    }
+   ],
+   "scored_at": "2026-10-07T09:42:34+00:00",
+   "packet_item": "E09"
+  },
+  {
+   "analysis": "an_eb3321ee3b2243b798c8",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "e4b1d447334609e5b079ba149b13690c191cba7529c78221570b932a5eedf695",
+   "filename": "PMC11315888.pdf",
+   "pmcid": "PMC11315888",
+   "split": "validation",
+   "figure_label": "Figure 5",
+   "page": 9,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.4",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": null,
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El eje horizontal está etiquetado “d” y muestra marcas desde 0.0 hasta 1.0; el eje vertical está etiquetado “Value” y muestra marcas desde 0.2 hasta 0.9.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "high",
+     "text": "La leyenda identifica cuatro series: Pre@20, Recall@20, NDCG@20 y HR@20.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "high",
+     "text": "HR@20 es la serie de mayor valor en los puntos mostrados, alrededor de 0.84–0.85; Pre@20 es la de menor valor, alrededor de 0.16–0.18.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "observed",
+     "confidence": "medium",
+     "text": "Recall@20 y NDCG@20 se sitúan en torno a 0.25–0.29 y cambian poco entre los puntos representados.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pie identifica la figura como el rendimiento del modelo IHDT en el conjunto de datos Movielens-1M bajo distintos coeficientes de regularización.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores afirman que el modelo obtuvo un mejor resultado cuando el coeficiente de regularización fue 0.1.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores describen el modelo como robusto frente a la regularización L2 dentro de un intervalo específico y dicen que esto refleja indirectamente su estabilidad.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c8",
+     "type": "uncertain",
+     "confidence": "medium",
+     "text": "El gráfico etiqueta el eje horizontal como “d”, pero no define por sí solo qué representa esa variable; la identificación de d con el coeficiente de regularización se apoya en el contexto textual.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c9",
+     "type": "uncertain",
+     "confidence": "medium",
+     "text": "El eje vertical solo indica “Value”; la figura no especifica unidades ni permite identificar en qué métrica se basa la afirmación de que 0.1 dio el mejor resultado.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    }
+   ],
+   "scored_at": "2026-10-07T09:42:34+00:00",
+   "packet_item": "E08"
+  },
+  {
+   "analysis": "an_828a5470833043a49ceb",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "95b5b6296e1a04c5aa6dad85ca768ea3e67c39b0ceddaa9b9d306c80b8bb64a9",
+   "filename": "PMC11332950.pdf",
+   "pmcid": "PMC11332950",
+   "split": "validation",
+   "figure_label": "Figure 1",
+   "page": 2,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.4",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": null,
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El dibujo contiene varios anillos conectados y muestra átomos etiquetados como O, HN y NH.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "high",
+     "text": "También se ven etiquetas de grupos como H₃C, CH₃ y CO₂CH₂CH₃, además de Cl con un signo negativo y un signo positivo junto al NH de la derecha.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pie identifica la figura como la estructura molecular de Rhodamine 6G.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    }
+   ],
+   "scored_at": "2026-10-07T09:42:34+00:00",
+   "packet_item": "E04"
+  },
+  {
+   "analysis": "an_b79985a223c44f7daef5",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "95b5b6296e1a04c5aa6dad85ca768ea3e67c39b0ceddaa9b9d306c80b8bb64a9",
+   "filename": "PMC11332950.pdf",
+   "pmcid": "PMC11332950",
+   "split": "validation",
+   "figure_label": "Figure 6",
+   "page": 10,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.4",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": null,
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El gráfico etiquetado «This work» muestra 0.58 en el centro.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El gráfico etiquetado «[7]» muestra 0.4 en el centro.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El gráfico etiquetado «[10]» muestra 0.49 en el centro.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El gráfico etiquetado «[19]» muestra 0.4 en el centro.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En los cuatro gráficos, el anillo exterior está dividido en 12 segmentos numerados del 1 al 12 y presenta varios colores.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "La leyenda identifica los cuatro procedimientos comparados: el de este trabajo y los asociados a las referencias [7], [10] y [19].",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores afirman que el método desarrollado obtuvo la mejor puntuación de verdor, 0.58.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c8",
+     "type": "uncertain",
+     "confidence": "high",
+     "text": "La figura no ofrece una clave que permita determinar qué significado concreto tienen los colores o los segmentos numerados del anillo.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    }
+   ],
+   "scored_at": "2026-10-07T09:47:02+00:00",
+   "packet_item": "E19"
+  },
+  {
+   "analysis": "an_199877c15bae4f14813d",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "869ef19d0a071d9977818f4527ce7758a0da5377dc5b6afdf627f0c85f719583",
+   "filename": "PMC11432874.pdf",
+   "pmcid": "PMC11432874",
+   "split": "validation",
+   "figure_label": "Figure 1",
+   "page": 4,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.4",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": null,
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El mapa principal muestra un territorio delimitado por un contorno rosa, con etiquetas de provincias o regiones vecinas, entre ellas Shaanxi, Henan, Anhui, Jiangxi, Hunan y Chongqing.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El mapa de ubicación de China, en la esquina superior derecha, destaca en amarillo una provincia en el centro-este del país.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "high",
+     "text": "La leyenda distingue la capital provincial con una estrella roja y las ciudades de nivel prefectura con puntos negros.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "observed",
+     "confidence": "high",
+     "text": "La leyenda representa las autopistas con líneas rojas, las vías secundarias con líneas azules, las vías primarias con líneas amarillas y las terciarias con líneas verdes.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El mapa principal incluye coordenadas de longitud y latitud en sus bordes, además de una escala gráfica de 0–500 km; el mapa de ubicación incluye una escala de 0–1000 km.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pie de figura describe la imagen como una vista general del área de estudio e indica que el mapa de China procede del servicio cartográfico estándar y que el mapa de fondo se obtuvo de Basemaps.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pasaje identifica Hubei como la provincia representada y la sitúa en los tramos medios del río Yangtze, en China central.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    }
+   ],
+   "scored_at": "2026-10-07T09:42:34+00:00",
+   "packet_item": "E07"
+  },
+  {
+   "analysis": "an_7dabc14ffb4d412e86b5",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "869ef19d0a071d9977818f4527ce7758a0da5377dc5b6afdf627f0c85f719583",
+   "filename": "PMC11432874.pdf",
+   "pmcid": "PMC11432874",
+   "split": "validation",
+   "figure_label": "Figure 8",
+   "page": 14,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.4",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": null,
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Los mapas están identificados como (a) y (b); cada uno muestra el contorno de Hubei subdividido en áreas con nombres de prefecturas.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En ambos paneles aparecen coordenadas de longitud y latitud alrededor del mapa, además de una escala gráfica de 0 a 300 km.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "high",
+     "text": "La cuadrícula de la leyenda combina tres niveles de «Decline» con tres niveles de «Recovery», formando nueve casillas de color.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "observed",
+     "confidence": "high",
+     "text": "La leyenda asigna azul a los niveles de declive y distingue «Low Growth», «Low Decline» y «High Decline»; para la recuperación, muestra una progresión desde «Inadequate Recovery» hasta «High Growth», con «Low Growth» como nivel intermedio.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Una estrella roja identifica la capital provincial y los puntos negros señalan ciudades de nivel prefectural, según la leyenda.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pie de figura identifica (a) como febrero y (b) como mayo, y señala que los mapas son coropléticos bivariados de los índices de declive económico y recuperación.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores indican que las clasificaciones de ambos índices se sintetizaron para producir un mapa coroplético bivariado de 3 × 3, y que la saturación del color varía gradualmente con los valores.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c8",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Según los autores, el panel (a) está dominado por regiones azules; lo interpretan como señal de que la mayoría de las ciudades aún no habían recuperado sus niveles prepandémicos en febrero de 2021.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c9",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores destacan Enshi y Wuhan como zonas de expansión económica fuerte, y afirman que experimentaron solo un declive económico marginal en febrero de 2020.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c10",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores describen el panel (b) como predominantemente rojo y lo interpretan como señal de crecimiento económico extendido y recuperación completa en la mayoría de las ciudades.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c11",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores señalan que Enshi pasó de un período de declive bajo a uno de crecimiento alto, mientras que Xianning, Yichang y Jingmen mostraron una recuperación relativamente lenta pese a indicios de mejora para mayo de 2020.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c12",
+     "type": "uncertain",
+     "confidence": "medium",
+     "text": "El pie de figura asigna febrero a (a) y mayo a (b), mientras que el texto menciona febrero de 2021 para el resultado de (a) y mayo de 2020 para la mejora descrita en varias ciudades. La relación temporal exacta entre los índices y esas fechas no se puede aclarar con la información proporcionada.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    }
+   ],
+   "scored_at": "2026-10-07T09:42:34+00:00",
+   "packet_item": "E11"
+  },
+  {
+   "analysis": "an_40533dbde3564b5eaf3d",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "01ba60a63ffe624d470897a312bc2ad0c1e9976f2948d2713e4b466657f763a3",
+   "filename": "PMC11720905.pdf",
+   "pmcid": "PMC11720905",
+   "split": "validation",
+   "figure_label": "Figure 2",
+   "page": 4,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.4",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": null,
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "La figura está organizada en doce gráficos: cuatro condiciones en filas y tres tiempos en columnas (6, 24 y 48 horas).",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Los ejes están rotulados “Annexin V” y “Propidium Iodide” y muestran escalas logarítmicas.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Según el pie de figura, Q4 representa células vivas, Q3 apoptosis temprana, Q2 apoptosis tardía y Q1 células con membrana dañada solamente.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En la fila NT, el valor impreso en Q2 es 6,90 a las 6 horas, 20,6 a las 24 horas y 24,2 a las 48 horas.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En la fila 100pM, el valor impreso en Q2 es 4,86 a las 6 horas, 16,1 a las 24 horas y 18,2 a las 48 horas.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En la fila 100 nM, el valor impreso en Q2 es 49,6 a las 6 horas, 7,13 a las 24 horas y 6,02 a las 48 horas.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En la fila 100uM, el valor impreso en Q2 es 73,4 a las 6 horas, 90,2 a las 24 horas y 47,4 a las 48 horas.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c8",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores indican que 100 nM y 100 μM son dosis altamente tóxicas para las células HeLa.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c9",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El texto afirma que, tras 6 horas, más del 50 % de las células aparecieron doble positivas y que la proporción indicada para la dosis más alta fue 73,3 % ± 0,43.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c10",
+     "type": "uncertain",
+     "confidence": "high",
+     "text": "No se especifica en la imagen qué unidad tienen los valores impresos dentro de los cuadrantes; por ello, aquí se reproducen como aparecen, sin asignarles una unidad.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c11",
+     "type": "uncertain",
+     "confidence": "high",
+     "text": "El pasaje disponible termina truncado en “while only 18,03 …”; no se puede recuperar de ese fragmento la continuación ni su contexto completo.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 1
+     },
+     "critical": null,
+     "note": "La observación sobre el truncamiento es correcta, pero apenas ayuda a interpretar la figura."
+    }
+   ],
+   "scored_at": "2026-10-07T09:42:34+00:00",
+   "packet_item": "E12"
+  },
+  {
+   "analysis": "an_cc6f332c84c44283b47a",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "01ba60a63ffe624d470897a312bc2ad0c1e9976f2948d2713e4b466657f763a3",
+   "filename": "PMC11720905.pdf",
+   "pmcid": "PMC11720905",
+   "split": "validation",
+   "figure_label": "Figure 3",
+   "page": 6,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.4",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": null,
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Los tres gráficos están titulados «6 hours», «24hours» y «48 hours»; cada uno incluye las categorías «necrotic cell», «late apoptotic cell» y «early apoptotic cell».",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "high",
+     "text": "A las 6 horas, la barra de 100nM es la más alta en «necrotic cell» y «late apoptotic cell»; en «early apoptotic cell», la barra de 100uM es la más alta.",
+     "scores": {
+      "correctness": 1,
+      "support": 1,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 0,
+      "usefulness": 1
+     },
+     "critical": "contradiction",
+     "note": "A las 6 horas, 100 nM es la barra máxima en células necróticas, pero en apoptosis tardía la barra máxima corresponde a 100 μM; 100 μM también es máxima en apoptosis temprana."
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "high",
+     "text": "A las 24 horas, la barra de 100nM es la más alta en «necrotic cell», «late apoptotic cell» y «early apoptotic cell».",
+     "scores": {
+      "correctness": 1,
+      "support": 1,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 0,
+      "usefulness": 1
+     },
+     "critical": "contradiction",
+     "note": "A las 24 horas, 100 nM solo es la barra máxima en células necróticas; en apoptosis tardía y temprana la máxima corresponde a 100 μM."
+    },
+    {
+     "id": "c4",
+     "type": "observed",
+     "confidence": "high",
+     "text": "A las 48 horas, 100nM presenta la barra más alta en «necrotic cell», mientras que 100uM presenta la más alta en «early apoptotic cell».",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "observed",
+     "confidence": "medium",
+     "text": "En «late apoptotic cell» a las 48 horas, las barras se mantienen cerca de la línea de base en comparación con las barras máximas de los otros tipos de muerte celular.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Los corchetes de significación visibles llevan tres asteriscos en varios grupos; la figura no muestra valores p numéricos junto a esos corchetes.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "La leyenda dice que los histogramas representan la media de cada tratamiento comparada con el control no tratado.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c8",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "La leyenda indica que los resultados se presentan como media ± SD a partir de al menos tres experimentos por triplicado (n ≥ 9).",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c9",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pasaje informa que, tras 6 horas con 100 nM, aumentó entre 8 y 10 veces el número de células que entraron en muerte celular frente al control, independientemente del mecanismo molecular.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c10",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pasaje atribuye a 100 nM aumentos de 12 y 44 veces en células necróticas, respectivamente, a las 24 y 48 horas.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c11",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pasaje informa que la dosis más alta, 100 μM, causó un aumento de 37 veces en células en apoptosis temprana tras 24 horas.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c12",
+     "type": "model_inference",
+     "confidence": "medium",
+     "text": "En conjunto, los gráficos sugieren que la relación entre dosis, tiempo y tipo de muerte celular no es uniforme: las barras máximas cambian entre categorías y tiempos.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    }
+   ],
+   "scored_at": "2026-10-07T09:47:02+00:00",
+   "packet_item": "E20"
+  },
+  {
+   "analysis": "an_05b72a64e27540ee825c",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "f81cade3aef06a057fe8b26e8db0a7b46c9ecbc2e4a9cdfcacfcdc27eb108918",
+   "filename": "PMC1968582.pdf",
+   "pmcid": "PMC1968582",
+   "split": "validation",
+   "figure_label": "Figure 1",
+   "page": 2,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.4",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": null,
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "medium",
+     "text": "La imagen superior izquierda está rotulada «pCMW» y muestra numerosas células alargadas y de aspecto fusiforme, agrupadas densamente.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "medium",
+     "text": "La imagen superior derecha está rotulada «pCMV-RB (379-928;706F)» y muestra numerosas células alargadas, algunas agrupadas densamente.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "medium",
+     "text": "La imagen inferior izquierda está rotulada «pCMV-RB (379-928)» y muestra células grandes, extendidas y de contornos irregulares.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "observed",
+     "confidence": "medium",
+     "text": "La imagen inferior derecha está rotulada «pCMV-RB» y muestra células grandes y extendidas, con menos células visibles que en las imágenes superiores.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pie indica que las células SAOS2 se transfectaron y que su morfología se analizó mediante microscopía óptica de contraste de fases.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Según el pie, las células se habían transfectado 12 días antes y crecieron en medio con G418.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El texto afirma que la introducción de RB en Saos-2 se asoció con hinchazón celular prominente.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c8",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El texto atribuye a la mutación C706-*F la falta de bloqueo de la formación de colonias y de aparición de células grandes.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c9",
+     "type": "model_inference",
+     "confidence": "medium",
+     "text": "En conjunto, las imágenes son compatibles con una morfología más grande y extendida en las condiciones rotuladas con plásmidos RB sin la mutación 706F que en las dos imágenes superiores; la micrografía por sí sola no establece el mecanismo ni cuantifica el efecto.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c10",
+     "type": "uncertain",
+     "confidence": "medium",
+     "text": "El rótulo de la imagen superior izquierda parece decir «pCMW», aunque el pie enumera «pCMV»; la lectura exacta del rótulo no es segura.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    }
+   ],
+   "scored_at": "2026-10-07T09:47:02+00:00",
+   "packet_item": "E14"
+  },
+  {
+   "analysis": "an_bbcd910aa86f43a4aae2",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "f81cade3aef06a057fe8b26e8db0a7b46c9ecbc2e4a9cdfcacfcdc27eb108918",
+   "filename": "PMC1968582.pdf",
+   "pmcid": "PMC1968582",
+   "split": "validation",
+   "figure_label": "Figure 3",
+   "page": 3,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.4",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": null,
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Los carriles están rotulados, de izquierda a derecha, M, -, WT, MUT, -, GST, GST-RB 379-928, GST-RB 379-928 (706 C>F), GST-RB 379-792, GST-RB 379-816, GST-RB (dl exon 22), GST-RB 773-928 y CTL.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "medium",
+     "text": "La flecha apunta a una banda de la región superior del gel, en la zona de migración de las bandas de varios carriles centrales.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "medium",
+     "text": "En el carril WT, la banda a la altura señalada por la flecha se ve más débil que en el carril sin competidor situado inmediatamente a su izquierda; en el carril MUT, esa banda es visible.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "observed",
+     "confidence": "medium",
+     "text": "Se observan bandas en la región superior del gel en varios carriles que contienen GST-RB, con patrones de intensidad distintos entre carriles.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "observed",
+     "confidence": "medium",
+     "text": "El carril CTL, situado en el extremo derecho, no muestra una banda superior claramente visible a la altura de la banda señalada por la flecha.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pie identifica el ensayo como un ensayo de retardo en gel realizado con alícuotas de extracto nuclear de células SAOS2 y una sonda E2F marcada con 32P procedente del promotor DHFR.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pie indica que los competidores no marcados WT o MUT se añadieron en exceso molar de 100 veces.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c8",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Según el pie, la flecha marca la posición de una banda correspondiente a E2F «libre».",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c9",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pie especifica que el carril CTL contiene GST-RB (379-928) y la sonda WT, sin extracto nuclear.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c10",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El texto sitúa la medición de la actividad de unión a E2F de una serie de mutantes RB en la Figura 3.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c11",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El texto dice que la pregunta principal era si había una relación entre la capacidad de RB para interactuar con E2F y su capacidad de inducir bloqueo del ciclo celular en Saos-2.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c12",
+     "type": "uncertain",
+     "confidence": "medium",
+     "text": "La imagen permite distinguir varios patrones de bandas, pero no permite asignar con seguridad todas las bandas a complejos moleculares específicos ni determinar cuantitativamente sus intensidades.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    }
+   ],
+   "scored_at": "2026-10-07T09:42:34+00:00",
+   "packet_item": "E05"
+  },
+  {
+   "analysis": "an_7adef84e3000460f8811",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "485bd26024df7e6053ea4b1c1236c692ba11d2b394e4d0d5758fe4a390a73929",
+   "filename": "PMC1971548.pdf",
+   "pmcid": "PMC1971548",
+   "split": "dev",
+   "figure_label": "Figure 1",
+   "page": 2,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.3",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": "La mayoría de los valores y citas son correctos, pero c3 confunde valores del segmento de Wilms con tasas totales.",
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El eje horizontal está titulado “Age-standardised rate (per million)” y muestra marcas numéricas de 0 a 10.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "medium",
+     "text": "La leyenda distingue una parte sin tramado, identificada como “Wilm’s tu…” en el recorte, y una parte tramada, identificada como “Other and unspecifie…”; el texto de ambas entradas está cortado en el borde derecho.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "high",
+     "text": "La barra de United States, Black* muestra una tasa total de 10.9, y la de Nigeria, Ibadan, una de 10.3.",
+     "scores": {
+      "correctness": 0,
+      "support": 0,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 0,
+      "usefulness": 0
+     },
+     "critical": "contradiction",
+     "note": "10,9 y 10,3 rotulan el segmento sin tramado; ambas barras continúan con un segmento tramado, por lo que no son las tasas totales."
+    },
+    {
+     "id": "c4",
+     "type": "observed",
+     "confidence": "high",
+     "text": "La barra de United States, White* está etiquetada con 8.5, mientras que la de United States, Black* está etiquetada con 10.9.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "observed",
+     "confidence": "high",
+     "text": "La barra de Chinese‡ muestra una tasa total de 3.1, la menor de las tasas totales legibles en la gráfica.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pasaje describe la figura como una comparación de tasas de incidencia anual estandarizadas por edad por millón para tumores de Wilms y otros tumores renales no especificados en 22 series poblacionales.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Según el pasaje, en poblaciones predominantemente caucásicas blancas de Europa, Norteamérica, Sudamérica y Oceanía, la tasa estandarizada por edad suele situarse alrededor de 6–9 por millón.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c8",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pasaje afirma que, al combinar datos de cuatro series de Estados Unidos, la tasa estandarizada por edad fue un 30 % mayor en personas negras que en personas blancas.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c9",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pasaje dice que las tasas para personas negras fueron mayores que las de personas blancas en tres de las series individuales; en la serie de Nueva York fueron similares.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c10",
+     "type": "uncertain",
+     "confidence": "high",
+     "text": "El recorte corta el texto de las entradas de la leyenda y de algunas barras en el borde derecho; por ello, no se pueden leer con seguridad todas las etiquetas ni todos los valores finales.",
+     "scores": {
+      "correctness": 2,
+      "support": 0,
+      "citation": 0,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": "El recorte se observa en la figura, pero la afirmación aporta evidencia «ninguna»."
+    },
+    {
+     "id": "c11",
+     "type": "uncertain",
+     "confidence": "high",
+     "text": "El texto de la figura y del pasaje proporcionado contiene fragmentos con errores o cortes de OCR, por lo que no es posible recuperar con fiabilidad todo el contenido de la nota de la figura.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    }
+   ],
+   "scored_at": "2026-10-07T09:03:09+00:00",
+   "packet_item": "E09"
+  },
+  {
+   "analysis": "an_aa9712aa58dd4890bd82",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "1698e72f4ba39326667e2ee57cda5903dda86b387ac0107a89ce6be7507ddda3",
+   "filename": "PMC1971560.pdf",
+   "pmcid": "PMC1971560",
+   "split": "dev",
+   "figure_label": "Figure 4",
+   "page": 3,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.3",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": "La explicación se ajusta a la micrografía y a las fuentes; maneja correctamente la unidad ambigua tal como aparece en el material.",
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "La imagen muestra numerosas células en un campo de tejido; muchas presentan contornos celulares y zonas centrales claras.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "medium",
+     "text": "Se observan áreas oscuras de marcaje entre las células, con mayor concentración visible hacia la zona superior izquierda.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pie de figura describe el marcaje como citoplasmático, con poco o ningún marcaje nuclear.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "En los resultados, los autores describen el marcaje inmunohistoquímico como discreto y restringido al citoplasma de las células marcadas.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pie de figura indica una barra de escala rotulada «50 pm».",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores afirman que la unión in vivo de CCI-103F a células tumorales y células de músculo liso ocurre principalmente en el citoplasma.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "uncertain",
+     "confidence": "high",
+     "text": "La unidad impresa en el pie de figura aparece como «pm»; con la información proporcionada no se puede determinar si se trata de una lectura OCR errónea ni confirmar otra unidad.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    }
+   ],
+   "scored_at": "2026-10-07T09:03:09+00:00",
+   "packet_item": "E13"
+  },
+  {
+   "analysis": "an_475c832a5ef54fc2ba49",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "3f170c5ad768218ee56b7acf59ca7f8f366ee267dbeaed0528abe250acfadbac",
+   "filename": "PMC6291436.pdf",
+   "pmcid": "PMC6291436",
+   "split": "dev",
+   "figure_label": "Figure 5",
+   "page": 7,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.3",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": "La mayor parte coincide con las imágenes y las fuentes, pero c4 invierte la posición visual de la lesión y c11 indica una página incorrecta.",
+   "claims": [
+    {
+     "id": "c1",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los paneles a y b corresponden a una mujer de 53 años con un meningioma de grado II en el lóbulo frontal izquierdo y amplia inserción dural.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los paneles c, d y e corresponden a un hombre de 33 años con un meningioma de grado I de la hoz, de gran volumen tumoral en ambos lóbulos frontales y edema en la sustancia blanca adyacente.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los paneles a y c son imágenes FLAIR, y el panel d es una imagen T1CE.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El panel a muestra una imagen axial del cerebro con una lesión visible en la región frontal izquierda de la imagen.",
+     "scores": {
+      "correctness": 0,
+      "support": 0,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 0,
+      "usefulness": 0
+     },
+     "critical": "contradiction",
+     "note": "La lesión aparece a la derecha de la imagen del panel a, no a la izquierda."
+    },
+    {
+     "id": "c5",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En el panel c se ve una imagen coronal con una masa central y zonas de señal clara a ambos lados y por encima de ella.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En el panel d se observa una masa brillante en la región frontal, en una imagen axial.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los paneles b y e son representaciones tridimensionales de los dos meningiomas; las partes tumorales con realce se muestran en morado y el edema circundante en blanco y azul.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c8",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En b, una región morada voluminosa está junto a regiones claras que la rodean parcialmente; el conjunto se muestra como una representación tridimensional.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c9",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En e, la región morada ocupa gran parte de la representación y está rodeada parcialmente por una región azul.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c10",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pie de figura informa coeficientes Dice de 0,89 para TTV y 0,92 para T1CE TV.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c11",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores señalan que el edema circundante visible en FLAIR puede dar lugar a estructuras tumorales complejas, como se aprecia en la figura.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 1,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": "La cita aparece en p32, pero el material sitúa ese fragmento en la página 6, no en la 7."
+    },
+    {
+     "id": "c12",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "En el contexto de la discusión, los autores presentan la figura como ejemplo relacionado con una posible planificación terapéutica más precisa mediante segmentación automatizada.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c13",
+     "type": "uncertain",
+     "confidence": "medium",
+     "text": "La figura no proporciona una escala ni medidas impresas que permitan determinar las dimensiones físicas de las regiones segmentadas; tampoco se especifica aquí a qué comparación concreta corresponden los coeficientes Dice.",
+     "scores": {
+      "correctness": 2,
+      "support": 0,
+      "citation": 0,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": "La limitación es comprobable en la figura y el pie, pero la afirmación aporta evidencia «ninguna»."
+    }
+   ],
+   "scored_at": "2026-10-07T09:03:09+00:00",
+   "packet_item": "E02"
+  },
+  {
+   "analysis": "an_23963fecd73d41bb9297",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "1abf2e0080f37b0c19f47c18363b9b7d1e872565f167037c6765742e788dc70b",
+   "filename": "PMC6599010.pdf",
+   "pmcid": "PMC6599010",
+   "split": "dev",
+   "figure_label": "Figure 1",
+   "page": 3,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.3",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": "Las afirmaciones reproducen correctamente la estructura, los perfiles y la interpretación de las interfaces; c12 identifica una limitación real, pero carece de evidencia adjunta.",
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El esquema superior muestra la deposición sucesiva de capas de QD desde varias soluciones y tratamientos intermedios etiquetados MeOAc.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Los gráficos inferiores representan intensidad frente a profundidad; la profundidad está en nm y el eje vertical usa una escala logarítmica.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En el panel c, las franjas superiores ordenan las regiones como CsPbI₃, Cs₀.₂₅FA₀.₇₅PbI₃ y TiO₂.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En el panel d, las franjas superiores ordenan las regiones como Cs₀.₂₅FA₀.₇₅PbI₃, CsPbI₃ y TiO₂.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En el panel c, la señal de FA aumenta marcadamente cerca de la transición entre las regiones CsPbI₃ y Cs₀.₂₅FA₀.₇₅PbI₃; la señal de Cs presenta un cambio más pequeño.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En el panel d, la señal de FA disminuye marcadamente cerca de la transición entre las dos composiciones de QD, mientras que la señal de Cs aumenta ligeramente.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pie identifica el esquema como un ensamblaje capa por capa e indica que el tratamiento MeOAc elimina los ligandos oleato nativos y vuelve insolubles en el solvente los QD depositados.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c8",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pasaje describe la señal de CsPbI₃ sobre Cs₀.₂₅FA₀.₇₅PbI₃ como una disminución ligera de Cs y un aumento de FA a unos 200 nm de profundidad.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c9",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pasaje indica que, al invertir el orden de las composiciones, la señal de FA disminuye y la de Cs aumenta ligeramente en la interfaz.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c10",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores interpretan los cambios de composición como evidencia de una interfaz entre capas de QD con composiciones distintas y afirman que el orden de esas capas puede controlarse mediante deposición capa por capa.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c11",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pie indica que la señal In se usa como referencia para identificar cuándo el haz de perfilado ToF-SIMS alcanza el ITO del sustrato.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c12",
+     "type": "uncertain",
+     "confidence": "medium",
+     "text": "La imagen muestra un gráfico a la izquierda sin una etiqueta de panel legible; el pie lo identifica como panel b, pero esa letra no se distingue en la imagen proporcionada.",
+     "scores": {
+      "correctness": 2,
+      "support": 0,
+      "citation": 0,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": "La ausencia de una letra b legible y su identificación por el pie son comprobables, pero se aporta evidencia «ninguna»."
+    }
+   ],
+   "scored_at": "2026-10-07T09:03:09+00:00",
+   "packet_item": "E04"
+  },
+  {
+   "analysis": "an_8393273cf416427389ec",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "4010d667cb20ea7c1a955a54ee201d58353fafee280e11efca16190a5e34b87a",
+   "filename": "PMC7270115.pdf",
+   "pmcid": "PMC7270115",
+   "split": "dev",
+   "figure_label": "Figure 3",
+   "page": 4,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.3",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": "Explicación correcta y bien respaldada por la figura, el pie y el fragmento proporcionado.",
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El panel A muestra un pico estrecho, marcado con el valor 68.1, alrededor de un tamaño de 70 nm en el eje horizontal.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El panel B muestra un pico estrecho, marcado con el valor 3.62, alrededor de un tamaño de 4 nm en el eje horizontal.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Los ejes horizontales muestran «Size d.nm» y marcas desde 0.1 hasta 10000 dispuestas en escala logarítmica; los ejes verticales muestran «Intensity (%)».",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pie identifica A como ZnO NPs mediadas por Cassia fistula y B como ZnO NPs mediadas por Melia azadarach.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores informan diámetros medios de 68.1 nm para las ZnO NPs sintetizadas a partir de C. fistula y de 3.62 nm para las sintetizadas a partir de M. azadarach.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores afirman que las partículas sintetizadas eran menores de 100 nm de diámetro y que M. azadarach fue más eficiente que C. fistula para sintetizar partículas más pequeñas.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "model_inference",
+     "confidence": "high",
+     "text": "La posición más a la izquierda del pico del panel B, junto con los diámetros medios informados, indica que las partículas mediadas por M. azadarach tienen un tamaño medio menor que las mediadas por C. fistula.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    }
+   ],
+   "scored_at": "2026-10-07T09:03:09+00:00",
+   "packet_item": "E01"
+  },
+  {
+   "analysis": "an_0fbcf91d105a4edd99f9",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "2bb07aca61c647e96b231cdbe8ab9c8d0853cc39ee9f20c8b63851a86e11bb9d",
+   "filename": "PMC7280498.pdf",
+   "pmcid": "PMC7280498",
+   "split": "dev",
+   "figure_label": "Figure 2",
+   "page": 4,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.3",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": "La explicación refleja correctamente los mapas y la discrepancia 2001/2002; la última afirmación no adjunta la imagen necesaria para respaldar el recorte.",
+   "claims": [
+    {
+     "id": "c1",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pie identifica los mapas como clasificaciones LULC del área del lago Dongting para 1995, 2001, 2004 y 2013.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El mapa superior izquierdo está etiquetado (a) 1995.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El mapa superior derecho está etiquetado (b) 2001.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Los mapas usan colores para distinguir las categorías de la leyenda, entre ellas «water body», «paddy field» y «forest land».",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pasaje indica que se clasificó el LULC en nueve categorías, que enumera como tipos de cobertura y uso del suelo.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pasaje dice que los mapas de clasificación LULC se obtuvieron para el área del lago Dongting.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pasaje menciona 2002, mientras que el pie de figura y la etiqueta visible del mapa superior derecho indican 2001.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 1,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": "La discrepancia está correctamente documentada, pero la afirmación combina atribución textual con comparación directa de figura y pie."
+    },
+    {
+     "id": "c8",
+     "type": "uncertain",
+     "confidence": "high",
+     "text": "La imagen proporcionada recorta la parte inferior de los mapas de la fila inferior; sus etiquetas de panel y algunos elementos de las leyendas no son legibles aquí, aunque el pie enumera los años 2004 y 2013.",
+     "scores": {
+      "correctness": 2,
+      "support": 1,
+      "citation": 1,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": "El pie respalda los años, pero no el recorte ni la ilegibilidad; faltó citar la figura como evidencia."
+    }
+   ],
+   "scored_at": "2026-10-07T09:03:09+00:00",
+   "packet_item": "E06"
+  },
+  {
+   "analysis": "an_ae0f55d63f6d4182828e",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "e6511d370a8caa94f832914cca4cda7d0fe2e80f083dcfecef74ec841aa26557",
+   "filename": "PMC7786143.pdf",
+   "pmcid": "PMC7786143",
+   "split": "dev",
+   "figure_label": "Figure 1",
+   "page": 5,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.3",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": "La explicación es correcta salvo c4, que compara erróneamente los segmentos verde y gris en dos recursos.",
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Las barras representan recursos como Laptop, iPad/Tablet, Online Question Bank, Recorded Didactic Lectures, Zoom Pro Account, Complete Anatomy, Office Hours/Review Sessions, OnlineMedEd, Online Textbooks, JOVE Science Education y Aquifer.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El eje horizontal está marcado de 0% a 100%, y las barras están divididas en segmentos de acuerdo, neutralidad y desacuerdo.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El segmento verde es mayoritario para Laptop, iPad/Tablet, Other, Online Question Bank, Recorded Didactic Lectures, Zoom Pro Account y Complete Anatomy.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En Office Hours/Review Sessions, OnlineMedEd y Online Textbooks, el segmento verde es menor que el gris; en JOVE Science Education y Aquifer, el segmento gris ocupa la mayor parte de la barra.",
+     "scores": {
+      "correctness": 1,
+      "support": 1,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 0,
+      "usefulness": 1
+     },
+     "critical": "contradiction",
+     "note": "En Office Hours/Review Sessions el verde supera claramente al gris, y en Online Textbooks también es ligeramente mayor; solo las demás comparaciones indicadas son correctas."
+    },
+    {
+     "id": "c5",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Los tamaños muestrales indicados junto a los recursos varían; por ejemplo, Laptop muestra n=99 y Aquifer n=17.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores describen como valiosos para la mitad o más de los encuestados Laptop, tablet, suscripción a un banco de preguntas en línea, clases magistrales grabadas, videoconferencia, la aplicación Complete Anatomy y horas de consulta o sesiones de repaso en línea.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores señalan que Online textbooks, Online MedEd, Aquifer y JoVE Science Education fueron recursos de valor relativamente menor.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c8",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pie de figura indica que se preguntó a los estudiantes cuánto estaban de acuerdo con que cada recurso remoto específico fuera valioso para su educación médica.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c9",
+     "type": "uncertain",
+     "confidence": "medium",
+     "text": "La figura no permite recuperar los recuentos exactos de respuestas en cada categoría; las barras muestran proporciones y los tamaños muestrales por recurso.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    }
+   ],
+   "scored_at": "2026-10-07T09:03:09+00:00",
+   "packet_item": "E10"
+  },
+  {
+   "analysis": "an_23c395451e484eccad1b",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "e8f2a0802d5297cf2aee59fea7eddcbf98181cdf0ca7615260bf1bf807a97107",
+   "filename": "PMC8359101.pdf",
+   "pmcid": "PMC8359101",
+   "split": "dev",
+   "figure_label": "Figure 2",
+   "page": 6,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.3",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": "Las tendencias experimentales y las atribuciones a los autores coinciden con la figura y los fragmentos; c12 carece de evidencia adjunta.",
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En las curvas de ambas líneas celulares, los valores de Vector aumentan más que los de circDIDO1 hacia los últimos días.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En MGC-803 y HGC-27, el grupo circDIDO1 presenta menos colonias que Vector en las imágenes y los gráficos.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Los gráficos de ambas líneas celulares muestran menos células migradas e invadidas con circDIDO1 que con Vector.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Los gráficos de tasa apoptótica muestran valores mayores para circDIDO1 que para Vector en MGC-803 y HGC-27.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En la fotografía de xenoinjertos, los tumores del grupo circDIDO1 parecen menores que los del grupo Vector; el gráfico muestra menor peso tumoral para circDIDO1.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "observed",
+     "confidence": "medium",
+     "text": "En las imágenes de Ki67, la tinción visible parece menor para circDIDO1, mientras que en TUNEL parece mayor que para Vector.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Los gráficos del panel h muestran menor peso de metástasis peritoneales y menor número de metástasis hepáticas en circDIDO1 que en Vector.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c8",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores indican que la sobreexpresión inhibió la proliferación, migración e invasión de células GC y promovió la apoptosis.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c9",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores afirman que el tamaño y el peso de los tumores fueron significativamente menores con circDIDO1 a los 30 días de la inoculación.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c10",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Según los autores, el porcentaje de células Ki-67 positivas disminuyó y el de células TUNEL positivas aumentó con circDIDO1.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c11",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores describen menos metástasis hepáticas en el grupo circDIDO1; el pasaje también atribuye a ese grupo menor volumen y peso de tumores mesentéricos.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c12",
+     "type": "uncertain",
+     "confidence": "medium",
+     "text": "La imagen no muestra una etiqueta «i» visible; aunque el pie de figura se refiere a h–i, no se puede asignar con seguridad una etiqueta de panel i a una región concreta.",
+     "scores": {
+      "correctness": 2,
+      "support": 0,
+      "citation": 0,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": "La ausencia de una etiqueta i visible y la mención h–i del pie son comprobables, pero la afirmación aporta evidencia «ninguna»."
+    }
+   ],
+   "scored_at": "2026-10-07T09:03:09+00:00",
+   "packet_item": "E08"
+  },
+  {
+   "analysis": "an_b5ec0decafc64775b46b",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "be7854522a6647255e593a395f2689034ce90a112d7d4740d98709a52a7aedc2",
+   "filename": "PMC8448759.pdf",
+   "pmcid": "PMC8448759",
+   "split": null,
+   "figure_label": "Figure 2",
+   "page": 3,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.3",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": "La explicación es mayoritariamente precisa; c1 simplifica en exceso el esquema, que también contiene conexiones finas grises procedentes de la región causal.",
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En a, las conexiones entre la región causal y los nodos de la capa de genes aparecen en rojo; las conexiones desde la región de control aparecen en gris.",
+     "scores": {
+      "correctness": 1,
+      "support": 1,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 1,
+      "usefulness": 1
+     },
+     "critical": null,
+     "note": "En la región causal no todas las conexiones son rojas: también se observan numerosas líneas finas grises."
+    },
+    {
+     "id": "c2",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pie explica que el grosor de las líneas representa la magnitud del peso aprendido, y distingue conexiones causales contribuyentes en rojo de conexiones de control no contribuyentes en gris.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "medium",
+     "text": "En b, la AUC de prueba generalmente aumenta al avanzar hacia valores mayores de heredabilidad en las curvas de mayor rendimiento; la curva negra también asciende y luego se aplana.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "observed",
+     "confidence": "medium",
+     "text": "En c, para las curvas superiores, la AUC suele aumentar al crecer el tamaño del conjunto de entrenamiento; las líneas continuas y discontinuas se identifican como h² = 1 y h² = 0.75, respectivamente.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores dicen que el rendimiento es mejor con heredabilidad alta, más muestras de entrenamiento y menor poligenicidad.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pie identifica d como un Manhattan plot de importancia relativa de genes para distinguir casos de esquizofrenia y controles en el estudio de exomas de Suecia; indica que la sección transversal abarca 21,390 nodos de genes y 1,288,701 variantes de entrada.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En d, la mayoría de los puntos se concentra en valores de importancia bajos; entre los puntos etiquetados cerca de los valores más altos aparecen ZNF773 y PCNT.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c8",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En d también están etiquetados DYSF, CMYA5, DNAH5, MUC6, SNX19, LOC645752, SMG6 y FCGBP.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c9",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores señalan que ZNF773, PCNT y DYSF recibieron los pesos más altos y fueron considerados los genes más predictivos de esquizofrenia.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c10",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores describen la esquizofrenia como poligénica y dicen que el Manhattan plot muestra más genes contribuyendo a la predicción que en los otros fenotipos examinados.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c11",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores informan que las simulaciones de prueba de concepto asignaron los pesos más fuertes a variantes y genes causales.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    }
+   ],
+   "scored_at": "2026-10-07T09:03:09+00:00",
+   "packet_item": "E05"
+  },
+  {
+   "analysis": "an_f632413aaa524b55ab33",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "3c0ed9ca9ca836fa5881c789b07a7a27d99714280ae813fad1e901245dc37f33",
+   "filename": "PMC8913360.pdf",
+   "pmcid": "PMC8913360",
+   "split": "dev",
+   "figure_label": "Figure 1",
+   "page": 2,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.3",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": "El esquema y las atribuciones textuales están descritos correctamente; c9 expresa una limitación válida, pero no adjunta evidencia.",
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "La secuencia empieza con «Plague penetrates a rural population» y se divide en dos resultados: «High mortality follows» y «Low or no mortality follows».",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "high",
+     "text": "La rama de alta mortalidad conduce a campos que pasan a ser pastizales («Fields become pasture») o quedan para recuperar su vegetación («Fields left to rewild»).",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "high",
+     "text": "La rama de mortalidad baja o nula conduce a «Fields under cultivation».",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Las tres representaciones del uso del campo conducen a plantas que producen polen («Plants produce pollen»).",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El diagrama muestra el polen depositándose en lagos y humedales («Pollen deposited in lakes and wetlands») y a los palinólogos reconstruyendo el paisaje («Palynologists reconstruct landscape»).",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "La figura presenta el enfoque BDP para verificar los niveles de mortalidad de la Peste Negra.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pasaje indica que el enfoque BDP permite evaluar la mortalidad de la Peste Negra en Europa mediante conjuntos de datos paleoambientales cuantitativos que pueden emplearse en comparaciones estadísticas espaciales.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c8",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores describen su conclusión como un rechazo de la hipótesis de mortalidad enorme en toda Europa.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c9",
+     "type": "uncertain",
+     "confidence": "high",
+     "text": "El esquema muestra vías hipotéticas según el nivel de mortalidad, pero no cuantifica la mortalidad ni indica qué vía ocurrió en cada lugar.",
+     "scores": {
+      "correctness": 2,
+      "support": 0,
+      "citation": 0,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": "La limitación se observa en el esquema, pero la afirmación aporta evidencia «ninguna»."
+    }
+   ],
+   "scored_at": "2026-10-07T09:03:09+00:00",
+   "packet_item": "E12"
+  },
+  {
+   "analysis": "an_fb249fa0405342ffa458",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "920e204e7de5f7bacf7b86ca9b932a678ba30440949274c951a38ac24de8b43e",
+   "filename": "PMC9608490.pdf",
+   "pmcid": "PMC9608490",
+   "split": "dev",
+   "figure_label": "Figure 5",
+   "page": 9,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.3",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": "Los valores individuales son legibles y correctos, salvo la generalización de c2: el compuesto 3 no tiene un IC₅₀ impreso.",
+   "claims": [
+    {
+     "id": "c1",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pie de figura describe la figura como inhibidores activos de la serie sintetizada.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Se muestran las estructuras de los compuestos 6, 25, 17, 24, 22, 3, 12, 26, 20 y 5, cada una con un valor de IC₅₀ impreso.",
+     "scores": {
+      "correctness": 1,
+      "support": 1,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 0,
+      "usefulness": 1
+     },
+     "critical": "contradiction",
+     "note": "Se muestran los diez compuestos enumerados, pero el compuesto 3 no tiene un valor de IC₅₀ impreso."
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El compuesto 6 tiene un IC₅₀ impreso de 13.33 ± 0.58 μM.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El compuesto 25 tiene un IC₅₀ impreso de 13.42 ± 0.33 μM.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El compuesto 17 tiene un IC₅₀ impreso de 27.45 ± 1.65 μM.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Los compuestos 24, 22 y 12 tienen IC₅₀ impresos de 37.47 ± 12.54 μM, 38.57 ± 11.54 μM y 39.57 ± 11.54 μM, respectivamente.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "observed",
+     "confidence": "high",
+     "text": "Los compuestos 26, 20 y 5 tienen IC₅₀ impresos de 49.47 ± 12.74 μM, 51.41 ± 11.50 μM y 56.57 ± 3.18 μM, respectivamente.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c8",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El compuesto 3 está destacado con un óvalo rojo; en la imagen no se ve un valor de IC₅₀ junto a él.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c9",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pasaje identifica los compuestos 17, 24, 22, 12, 26, 20 y 5 como un segundo grupo de compuestos activos con grupos hidroxilo como sustituyentes.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c10",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores indican que la actividad de esos análogos podría deberse al grupo hidroxilo.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c11",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pasaje sobre interacciones afirma que el compuesto 25 mostró mejores interacciones y puntuaciones de acoplamiento, en concordancia con su actividad biológica.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c12",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Según el pasaje, en el compuesto 25 el grupo hidrazina forma un enlace de hidrógeno con Cys 322 y el grupo metoxi sustituido establece un contacto metálico/iónico con Ni 798.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c13",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El mismo pasaje atribuye interacciones π-H entre los dos sistemas aromáticos y Lys 169 y His 222.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c14",
+     "type": "model_inference",
+     "confidence": "medium",
+     "text": "Entre los valores numéricos mostrados, los de 6 y 25 son los más bajos, mientras que el de 5 es el más alto. La figura por sí sola no establece un umbral para clasificar los compuestos como activos.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 1,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": "El pie citado identifica inhibidores activos, pero no respalda por sí mismo la comparación numérica ni formula la ausencia de un umbral."
+    },
+    {
+     "id": "c15",
+     "type": "uncertain",
+     "confidence": "high",
+     "text": "No se explica en la figura ni en el pie qué representa el color azul de algunos fragmentos, ni se especifica por qué el compuesto 3 está rodeado; tampoco se imprime aquí un IC₅₀ para el compuesto 3.",
+     "scores": {
+      "correctness": 2,
+      "support": 0,
+      "citation": 0,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": "La observación coincide con la figura y el pie, pero la afirmación aporta evidencia «ninguna»."
+    }
+   ],
+   "scored_at": "2026-10-07T09:03:09+00:00",
+   "packet_item": "E03"
+  },
+  {
+   "analysis": "an_1e7d1281914d4f4e8737",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "c0fe31e92c793c8aefa8bd01adc47f747aa99e3a77e958527b24c19149e3ee05",
+   "filename": "PMC9790012.pdf",
+   "pmcid": "PMC9790012",
+   "split": "validation",
+   "figure_label": "Figure 2",
+   "page": 3,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.4",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": null,
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El panel izquierdo está titulado “1 scale - No Percolation” y muestra unas pocas líneas de fractura, principalmente horizontales.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El panel central está titulado “2 scales - No Percolation” y contiene líneas de varias orientaciones y longitudes; abajo aparece “Low Permeability”.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "high",
+     "text": "El panel derecho está titulado “3 scales - Percolation!” y muestra una red de líneas más densa; abajo aparece “High Permeability”.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los colores rojo, azul y verde identifican componentes conectados de la red de fracturas; el componente azul del panel derecho es el que resulta en percolación, según el pie.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pie presenta el esquema como una representación simplificada de la estructura jerárquica de las redes de fracturas.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pie atribuye la percolación a la intersección de muchas fracturas de distintas longitudes y señala su impacto en la permeabilidad efectiva.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El texto señala que las fracturas pequeñas pueden cambiar radicalmente la topología de la red y llevar el sistema a un umbral de percolación.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c8",
+     "type": "model_inference",
+     "confidence": "medium",
+     "text": "La comparación visual sugiere que, en este esquema, añadir escalas y fracturas favorece una conexión que atraviesa la red y coincide con el caso rotulado como de alta permeabilidad.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    }
+   ],
+   "scored_at": "2026-10-07T09:47:02+00:00",
+   "packet_item": "E23"
+  },
+  {
+   "analysis": "an_4e5d51d76ee942a685ee",
+   "annotator": "ia-GPT-5 Codex",
+   "annotator_kind": "llm",
+   "judge": "GPT-5 Codex",
+   "document_sha256": "c0fe31e92c793c8aefa8bd01adc47f747aa99e3a77e958527b24c19149e3ee05",
+   "filename": "PMC9790012.pdf",
+   "pmcid": "PMC9790012",
+   "split": "validation",
+   "figure_label": "Figure 1",
+   "page": 2,
+   "explanation_status": "ok",
+   "model": "gpt-6-luna",
+   "prompt_version": "figure-explain/0.4",
+   "schema_version": "explanation/0.2",
+   "rubric_version": "rubric/1",
+   "comment": null,
+   "claims": [
+    {
+     "id": "c1",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En (a), los cinco requisitos enumerados son: que A esté bien condicionada; implementar eficientemente e^{-iAt}; preparar eficientemente |b⟩; no necesitar la solución completa x; y no tener contraparte clásica.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c2",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En (a), la respuesta asociada al primer requisito es «inverse Laplacian preconditioner».",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c3",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En (a), los requisitos segundo y tercero se marcan como «future work»; para el cuarto se indica interés en la presión promedio o en ubicaciones específicas, como pozos; y para el quinto se mencionan necesidades de memoria y que no se puede usar coarse grain.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c4",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En (b), «Sparse Approximate Inverse» y «Circulant» aparecen bajo «Efficient Quantum Preconditioners», mientras que «Geometric Multigrid» aparece bajo «Subsurface Flow Preconditioners».",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c5",
+     "type": "observed",
+     "confidence": "high",
+     "text": "En (b), «Inverse Laplacian» está escrito en la zona superpuesta bajo el encabezado «Quantum Preconditioner for Subsurface Flow».",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c6",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores identifican como contribuciones principales introducir el precondicionador de Laplaciano inverso y ofrecer argumentos contra la escalabilidad de los métodos clásicos.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c7",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Según el pie de figura, los precondicionadores cuánticos existentes no son eficaces para el flujo subsuperficial en sistemas de fracturas, y las técnicas clásicas de precondicionamiento de fracturas no pueden realizarse razonablemente mediante algoritmos cuánticos.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c8",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "Los autores afirman que el Laplaciano inverso es adecuado para sistemas de fracturas y puede implementarse eficientemente en un ordenador cuántico.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c9",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pasaje que menciona la figura dice que las técnicas existentes para reducir el número de condición o no tienen implementaciones cuánticas o no son adecuadas para sistemas de fracturas.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c10",
+     "type": "author_stated",
+     "confidence": "high",
+     "text": "El pasaje presenta la figura como resumen de los resultados y afirma que los sistemas de fracturas realistas pueden resolverse con una ventaja polinómica frente a los enfoques clásicos.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c11",
+     "type": "model_inference",
+     "confidence": "high",
+     "text": "La organización visual de (b) sugiere que el Laplaciano inverso se propone como opción que satisface simultáneamente las dos categorías representadas, en vez de pertenecer solo a una de ellas.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": 2,
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    },
+    {
+     "id": "c12",
+     "type": "uncertain",
+     "confidence": "high",
+     "text": "La figura es un resumen esquemático y no permite determinar cuantitativamente cuánto mejora el rendimiento ni medir la ventaja mencionada en el pasaje.",
+     "scores": {
+      "correctness": 2,
+      "support": 2,
+      "citation": "na",
+      "claim_type": 2,
+      "calibration": 2,
+      "usefulness": 2
+     },
+     "critical": null,
+     "note": null
+    }
+   ],
+   "scored_at": "2026-10-07T09:47:02+00:00",
+   "packet_item": "E16"
+  }
+ ],
+ "rubric": {
+  "version": "rubric/1",
+  "criteria": {
+   "correctness": "Corrección",
+   "support": "Respaldo",
+   "citation": "Cita",
+   "claim_type": "Tipo",
+   "calibration": "Calibración",
+   "usefulness": "Utilidad"
+  },
+  "critical_errors": {
+   "invented_reference": "ID, cita o referencia inventada",
+   "fabricated_value": "Valor inventado",
+   "contradiction": "Contradice la figura o el artículo",
+   "false_certainty": "Falsa certeza (p. ej., clínica)"
+  }
+ }
+}

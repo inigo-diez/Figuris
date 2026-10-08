@@ -1,0 +1,7163 @@
+{
+ "corpus": "SFI-48",
+ "version": "reference/0.1",
+ "created_at": "2026-10-06T22:36:16+00:00",
+ "method": {
+  "labels_captions_mentions": "JATS (PMC)",
+  "page_bbox": "PMC figure image located on the PDF page (OpenCV TM_CCOEFF_NORMED, 36 dpi search, 100 dpi refinement); review if score < 0.6",
+  "panels": "draft from caption markers",
+  "bbox_convention": "normalized [x0, y0, x1, y1], origin top-left, page CropBox"
+ },
+ "summary": {
+  "articles": 48,
+  "figures": 292,
+  "auto": 249,
+  "needs_manual": 43,
+  "multipanel_from_caption": 121
+ },
+ "articles": [
+  {
+   "pmcid": "PMC10368530",
+   "split": "dev",
+   "stratum": "pilot",
+   "pdf_kind": "born_digital",
+   "pages": 49,
+   "figures": [
+    {
+     "jats_id": "F8",
+     "label": "Extended Data Figure 1",
+     "caption_fingerprint": "featuresofthefluorophoressignalextractionantibodiescelltypec",
+     "panels_from_caption": [
+      "b",
+      "c",
+      "d",
+      "e"
+     ],
+     "mentions": {
+      "count": 5,
+      "paragraphs": [
+       "withsupportfromanncisbirgrantacommercialgradeorioninstrument",
+       "wetested100chemicalfluorophoresfromdifferentsourcesandidenti"
+      ]
+     },
+     "page": 20,
+     "bbox": [
+      0.26,
+      0.1082,
+      0.8376,
+      0.7455
+     ],
+     "match_score": 1.0,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "F9",
+     "label": "Extended Data Figure 2",
+     "caption_fingerprint": "orionimagingofdifferentcancertypescolorectalandlungandassess",
+     "panels_from_caption": [
+      "b",
+      "c",
+      "d"
+     ],
+     "mentions": {
+      "count": 4,
+      "paragraphs": [
+       "becauseeosinfluorescesstronglyat530620nmitprovedimpracticalt",
+       "totesttheorionapproachthreetypesofdatawerecollectediwholesli",
+       "inspectionofwholeslideimagesoflungtonsilandcrcconfirmederror"
+      ]
+     },
+     "page": 22,
+     "bbox": [
+      0.28,
+      0.08,
+      0.8188,
+      0.7127
+     ],
+     "match_score": 0.942,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "F10",
+     "label": "Extended Data Figure 3",
+     "caption_fingerprint": "qualifying16plexsingleshotorionantibodypanelrelativetoimmuno",
+     "panels_from_caption": [
+      "b",
+      "c"
+     ],
+     "mentions": {
+      "count": 3,
+      "paragraphs": [
+       "thestainingpatternsobservedwithargofluorantibodyconjugateswe"
+      ]
+     },
+     "page": 24,
+     "bbox": [
+      0.2459,
+      0.0773,
+      0.8518,
+      0.7164
+     ],
+     "match_score": 0.941,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "F11",
+     "label": "Extended Data Figure 4",
+     "caption_fingerprint": "evaluationoforiondatacollectedattwoperformancesitesaorionima",
+     "panels_from_caption": [
+      "b",
+      "c"
+     ],
+     "mentions": {
+      "count": 4,
+      "paragraphs": [
+       "totesttherepeatabilityofthemethodsampleprocessingandimagingo",
+       "eachmultimodalimageofatissuesectionisuniquebecausehestaineds"
+      ]
+     },
+     "page": 25,
+     "bbox": [
+      0.1871,
+      0.1645,
+      0.9106,
+      0.7991
+     ],
+     "match_score": 0.955,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "F12",
+     "label": "Extended Data Figure 5",
+     "caption_fingerprint": "immunofluorescenceandheimagesfollowingmultiplecyclesoforioni",
+     "panels_from_caption": [
+      "b",
+      "c",
+      "d",
+      "e",
+      "f"
+     ],
+     "mentions": {
+      "count": 7,
+      "paragraphs": [
+       "therearesituationsinwhichdatafrom1620fluorescentchannelsisli",
+       "toidentifycellsmissinglabelsinorionifdataweusedapreviouslypu",
+       "usingoriondatawedevelopedsoftwarescriptstorecapitulatekeyasp"
+      ]
+     },
+     "page": 26,
+     "bbox": [
+      0.2553,
+      0.1973,
+      0.8435,
+      0.8236
+     ],
+     "match_score": 0.931,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "F13",
+     "label": "Extended Data Figure 6",
+     "caption_fingerprint": "assessmentofindividualmarkersinimagefeaturemodelsofpatientpr",
+     "panels_from_caption": [
+      "b",
+      "c",
+      "d",
+      "e"
+     ],
+     "mentions": {
+      "count": 4,
+      "paragraphs": [
+       "usingoriondatawedevelopedsoftwarescriptstorecapitulatekeyasp",
+       "inspectionofimagesfromifm2tumorsexhibitingslowprogressionegp"
+      ]
+     },
+     "page": 28,
+     "bbox": [
+      0.2671,
+      0.0755,
+      0.8329,
+      0.7164
+     ],
+     "match_score": 0.835,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "F14",
+     "label": "Extended Data Figure 7",
+     "caption_fingerprint": "cellularneighborhoodsincolorectalcancerresectionsalatentdiri",
+     "panels_from_caption": [
+      "b"
+     ],
+     "mentions": {
+      "count": 5,
+      "paragraphs": [
+       "asanunbiasedmeansofidentifyingnewprogressionmodelsweusedspat",
+       "poorinterpretabilityisacommonlimitationofmodelsgeneratedusin"
+      ]
+     },
+     "page": 30,
+     "bbox": [
+      0.2588,
+      0.0791,
+      0.8365,
+      0.71
+     ],
+     "match_score": 0.67,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "F15",
+     "label": "Extended Data Figure 8",
+     "caption_fingerprint": "evaluationoftheperformanceofaconvolutionneuralnetworkusedtoi",
+     "panels_from_caption": [
+      "b",
+      "c"
+     ],
+     "mentions": {
+      "count": 4,
+      "paragraphs": [
+       "giventhecorrelationoftopic7withpfsweconstructedakaplanmeierc",
+       "poorinterpretabilityisacommonlimitationofmodelsgeneratedusin",
+       "apubliclyavailabledensenet161modelhttpsdoiorg101101202112234"
+      ]
+     },
+     "page": 31,
+     "bbox": [
+      0.2494,
+      0.1255,
+      0.8494,
+      0.7673
+     ],
+     "match_score": 0.693,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "F16",
+     "label": "Extended Data Figure 9",
+     "caption_fingerprint": "cycifimagingoftopic7tumorcellscycifimagingofregionsofspecime",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "poorinterpretabilityisacommonlimitationofmodelsgeneratedusin"
+      ]
+     },
+     "page": 32,
+     "bbox": [
+      0.3671,
+      0.1818,
+      0.7306,
+      0.8182
+     ],
+     "match_score": 0.944,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "F1",
+     "label": "Figure 1",
+     "caption_fingerprint": "samesectionimmunofluorescenceandheusingtheorionplatformasche",
+     "panels_from_caption": [
+      "b",
+      "c",
+      "d",
+      "e"
+     ],
+     "mentions": {
+      "count": 6,
+      "paragraphs": [
+       "withsupportfromanncisbirgrantacommercialgradeorioninstrument",
+       "becauseeosinfluorescesstronglyat530620nmitprovedimpracticalt",
+       "totesttheorionapproachthreetypesofdatawerecollectediwholesli",
+       "inspectionofwholeslideimagesoflungtonsilandcrcconfirmederror"
+      ]
+     },
+     "page": 37,
+     "bbox": [
+      0.2659,
+      0.0827,
+      0.8318,
+      0.7127
+     ],
+     "match_score": 0.85,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "F2",
+     "label": "Figure 2",
+     "caption_fingerprint": "qualifying16plexsingleshotorionantibodypanelapanelsofimagesf",
+     "panels_from_caption": [
+      "b",
+      "c",
+      "d",
+      "e"
+     ],
+     "mentions": {
+      "count": 6,
+      "paragraphs": [
+       "thestainingpatternsobservedwithargofluorantibodyconjugateswe",
+       "therearesituationsinwhichdatafrom1620fluorescentchannelsisli",
+       "aleftpanelorionimageofffpetonsilshowingdnasytoxcd31cd20cd3ec"
+      ]
+     },
+     "page": 39,
+     "bbox": [
+      0.2847,
+      0.08,
+      0.8129,
+      0.71
+     ],
+     "match_score": 0.874,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "F3",
+     "label": "Figure 3",
+     "caption_fingerprint": "combinedheandoriontoidentifycelltissuetypesarepresentativeim",
+     "panels_from_caption": [
+      "b",
+      "c",
+      "d",
+      "e",
+      "f"
+     ],
+     "mentions": {
+      "count": 7,
+      "paragraphs": [
+       "whensamecellheandifdatawerecomparedwefoundthatmolecularlabel",
+       "toidentifycellsmissinglabelsinorionifdataweusedapreviouslypu",
+       "aleftpanelorionimageofffpetonsilshowingdnasytoxcd31cd20cd3ec"
+      ]
+     },
+     "page": 41,
+     "bbox": [
+      0.2612,
+      0.0764,
+      0.8388,
+      0.7182
+     ],
+     "match_score": 0.886,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "F4",
+     "label": "Figure 4",
+     "caption_fingerprint": "recapitulatingtheimmunoscoretissueimmunetestusingorionimages",
+     "panels_from_caption": [
+      "b",
+      "c",
+      "d"
+     ],
+     "mentions": {
+      "count": 5,
+      "paragraphs": [
+       "usingoriondatawedevelopedsoftwarescriptstorecapitulatekeyasp",
+       "ifm1wasdesignedtoreplicatethelogicoftheimmunoscoremethodandw"
+      ]
+     },
+     "page": 43,
+     "bbox": [
+      0.1329,
+      0.0773,
+      0.9624,
+      0.6609
+     ],
+     "match_score": 0.783,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "F5",
+     "label": "Figure 5",
+     "caption_fingerprint": "extendingtheimmunoscoretestwithadditionalimmunefeaturesaleft",
+     "panels_from_caption": [
+      "b",
+      "c",
+      "d"
+     ],
+     "mentions": {
+      "count": 7,
+      "paragraphs": [
+       "usingoriondatawedevelopedsoftwarescriptstorecapitulatekeyasp",
+       "inspectionofimagesfromifm2tumorsexhibitingslowprogressionegp",
+       "aupperrankingof1hazardratiohrforeachimagefeaturemodelifm1toi"
+      ]
+     },
+     "page": 45,
+     "bbox": [
+      0.1341,
+      0.0782,
+      0.9635,
+      0.4064
+     ],
+     "match_score": 0.933,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "F6",
+     "label": "Figure 6",
+     "caption_fingerprint": "bottomupdevelopmentofatumorintrinsicimagefeaturemodelapositi",
+     "panels_from_caption": [
+      "b",
+      "c",
+      "d",
+      "e",
+      "f"
+     ],
+     "mentions": {
+      "count": 6,
+      "paragraphs": [
+       "asanunbiasedmeansofidentifyingnewprogressionmodelsweusedspat",
+       "poorinterpretabilityisacommonlimitationofmodelsgeneratedusin"
+      ]
+     },
+     "page": 46,
+     "bbox": [
+      0.2612,
+      0.0764,
+      0.8388,
+      0.7173
+     ],
+     "match_score": 0.871,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "F7",
+     "label": "Figure 7",
+     "caption_fingerprint": "ldatopic7correspondstoaggressivetumorregionsandiscorrelatedw",
+     "panels_from_caption": [
+      "c",
+      "d",
+      "e"
+     ],
+     "mentions": {
+      "count": 9,
+      "paragraphs": [
+       "giventhecorrelationoftopic7withpfsweconstructedakaplanmeierc",
+       "poorinterpretabilityisacommonlimitationofmodelsgeneratedusin",
+       "onlyaboutonethirdofpatientsincohort1scoredhighforifm1andlowf"
+      ]
+     },
+     "page": 48,
+     "bbox": [
+      0.1518,
+      0.0755,
+      0.9494,
+      0.7164
+     ],
+     "match_score": 0.697,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC8359101",
+   "split": "dev",
+   "stratum": "pilot",
+   "pdf_kind": "born_digital",
+   "pages": 17,
+   "figures": [
+    {
+     "jats_id": "Fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "circdido1isidentifiedasacircrnadownregulatedingcageodatasets",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h"
+     ],
+     "mentions": {
+      "count": 9,
+      "paragraphs": [
+       "toidentifynewcircrnasingcweextractedcircrnamicroarraydatagse",
+       "wethendetectedtheexpressionofcircdido1inhumangccellsandtissu"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.1088,
+      0.1219,
+      0.89,
+      0.667
+     ],
+     "match_score": 0.89,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig2",
+     "label": "Figure 2",
+     "caption_fingerprint": "circdido1overexpressioninhibitsgcgrowthandmetastasisinvitroa",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g"
+     ],
+     "mentions": {
+      "count": 8,
+      "paragraphs": [
+       "wenextexploredthebiologicalrolesofcircdido1ingcbygainandloss",
+       "wethenevaluatedtheeffectofcircdido1ongcgrowthinmousemodelsas",
+       "toanalyzetheeffectofcircdido1ongcmetastasisweestablishedaper"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.1052,
+      0.1174,
+      0.8948,
+      0.8371
+     ],
+     "match_score": 0.791,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig3",
+     "label": "Figure 3",
+     "caption_fingerprint": "circdido1encodesanovel529aaproteinathepredictedputativeopenr",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h"
+     ],
+     "mentions": {
+      "count": 6,
+      "paragraphs": [
+       "ourbioinformaticanalysisbycircrnadbsoftwareshowedthatcircdid",
+       "wethencomparedtheaminoacidsequenceofdido1529aawiththatofdido"
+      ]
+     },
+     "page": 8,
+     "bbox": [
+      0.1064,
+      0.1174,
+      0.896,
+      0.8735
+     ],
+     "match_score": 0.868,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig4",
+     "label": "Figure 4",
+     "caption_fingerprint": "dido1529aainteractswithparp1acoipanalysesoftheinteractionbet",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+     ],
+     "mentions": {
+      "count": 7,
+      "paragraphs": [
+       "tounderstandhowdido1529aaexertsitsfunctioningccellswecarried"
+      ]
+     },
+     "page": 9,
+     "bbox": [
+      0.1052,
+      0.1174,
+      0.8948,
+      0.7743
+     ],
+     "match_score": 0.94,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig5",
+     "label": "Figure 5",
+     "caption_fingerprint": "circdido1exertstumorsuppressorfunctioningcthroughdualmechani",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g"
+     ],
+     "mentions": {
+      "count": 5,
+      "paragraphs": [
+       "wethenconstructedamutantcircdido1overexpressingvectorcircdid"
+      ]
+     },
+     "page": 10,
+     "bbox": [
+      0.1052,
+      0.1183,
+      0.8948,
+      0.8362
+     ],
+     "match_score": 0.758,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig6",
+     "label": "Figure 6",
+     "caption_fingerprint": "circdido1interactswithprdx2proteiningccellsacircdido1binding",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h"
+     ],
+     "mentions": {
+      "count": 10,
+      "paragraphs": [
+       "todepictothermechanismsthatareresponsiblefortherolesofcircdi",
+       "toanalyzethedownstreamsignalingpathwaysthatareregulatedbycir"
+      ]
+     },
+     "page": 11,
+     "bbox": [
+      0.1052,
+      0.1174,
+      0.8948,
+      0.7197
+     ],
+     "match_score": 0.914,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig7",
+     "label": "Figure 7",
+     "caption_fingerprint": "circdido1promotesprdx2ubiquitinationanddegradationbyrbx1apro",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g"
+     ],
+     "mentions": {
+      "count": 8,
+      "paragraphs": [
+       "wethenconstructedamutantcircdido1overexpressingvectorcircdid",
+       "wefurtherperformedmg132assaytodeterminewhethercircdido1regul",
+       "toanalyzewhethercircdido1promotesprdx2proteindegradationthro"
+      ]
+     },
+     "page": 13,
+     "bbox": [
+      0.1862,
+      0.121,
+      0.8162,
+      0.8662
+     ],
+     "match_score": 0.529,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": "Fig8",
+     "label": "Figure 8",
+     "caption_fingerprint": "proposedmodelforthemechanismofactionofcircdido1ingccircdido1",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "conclusivelywereportedtheidentificationofanewcircrnathathasp"
+      ]
+     },
+     "page": 14,
+     "bbox": [
+      0.26,
+      0.1192,
+      0.7388,
+      0.5332
+     ],
+     "match_score": 0.877,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC6291436",
+   "split": "dev",
+   "stratum": "pilot",
+   "pdf_kind": "born_digital",
+   "pages": 9,
+   "figures": [
+    {
+     "jats_id": "Fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "patientselectionpatientswereexcludedduetoanincompletedataset",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "thisstudywasapprovedbythelocalinstitutionalreviewboardonehun"
+      ]
+     },
+     "page": 3,
+     "bbox": [
+      0.0822,
+      0.0673,
+      0.919,
+      0.2138
+     ],
+     "match_score": 0.729,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig2",
+     "label": "Figure 2",
+     "caption_fingerprint": "a41yearoldmanwithameningiomagradeiilocatedatthemedialsphenoi",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "in55of56patientsthedlmdetectedpresenceofmeningiomasleadingto"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.3906,
+      0.6333,
+      0.9141,
+      0.8972
+     ],
+     "match_score": 0.942,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig3",
+     "label": "Figure 3",
+     "caption_fingerprint": "a53yearoldwomanwithameningiomagradeiiintheleftfrontallobewit",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "inmostcasesdlmbasedautomatedsegmentationworkedwellinoneofthe",
+       "threedimensionalrenderingoftwosegmentedtumourvolumesabpatien"
+      ]
+     },
+     "page": 5,
+     "bbox": [
+      0.3881,
+      0.0682,
+      0.9166,
+      0.454
+     ],
+     "match_score": 0.937,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig4",
+     "label": "Figure 4",
+     "caption_fingerprint": "a56yearoldwomanwithameningiomaimedialattheossphenoidalenextt",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "insomepatientsautomatedsegmentationdidnotperformappropriatel"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.3906,
+      0.0701,
+      0.9141,
+      0.414
+     ],
+     "match_score": 0.95,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig5",
+     "label": "Figure 5",
+     "caption_fingerprint": "threedimensionalrenderingoftwosegmentedtumourvolumesabpatien",
+     "panels_from_caption": [
+      "a",
+      "c"
+     ],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "theaccurateautomateddetectionofacerebraltumouraspresentedino",
+       "theapplieddlmwastrainedongliomaimagingdatadespitedifferentap"
+      ]
+     },
+     "page": 7,
+     "bbox": [
+      0.3881,
+      0.0673,
+      0.9166,
+      0.7807
+     ],
+     "match_score": 0.965,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC9608490",
+   "split": "dev",
+   "stratum": "pilot",
+   "pdf_kind": "born_digital",
+   "pages": 17,
+   "figures": [
+    {
+     "jats_id": "molecules-27-06906-sch001",
+     "label": "Scheme 1",
+     "caption_fingerprint": "generalschemeforthesynthesisofnbenzylidene4tbubenzohydrazide",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c"
+     ],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "twentythreedifferentnbenzylidene4tbubenzohydrazidederivative"
+      ]
+     },
+     "page": 2,
+     "bbox": [
+      0.0641,
+      0.6444,
+      0.9347,
+      0.7274
+     ],
+     "match_score": 0.73,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "molecules-27-06906-f001",
+     "label": "Figure 1",
+     "caption_fingerprint": "molecularstructureof4tbun2hydroxy3methoxybenzylidenebenzohyd",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "the4tbun2hydroxy3methoxybenzylidenebenzohydrazide5crystalliz"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.2817,
+      0.2761,
+      0.8755,
+      0.5675
+     ],
+     "match_score": 0.833,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "molecules-27-06906-f002",
+     "label": "Figure 2",
+     "caption_fingerprint": "crystalpackingdiagramof4tbun2hydroxy3methoxybenzylidenebenzo",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "thehydrogenbondingisuniquein5asshownintable4overallthereisas"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.2781,
+      0.112,
+      0.7473,
+      0.3752
+     ],
+     "match_score": 0.861,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "molecules-27-06906-f003",
+     "label": "Figure 3",
+     "caption_fingerprint": "molecularstructureofcompound14",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "theresultinghydrazonewascrystallizedinamonoclinicpbcaspacegr"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.2757,
+      0.6803,
+      0.769,
+      0.8846
+     ],
+     "match_score": 0.862,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "molecules-27-06906-f004",
+     "label": "Figure 4",
+     "caption_fingerprint": "crystalpackingdiagramofcompound14",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "theresultinghydrazonewascrystallizedinamonoclinicpbcaspacegr"
+      ]
+     },
+     "page": 7,
+     "bbox": [
+      0.2793,
+      0.5214,
+      0.9154,
+      0.7128
+     ],
+     "match_score": 0.95,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "molecules-27-06906-f005",
+     "label": "Figure 5",
+     "caption_fingerprint": "activeinhibitorsofthesynthesizedseries",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "toexplainthestructureactivityrelationshipsaroftheseanalogswe",
+       "thedimethoxysubstitutedderivativecompound25showedbetterinter"
+      ]
+     },
+     "page": 9,
+     "bbox": [
+      0.2781,
+      0.112,
+      0.9274,
+      0.4419
+     ],
+     "match_score": 0.752,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "molecules-27-06906-f006",
+     "label": "Figure 6",
+     "caption_fingerprint": "threedimensionalinteractionofcompounds102425withactivesitere",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "thebindingmodeoftheactivecompoundswiththeactivesiteresiduess"
+      ]
+     },
+     "page": 10,
+     "bbox": [
+      0.081,
+      0.212,
+      0.9178,
+      0.6359
+     ],
+     "match_score": 0.859,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC7270115",
+   "split": "dev",
+   "stratum": "pilot",
+   "pdf_kind": "born_digital",
+   "pages": 10,
+   "figures": [
+    {
+     "jats_id": "Fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "opticalanalysisofznonpsabcolorchangesindicatingformationofzn",
+     "panels_from_caption": [
+      "A",
+      "B"
+     ],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "addingzincacetatedihydrateinleafextractsofcfistulaandmazedar",
+       "thesynthesisofznonpswasfurtherexaminedbyuvspectrophotometryf"
+      ]
+     },
+     "page": 3,
+     "bbox": [
+      0.2636,
+      0.0607,
+      0.925,
+      0.3818
+     ],
+     "match_score": 0.937,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig2",
+     "label": "Figure 2",
+     "caption_fingerprint": "abxrdpatternindicatingpresenceofznopeaksacassiafistulamediat",
+     "panels_from_caption": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "thepresenceofnanoparticlesandexaminationoftheirstructuralpro",
+       "toidentifythefunctionalgroupsassociatedwiththeznonpsformatio"
+      ]
+     },
+     "page": 3,
+     "bbox": [
+      0.2636,
+      0.4885,
+      0.925,
+      0.8758
+     ],
+     "match_score": 0.736,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig3",
+     "label": "Figure 3",
+     "caption_fingerprint": "dlsindicatingaveragesizeofznonpsacassiafistulamediatedznonps",
+     "panels_from_caption": [
+      "A",
+      "B"
+     ],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "dynamiclightscatteringdlsmeasurementsshowedtheaveragediamete"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.2612,
+      0.0589,
+      0.6034,
+      0.4637
+     ],
+     "match_score": 0.865,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig4",
+     "label": "Figure 4",
+     "caption_fingerprint": "semimagesofznoparticlesshowingtheirmorphologyatthreedifferen",
+     "panels_from_caption": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+     ],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "figure4showsscanningelectronmicroscopysemimagesofznonpssynth"
+      ]
+     },
+     "page": 5,
+     "bbox": [
+      0.1693,
+      0.0616,
+      0.9287,
+      0.4462
+     ],
+     "match_score": 0.936,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig5",
+     "label": "Figure 5",
+     "caption_fingerprint": "resistanceleveloftwoclinicalpathogensagainstistandarddrugsii",
+     "panels_from_caption": [
+      "A",
+      "B"
+     ],
+     "mentions": {
+      "count": 3,
+      "paragraphs": [
+       "thebactericidalactivitiesofcfistulaandmazadarachmediatedznon",
+       "boththeecoliandsaureusshowedminimuminhibitoryconcentrationmi"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.2624,
+      0.0598,
+      0.9238,
+      0.7019
+     ],
+     "match_score": 0.991,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig6",
+     "label": "Figure 6",
+     "caption_fingerprint": "schematicmodelofznonpsynthesisfromtheleafextractsofcassiafis",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "asaschematiclayoutofthiswholestudyamodelhasbeengiveninfig6th"
+      ]
+     },
+     "page": 8,
+     "bbox": [
+      0.2648,
+      0.0616,
+      0.8041,
+      0.2134
+     ],
+     "match_score": 0.715,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC6599010",
+   "split": "dev",
+   "stratum": "pilot",
+   "pdf_kind": "born_digital",
+   "pages": 8,
+   "figures": [
+    {
+     "jats_id": "Fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "heterojunctionstructureofqdfilmsaschematicoverviewoflayerbyl",
+     "panels_from_caption": [
+      "b",
+      "c",
+      "d"
+     ],
+     "mentions": {
+      "count": 7,
+      "paragraphs": [
+       "todemonstratethecompositionalheterojunctionschematicallyshow"
+      ]
+     },
+     "page": 3,
+     "bbox": [
+      0.0846,
+      0.0699,
+      0.9141,
+      0.3937
+     ],
+     "match_score": 0.923,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig2",
+     "label": "Figure 2",
+     "caption_fingerprint": "opticalandelectronicpropertiesofperovskiteqdheterojunctionae",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 6,
+      "paragraphs": [
+       "thesuccessfulconstructionofperovskiteheterostructuredfilmsal",
+       "nextwedeterminehowthemacroscopicopticalpropertiesofthefilmsa",
+       "torationalizethehighpceofperovskiteperovskiteqdheterojunctio"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.1971,
+      0.0681,
+      0.8029,
+      0.5262
+     ],
+     "match_score": 0.841,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig3",
+     "label": "Figure 3",
+     "caption_fingerprint": "photovoltaicperformanceofsolarcellsacrosssectionalstemhaadfi",
+     "panels_from_caption": [
+      "b",
+      "d"
+     ],
+     "mentions": {
+      "count": 6,
+      "paragraphs": [
+       "giventheopticalpropertiesoftheheterojunctioncontainingfilmsa",
+       "torationalizethehighpceofperovskiteperovskiteqdheterojunctio"
+      ]
+     },
+     "page": 5,
+     "bbox": [
+      0.0846,
+      0.0662,
+      0.9141,
+      0.3487
+     ],
+     "match_score": 0.902,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig4",
+     "label": "Figure 4",
+     "caption_fingerprint": "transientabsorptionofheterojunctionqdfilmsapseudocolorimageo",
+     "panels_from_caption": [
+      "d",
+      "e"
+     ],
+     "mentions": {
+      "count": 13,
+      "paragraphs": [
+       "tobetterunderstandthechargeseparationdynamicsinducedbythedes",
+       "infig4ethefractionalcomponentsareplottedwhenthefilmisinstead",
+       "wealsoperformedtaforpuresinglecomponentcspbi3qdandpurecs025f"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.0846,
+      0.0653,
+      0.9141,
+      0.5409
+     ],
+     "match_score": 0.821,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC7280498",
+   "split": "dev",
+   "stratum": "pilot",
+   "pdf_kind": "born_digital",
+   "pages": 9,
+   "figures": [
+    {
+     "jats_id": "Fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "locationofthestudyarea",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "thedongtinglakeareaislocatedinthemiddleandlowerreachesofthey"
+      ]
+     },
+     "page": 2,
+     "bbox": [
+      0.2636,
+      0.0626,
+      0.925,
+      0.3293
+     ],
+     "match_score": 0.65,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig2",
+     "label": "Figure 2",
+     "caption_fingerprint": "lulcclassificationmapsindongtinglakeareain199520012004and201",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "toreducetheclassificationerrorcausedbythelargestudyareawefir"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.1693,
+      0.0616,
+      0.9287,
+      0.4048
+     ],
+     "match_score": 0.854,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig3",
+     "label": "Figure 3",
+     "caption_fingerprint": "changesinlulcinthedongtinglakeareain199520012004and2013",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "infig3thedongtinglakelulctypeswerecomposedmainlyofpaddyfield"
+      ]
+     },
+     "page": 5,
+     "bbox": [
+      0.2612,
+      0.4811,
+      0.8041,
+      0.5998
+     ],
+     "match_score": 0.924,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig4",
+     "label": "Figure 4",
+     "caption_fingerprint": "thelstgradeareaproportionoflandscapetypesin199520012004and20",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "infig4thedongtinglakeareamainlyhadmediummoderatelyhighandmod"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.2636,
+      0.0607,
+      0.925,
+      0.4039
+     ],
+     "match_score": 0.827,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig5",
+     "label": "Figure 5",
+     "caption_fingerprint": "correlationbetweenlstandndvindmidemanddistancefromwaterbody",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "intermsofthecorrelationofmeanlstwiththesefactorsfig5thendmih"
+      ]
+     },
+     "page": 7,
+     "bbox": [
+      0.2612,
+      0.0598,
+      0.867,
+      0.3956
+     ],
+     "match_score": 0.942,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC8913360",
+   "split": "dev",
+   "stratum": "pilot",
+   "pdf_kind": "born_digital",
+   "pages": 17,
+   "figures": [
+    {
+     "jats_id": "Fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "thebdpapproachtoverifyingblackdeathmortalitylevelscreditaitn",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "herewepioneeranalternativeapproachdiscussedindetailinmethods",
+       "inrecentyearspollendatahavebeenproventobecloselyrelatedtodem"
+      ]
+     },
+     "page": 2,
+     "bbox": [
+      0.1354,
+      0.0737,
+      0.8646,
+      0.3585
+     ],
+     "match_score": 0.771,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig2",
+     "label": "Figure 2",
+     "caption_fingerprint": "locationofpollenanalysedsedimentcoresusedinthisstudycirclesi",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 3,
+      "paragraphs": [
+       "herewepioneeranalternativeapproachdiscussedindetailinmethods",
+       "coloursreflectcentennialscalechangesinthecerealpollenindicat",
+       "inordertovalidatetheindicatorsovercomingtheregionallimitsofe"
+      ]
+     },
+     "page": 3,
+     "bbox": [
+      0.075,
+      0.071,
+      0.4921,
+      0.3558
+     ],
+     "match_score": 0.913,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig3",
+     "label": "Figure 3",
+     "caption_fingerprint": "comparisonofhistoricalandpalaeoenvironmentalindicatorsofthed",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "circlesizereflectsthenumberofsamplespersitefortheperiodof125",
+       "wevalidatedourbdpapproachbyexaminingtwowellstudiedbutcontras"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.1524,
+      0.0673,
+      0.8476,
+      0.4204
+     ],
+     "match_score": 0.862,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig4",
+     "label": "Figure 4",
+     "caption_fingerprint": "regionalscalechangesfollowingblackdeathinfourbdppollenindica",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 3,
+      "paragraphs": [
+       "havingvalidatedourapproachweanalysedthepollendatasetforallof",
+       "bdpemploysbootstrappingtoevaluatestatisticalsignificanceofth",
+       "figure6visualizesthespatialdistributionofthefourtrajectories"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.0762,
+      0.5205,
+      0.9299,
+      0.8753
+     ],
+     "match_score": 0.75,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig5",
+     "label": "Figure 5",
+     "caption_fingerprint": "spatialextrapolationshowing12501350ceversus13511450cetempora",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ],
+     "mentions": {
+      "count": 3,
+      "paragraphs": [
+       "toconfirmtherobustnessofourresultsbdpcombinesstatisticalwith",
+       "forthestatisticalapproachstandardizedregionalindicesoflandsc",
+       "averagerwasemployedtogeneratesmoothedsurfacesforthreesetsoft"
+      ]
+     },
+     "page": 5,
+     "bbox": [
+      0.0762,
+      0.0755,
+      0.9299,
+      0.454
+     ],
+     "match_score": 0.843,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig6",
+     "label": "Figure 6",
+     "caption_fingerprint": "bdpdeterminedregionalscenariosofblackdeathdemographicimpactc",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "figure6visualizesthespatialdistributionofthefourtrajectories"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.0738,
+      0.071,
+      0.9274,
+      0.6151
+     ],
+     "match_score": 0.744,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig7",
+     "label": "Extended Data Figure 1",
+     "caption_fingerprint": "regionbyregioncomparisonofellenbergandniinemetsindicators",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "inordertocomparetrendsbetweendifferenteuropeanbioclimaticzon",
+       "inordertovalidatetheindicatorsovercomingtheregionallimitsofe"
+      ]
+     },
+     "page": 11,
+     "bbox": [
+      0.0774,
+      0.0746,
+      0.9311,
+      0.3967
+     ],
+     "match_score": 0.786,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig8",
+     "label": "Extended Data Figure 2",
+     "caption_fingerprint": "outlieranalysisofellenbergandniinemetsindicators",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "inordertocomparetrendsbetweendifferenteuropeanbioclimaticzon"
+      ]
+     },
+     "page": 12,
+     "bbox": [
+      0.156,
+      0.071,
+      0.844,
+      0.4249
+     ],
+     "match_score": 0.887,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig9",
+     "label": "Extended Data Figure 3",
+     "caption_fingerprint": "differencesandsimilaritiesinthechangesinthecerealpollenindic",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "havingvalidatedourapproachweanalysedthepollendatasetforallof"
+      ]
+     },
+     "page": 13,
+     "bbox": [
+      0.1596,
+      0.0755,
+      0.8404,
+      0.808
+     ],
+     "match_score": 0.559,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": "Fig10",
+     "label": "Extended Data Figure 4",
+     "caption_fingerprint": "differencesandsimilaritiesinthechangesinthebdppollenindicato",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "havingvalidatedourapproachweanalysedthepollendatasetforallof"
+      ]
+     },
+     "page": 14,
+     "bbox": [
+      0.0726,
+      0.071,
+      0.9262,
+      0.5141
+     ],
+     "match_score": 0.861,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig11",
+     "label": "Extended Data Figure 5",
+     "caption_fingerprint": "differencesandsimilaritiesinthechangesinthebdppollenindicato",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "havingvalidatedourapproachweanalysedthepollendatasetforallof"
+      ]
+     },
+     "page": 15,
+     "bbox": [
+      0.0726,
+      0.071,
+      0.9262,
+      0.5141
+     ],
+     "match_score": 0.868,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC10290119",
+   "split": "dev",
+   "stratum": "pilot",
+   "pdf_kind": "born_digital",
+   "pages": 12,
+   "figures": [
+    {
+     "jats_id": "Fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "msmsspectrafromdifferentexperimentalconditionsforthesamemole",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "theidentificationofthestructureofachemicalcompoundisperceive",
+       "thevariabilityinthespectraforagivenmoleculeopensupthepossibi"
+      ]
+     },
+     "page": 3,
+     "bbox": [
+      0.1378,
+      0.0662,
+      0.8609,
+      0.8454
+     ],
+     "match_score": 0.78,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig2",
+     "label": "Figure 2",
+     "caption_fingerprint": "examplesofcaseswherespec2molsuccessfullyidentifiedkeysubstru",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "figure2showsafewexamplesofsuccessfulcaseswiththemodelcorrect"
+      ]
+     },
+     "page": 7,
+     "bbox": [
+      0.2249,
+      0.1776,
+      0.7739,
+      0.8132
+     ],
+     "match_score": 0.568,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": "Fig3",
+     "label": "Figure 3",
+     "caption_fingerprint": "acasewherespec2moldidnotidentifyrelevantstructuresanexamplew",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "wealsoidentifytwogeneralscenarioswherethemodelhasdifficultyi"
+      ]
+     },
+     "page": 8,
+     "bbox": [
+      0.2249,
+      0.0644,
+      0.7739,
+      0.2079
+     ],
+     "match_score": 0.707,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig4",
+     "label": "Figure 4",
+     "caption_fingerprint": "spec2molarchitecturethespec2molmodelconsistsofaspectraencode",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "spec2molusesanencoderdecoderarchitectureforrecommendingmolec"
+      ]
+     },
+     "page": 10,
+     "bbox": [
+      0.1451,
+      0.0644,
+      0.8537,
+      0.5225
+     ],
+     "match_score": 0.921,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC7786143",
+   "split": "dev",
+   "stratum": "pilot",
+   "pdf_kind": "born_digital",
+   "pages": 13,
+   "figures": [
+    {
+     "jats_id": "Fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "perceptionsregardingthevalueofvariousremotelearningresources",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "preclinicalstudentsendorsedvariableutilizationofremotelearni"
+      ]
+     },
+     "page": 5,
+     "bbox": [
+      0.104,
+      0.1183,
+      0.9008,
+      0.4368
+     ],
+     "match_score": 0.871,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC1971560",
+   "split": "dev",
+   "stratum": "pilot",
+   "pdf_kind": "scanned",
+   "pages": 7,
+   "figures": [
+    {
+     "jats_id": "F1",
+     "label": "Figure 1",
+     "caption_fingerprint": "",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 0,
+      "paragraphs": []
+     },
+     "page": 2,
+     "bbox": [
+      0.5295,
+      0.7098,
+      0.8795,
+      0.8826
+     ],
+     "match_score": 0.929,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "F2",
+     "label": "Figure 3",
+     "caption_fingerprint": "",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 0,
+      "paragraphs": []
+     },
+     "page": 3,
+     "bbox": [
+      0.0654,
+      0.709,
+      0.4744,
+      0.8886
+     ],
+     "match_score": 0.984,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "F3",
+     "label": "Figure 4",
+     "caption_fingerprint": "",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 0,
+      "paragraphs": []
+     },
+     "page": 3,
+     "bbox": [
+      0.5282,
+      0.0656,
+      0.9372,
+      0.2798
+     ],
+     "match_score": 0.924,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "F4",
+     "label": "Figure 5",
+     "caption_fingerprint": "",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 0,
+      "paragraphs": []
+     },
+     "page": 3,
+     "bbox": [
+      0.5141,
+      0.7185,
+      0.9436,
+      0.9162
+     ],
+     "match_score": 0.985,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "F5",
+     "label": "Figure 6",
+     "caption_fingerprint": "",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 0,
+      "paragraphs": []
+     },
+     "page": 4,
+     "bbox": [
+      0.0705,
+      0.063,
+      0.4795,
+      0.2772
+     ],
+     "match_score": 0.995,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "F6",
+     "label": "Figure 7",
+     "caption_fingerprint": "",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 0,
+      "paragraphs": []
+     },
+     "page": 4,
+     "bbox": [
+      0.0679,
+      0.3307,
+      0.4769,
+      0.5138
+     ],
+     "match_score": 0.979,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": null,
+     "label": "Figure 2",
+     "source": "manual (stage 0)",
+     "page": null,
+     "bbox": null,
+     "review_status": "needs_manual"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC1971548",
+   "split": "dev",
+   "stratum": "pilot",
+   "pdf_kind": "scanned",
+   "pages": 5,
+   "figures": [
+    {
+     "jats_id": null,
+     "label": "Figure 1",
+     "source": "manual (stage 0)",
+     "page": null,
+     "bbox": null,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": null,
+     "label": "Figure 2",
+     "source": "manual (stage 0)",
+     "page": null,
+     "bbox": null,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": null,
+     "label": "Figure 3",
+     "source": "manual (stage 0)",
+     "page": null,
+     "bbox": null,
+     "review_status": "needs_manual"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC10663543",
+   "split": "validation",
+   "stratum": "biomedicine/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 13,
+   "figures": [
+    {
+     "jats_id": "Fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "comprehensiverepresentationoftheexperimentalandcontrolgroups",
+     "panels_from_caption": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "figure1illustratesthegeneralstructuresofthebracketgroupstheb"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.1318,
+      0.0662,
+      0.9287,
+      0.5308
+     ],
+     "match_score": 0.889,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig2",
+     "label": "Figure 2",
+     "caption_fingerprint": "graphicaldisplayofstaticandkineticfrictionvaluesforboththeex",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 3,
+      "paragraphs": [
+       "thestaticandkineticfrvaluesvariedsignificantlyamongthegroups",
+       "inthefieldoforthodonticsitiscrucialtocomprehendtheforceneces"
+      ]
+     },
+     "page": 5,
+     "bbox": [
+      0.1318,
+      0.0662,
+      0.9287,
+      0.3063
+     ],
+     "match_score": 0.897,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig3",
+     "label": "Figure 3",
+     "caption_fingerprint": "changesintheappearanceoftheexperimentalandcontrolbracketgrou",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "theaestheticappealoforthodonticfixedapplianceshaslongbeenaco"
+      ]
+     },
+     "page": 7,
+     "bbox": [
+      0.2612,
+      0.0653,
+      0.867,
+      0.4167
+     ],
+     "match_score": 0.986,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig4",
+     "label": "Figure 4",
+     "caption_fingerprint": "schematicdiagramillustratingtheceramicinjectionmoldingmethod",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 3,
+      "paragraphs": [
+       "significantcolorchangesoccurredinallbracketgroupsreachingupt",
+       "tomitigateconfoundingfactorsintheexperimentalresultsthezirco",
+       "allbracketsweremeticulouslyfabricatedforthemaxillaryrightcen"
+      ]
+     },
+     "page": 7,
+     "bbox": [
+      0.1318,
+      0.4811,
+      0.9287,
+      0.7387
+     ],
+     "match_score": 0.917,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig5",
+     "label": "Figure 5",
+     "caption_fingerprint": "detailedillustrationofbracketslotmeasurementsrrepresentsahor",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "theslotdimensionsineachbracketgroupwereassessedinlateralview"
+      ]
+     },
+     "page": 9,
+     "bbox": [
+      0.2624,
+      0.5428,
+      0.5949,
+      0.7121
+     ],
+     "match_score": 0.957,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig6",
+     "label": "Figure 6",
+     "caption_fingerprint": "mechanicaltestingapparatus",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "eachgroupssampleoftenbracketswassubjectedtoafracturestrength"
+      ]
+     },
+     "page": 10,
+     "bbox": [
+      0.26,
+      0.3514,
+      0.5006,
+      0.5888
+     ],
+     "match_score": 0.944,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig7",
+     "label": "Figure 7",
+     "caption_fingerprint": "thebracketwasbondedtoanacrylicmoldtransbondtmxtlightcureadhe",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "eachgroupssampleoftenbracketswassubjectedtoafracturestrength"
+      ]
+     },
+     "page": 10,
+     "bbox": [
+      0.26,
+      0.6458,
+      0.5006,
+      0.8316
+     ],
+     "match_score": 0.953,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC11534244",
+   "split": "test",
+   "stratum": "biomedicine/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 13,
+   "figures": [
+    {
+     "jats_id": "pone.0313026.g001",
+     "label": "Figure 1",
+     "caption_fingerprint": "ror1ihcandscoresintnbccasesaror1representativeimagefromoneof",
+     "panels_from_caption": [
+      "B",
+      "C",
+      "D"
+     ],
+     "mentions": {
+      "count": 3,
+      "paragraphs": [
+       "ror1ihcstainingpatternandprevalenceresultsfromtnbcareshownin"
+      ]
+     },
+     "page": 5,
+     "bbox": [
+      0.1353,
+      0.0955,
+      0.9482,
+      0.4936
+     ],
+     "match_score": 0.893,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0313026.g002",
+     "label": "Figure 2",
+     "caption_fingerprint": "ror1ihcresultsindlbclflandmclapercentageofror1tumourcellsind",
+     "panels_from_caption": [
+      "B",
+      "C"
+     ],
+     "mentions": {
+      "count": 6,
+      "paragraphs": [
+       "ror1ihcstainingpatternandprevalenceresultsfromtnbcareshownin",
+       "theexpectedror1membranouscytoplasmicstainingpatterndetectedi"
+      ]
+     },
+     "page": 7,
+     "bbox": [
+      0.3259,
+      0.0973,
+      0.7729,
+      0.8264
+     ],
+     "match_score": 0.972,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0313026.g003",
+     "label": "Figure 3",
+     "caption_fingerprint": "fcdatasummaryinclln48andhcln14casesashowedpercentageofpositi",
+     "panels_from_caption": [
+      "B",
+      "C"
+     ],
+     "mentions": {
+      "count": 5,
+      "paragraphs": [
+       "resultsshowingpercentageofcellsaccordingtobcelllineagemarker",
+       "theror1fcdatageneratedfromcllandhclsampleswasbasedonlyonamem"
+      ]
+     },
+     "page": 8,
+     "bbox": [
+      0.2929,
+      0.0982,
+      0.9412,
+      0.8055
+     ],
+     "match_score": 0.995,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0313026.g004",
+     "label": "Figure 4",
+     "caption_fingerprint": "comparisonofror1positivetumourcellaveragesinallanalyzedhaema",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 4,
+      "paragraphs": [
+       "ror1positivenegativetumourcellstatuswasthecommonparameterava",
+       "tocompareror1prevalenceacrosstheseinvestigatedleukaemiasandl"
+      ]
+     },
+     "page": 9,
+     "bbox": [
+      0.1965,
+      0.0991,
+      0.9412,
+      0.6236
+     ],
+     "match_score": 0.983,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC1968592",
+   "split": "test",
+   "stratum": "biomedicine/scanned",
+   "pdf_kind": "scanned",
+   "pages": 11,
+   "figures": [
+    {
+     "jats_id": null,
+     "label": "Figure 1",
+     "source": "ocr_text_draft",
+     "page": null,
+     "bbox": null,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": null,
+     "label": "Figure 2",
+     "source": "ocr_text_draft",
+     "page": null,
+     "bbox": null,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": null,
+     "label": "Figure 3",
+     "source": "ocr_text_draft",
+     "page": null,
+     "bbox": null,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": null,
+     "label": "Figure 4",
+     "source": "ocr_text_draft",
+     "page": null,
+     "bbox": null,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": null,
+     "label": "Figure 5",
+     "source": "ocr_text_draft",
+     "page": null,
+     "bbox": null,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": null,
+     "label": "Figure 6",
+     "source": "ocr_text_draft",
+     "page": null,
+     "bbox": null,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": null,
+     "label": "Figure 7",
+     "source": "ocr_text_draft",
+     "page": null,
+     "bbox": null,
+     "review_status": "needs_manual"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC1968582",
+   "split": "validation",
+   "stratum": "biomedicine/scanned",
+   "pdf_kind": "scanned",
+   "pages": 5,
+   "figures": [
+    {
+     "jats_id": "F1",
+     "label": "Figure 1",
+     "caption_fingerprint": "",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 0,
+      "paragraphs": []
+     },
+     "page": 2,
+     "bbox": [
+      0.1561,
+      0.0633,
+      0.8653,
+      0.3482
+     ],
+     "match_score": 0.984,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "F2",
+     "label": "Figure 2",
+     "caption_fingerprint": "",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 0,
+      "paragraphs": []
+     },
+     "page": 2,
+     "bbox": [
+      0.5221,
+      0.5834,
+      0.9201,
+      0.8931
+     ],
+     "match_score": 0.787,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "F3",
+     "label": "Figure 3",
+     "caption_fingerprint": "",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 0,
+      "paragraphs": []
+     },
+     "page": 3,
+     "bbox": [
+      0.3194,
+      0.0659,
+      0.6865,
+      0.3926
+     ],
+     "match_score": 0.982,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": null,
+     "label": "Figure 4",
+     "source": "ocr_text_draft",
+     "page": null,
+     "bbox": null,
+     "review_status": "needs_manual"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC1968824",
+   "split": "test",
+   "stratum": "biomedicine/scanned",
+   "pdf_kind": "scanned",
+   "pages": 7,
+   "figures": [
+    {
+     "jats_id": "F1",
+     "label": "Figure 1",
+     "caption_fingerprint": "",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 0,
+      "paragraphs": []
+     },
+     "page": 3,
+     "bbox": [
+      0.0971,
+      0.503,
+      0.4904,
+      0.6253
+     ],
+     "match_score": 0.972,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": null,
+     "label": "Figure 2",
+     "source": "ocr_text_draft",
+     "page": null,
+     "bbox": null,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": null,
+     "label": "Figure 3",
+     "source": "ocr_text_draft",
+     "page": null,
+     "bbox": null,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": null,
+     "label": "Figure 4",
+     "source": "ocr_text_draft",
+     "page": null,
+     "bbox": null,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": null,
+     "label": "Figure 5",
+     "source": "ocr_text_draft",
+     "page": null,
+     "bbox": null,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": null,
+     "label": "Figure 6",
+     "source": "ocr_text_draft",
+     "page": null,
+     "bbox": null,
+     "review_status": "needs_manual"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC2033889",
+   "split": "test",
+   "stratum": "biomedicine/scanned",
+   "pdf_kind": "scanned",
+   "pages": 6,
+   "figures": [
+    {
+     "jats_id": "F1",
+     "label": "Figure 3",
+     "caption_fingerprint": "",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 0,
+      "paragraphs": []
+     },
+     "page": 3,
+     "bbox": [
+      0.5187,
+      0.706,
+      0.8827,
+      0.8786
+     ],
+     "match_score": 0.943,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": null,
+     "label": "Figure 1",
+     "source": "ocr_text_draft",
+     "page": null,
+     "bbox": null,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": null,
+     "label": "Figure 2",
+     "source": "ocr_text_draft",
+     "page": null,
+     "bbox": null,
+     "review_status": "needs_manual"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC11544223",
+   "split": "test",
+   "stratum": "chemistry_materials/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 15,
+   "figures": [
+    {
+     "jats_id": "Fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "formulationscreeningandoptimizationofmrnampnnpsaschematicdep",
+     "panels_from_caption": [
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h"
+     ],
+     "mentions": {
+      "count": 16,
+      "paragraphs": [
+       "mpnsareknownfortheirhighmodularityallowingtheformationofnetw",
+       "epigallocatechingallateegcgasmallphenolicligandandzrivwerefi",
+       "pegwasemployedasaseedingagentformrnampnnpassemblytoincreaset",
+       "wenextinvestigatedtheeffectofthemetaliontophenolicligandegcg",
+       "todeterminethemrnaloadingcapacityofmrnampnnpsthemixtureofpeg"
+      ]
+     },
+     "page": 3,
+     "bbox": [
+      0.1064,
+      0.0637,
+      0.9033,
+      0.818
+     ],
+     "match_score": 0.586,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": "Fig2",
+     "label": "Figure 2",
+     "caption_fingerprint": "physicochemicalcharacterizationofleadmrnampnnpsasizedistribu",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 7,
+      "paragraphs": [
+       "thephysicochemicalpropertiesofmrnampnnpsarekeytotheirfunctio",
+       "toelucidatetheassemblyandstabilityofmrnawithinthempnnpsmrnal",
+       "tounderstandthedominantinteractiveforcesthatstabilizemrnawit"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.0967,
+      0.263,
+      0.9105,
+      0.6752
+     ],
+     "match_score": 0.847,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig3",
+     "label": "Figure 3",
+     "caption_fingerprint": "versatilityofinvitrotransfectionusingleadmrnampnnpsaiiiirepr",
+     "panels_from_caption": [
+      "d",
+      "e",
+      "f",
+      "g",
+      "h"
+     ],
+     "mentions": {
+      "count": 5,
+      "paragraphs": [
+       "theefficientdeliveryofbiomacromoleculartherapeuticsincluding",
+       "theversatilityofmrnadeliverybympnnpswasfurtherassessedacross",
+       "acomparativeanalysisbetweenadherentandsuspensioncelllineshig"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.1511,
+      0.0646,
+      0.8597,
+      0.8171
+     ],
+     "match_score": 0.888,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig4",
+     "label": "Figure 4",
+     "caption_fingerprint": "invivomrnatransfectioninc57bl6jmiceusingmrnampnnpsaschematic",
+     "panels_from_caption": [
+      "a",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g"
+     ],
+     "mentions": {
+      "count": 6,
+      "paragraphs": [
+       "priortoconductingtheinvivostudiesahemolysisassaywasperformed",
+       "forthebiodistributionstudiesrhodamine800rh800labeledmrnampnn",
+       "tofurthervalidatemrnaexpressionintheorgansusingmrnampnnpssec",
+       "nextweexaminedtheabilityofthemrnampnnpstomediategeneeditingb"
+      ]
+     },
+     "page": 8,
+     "bbox": [
+      0.133,
+      0.0664,
+      0.8767,
+      0.8189
+     ],
+     "match_score": 0.903,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig5",
+     "label": "Figure 5",
+     "caption_fingerprint": "invivobiocompatibilityandmetalexcretionfrommrnampnnpsareleas",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 5,
+      "paragraphs": [
+       "comprehensivetoxicityandbiocompatibilityevaluationspostivadm"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.5611,
+      0.4786,
+      0.7328,
+      0.5769
+     ],
+     "match_score": 0.619,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig6",
+     "label": "Figure 6",
+     "caption_fingerprint": "invivomrnaexpressioninc57bl6jmiceusingmrnampnnpswithvarioush",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 5,
+      "paragraphs": [
+       "theeffectsofmrnadosagetreatmenttimeandnpcompositiononinvivom",
+       "leveragingthehighdegreeofmodularityofmpnnpsweinvestigatedthe",
+       "themodularityandversatilityofthemrnampnnpswerefurtherdemonst",
+       "themrnaexpressioncouldalsobeadjustedbyusingdifferentpegsasse"
+      ]
+     },
+     "page": 10,
+     "bbox": [
+      0.0979,
+      0.0619,
+      0.9117,
+      0.4468
+     ],
+     "match_score": 0.682,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC9807572",
+   "split": "test",
+   "stratum": "chemistry_materials/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 8,
+   "figures": [
+    {
+     "jats_id": "Fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "growthofstrainly5201onlbagarplatesandphylogeneticanalysisoft",
+     "panels_from_caption": [
+      "a",
+      "b"
+     ],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "bamaisthehometownoflongevityintheworlddietwithadequatenutrit",
+       "asshowninfig1b16srrnagenesequenceandphylogeneticevolutionana"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.2612,
+      0.0644,
+      0.867,
+      0.7019
+     ],
+     "match_score": 0.996,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig2",
+     "label": "Figure 2",
+     "caption_fingerprint": "growthofpmotobuensisly5201indifferentconcentrationsofna2seo3",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "asshowninfig2todeterminetheselenitetoleranceofly5201bacteria"
+      ]
+     },
+     "page": 5,
+     "bbox": [
+      0.2612,
+      0.0653,
+      0.867,
+      0.5998
+     ],
+     "match_score": 0.993,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig3",
+     "label": "Figure 3",
+     "caption_fingerprint": "characterizationsofpmotobuensisly5201andsenpsatemmicrographs",
+     "panels_from_caption": [
+      "a",
+      "b"
+     ],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "thepurifiedsenpswerecharacterizedtemwasusedtodeterminetheloc",
+       "thexpsspectrashowedthatsignalsofconspandseweredetectedfig3bt"
+      ]
+     },
+     "page": 5,
+     "bbox": [
+      0.2612,
+      0.6569,
+      0.867,
+      0.8758
+     ],
+     "match_score": 0.969,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig4",
+     "label": "Figure 4",
+     "caption_fingerprint": "characterizationsofsenpsasizedistributionofsenpsbzetapotenti",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ],
+     "mentions": {
+      "count": 4,
+      "paragraphs": [
+       "thexpsspectrashowedthatsignalsofconspandseweredetectedfig3bt",
+       "theabsorptionspectraofsenpswasshowninfig4csenpsexhibitabroad"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.2612,
+      0.0653,
+      0.867,
+      0.3698
+     ],
+     "match_score": 0.917,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig5",
+     "label": "Figure 5",
+     "caption_fingerprint": "theeffectsofsenpsonhepg2athecytotoxicityofsenpsonhepg2wasdet",
+     "panels_from_caption": [
+      "a",
+      "b"
+     ],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "thecytotoxicityofsenpswasevaluatedinvitroagainstthehepg2cell",
+       "thescratchwoundassaywascarriedouttoevaluatetheeffectofsenpso"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.2612,
+      0.4489,
+      0.867,
+      0.6937
+     ],
+     "match_score": 0.98,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC10067821",
+   "split": "validation",
+   "stratum": "chemistry_materials/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 18,
+   "figures": [
+    {
+     "jats_id": "Fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "overviewofpredictedscoelicolora32lpmosaandprimarystructureof",
+     "panels_from_caption": [
+      "A",
+      "B"
+     ],
+     "mentions": {
+      "count": 5,
+      "paragraphs": [
+       "fungallpmosoccupyingfamiliesaa9111314and16haveactivitytoward",
+       "inthisstudywedescribethestructuralandfunctionalcharacterizat",
+       "cbpchereaftercalledsclpmo10duniprotidq9s296fig1consistsof356",
+       "inthisstudywehaveelucidatedtwosubcladesofpreviouslyuncharact"
+      ]
+     },
+     "page": 3,
+     "bbox": [
+      0.2152,
+      0.0626,
+      0.9383,
+      0.5547
+     ],
+     "match_score": 0.641,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig2",
+     "label": "Figure 2",
+     "caption_fingerprint": "phylogenetictreebuiltfrom150aa10sequenceshighlightedenzymesh",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 13,
+      "paragraphs": [
+       "fungallpmosoccupyingfamiliesaa9111314and16haveactivitytoward",
+       "overviewofpredictedscoelicolora32lpmosaandprimarystructureof",
+       "inthisstudywedescribethestructuralandfunctionalcharacterizat",
+       "phylogeneticanalysisof150aa10lpmosequencescatalyticdomainson",
+       "inthisstudywehaveproducedthecatalyticdomainofsclpmo10dprevio",
+       "figure4showssequencedetailsandstructuresofthecatalyticcenter",
+       "figures2and4showthatthereisconsiderablesequencedivergenceamo",
+       "inthisstudywehaveelucidatedtwosubcladesofpreviouslyuncharact",
+       "table3summarizeskeypropertiesofthethreelpmocatalyticdomainst",
+       "toconstructaphylogenetictree150aa10sequencescatalyticdomains"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.2189,
+      0.0672,
+      0.9274,
+      0.5327
+     ],
+     "match_score": 0.707,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig3",
+     "label": "Figure 3",
+     "caption_fingerprint": "threedimensionalstructureofsclpmo10dcdashowsacartoonrepresen",
+     "panels_from_caption": [
+      "A",
+      "B",
+      "C"
+     ],
+     "mentions": {
+      "count": 6,
+      "paragraphs": [
+       "thestructureofthecatalyticdomainofsclpmo10dresidues34214lack",
+       "theactivesiteofsclpmo10disformedbyhis34andhis134whichcoordin",
+       "thecloseststructurallycharacterizedhomologueofsclpmo10dcdist",
+       "figure4showssequencedetailsandstructuresofthecatalyticcenter",
+       "onefinalinterestingfeatureofthecrystalstructureofsclpmo10dcd"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.2612,
+      0.0653,
+      0.867,
+      0.3358
+     ],
+     "match_score": 0.966,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig4",
+     "label": "Figure 4",
+     "caption_fingerprint": "structuralcomparisonofactivesiteresiduesinsclpmo10dandlpmosf",
+     "panels_from_caption": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+     ],
+     "mentions": {
+      "count": 12,
+      "paragraphs": [
+       "figure4showssequencedetailsandstructuresofthecatalyticcenter",
+       "figures2and4showthatthereisconsiderablesequencedivergenceamo",
+       "sequenceandstructuralalignmentsfig4showthattheenzymesinsubcl",
+       "sclpmo10dcdourrepresentativefromsubcladea2oxidizesbothandchi"
+      ]
+     },
+     "page": 7,
+     "bbox": [
+      0.2612,
+      0.0644,
+      0.867,
+      0.5823
+     ],
+     "match_score": 0.966,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig5",
+     "label": "Figure 5",
+     "caption_fingerprint": "timecourseofchitindegradationreactionswith1mlpmosclpmo10dcdc",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 7,
+      "paragraphs": [
+       "figure5ashowstimecoursesforchitindegradationusingthethreeenz",
+       "itiswellknownthatundercertainconditionslpmossufferfromautoca",
+       "thedetrimentaleffectofremovingthecbmsonthestabilityofcjlpmo1",
+       "toassesswhetherstabilitydifferencesfig5acouldalsorelatetodif",
+       "tofurtherassessdifferencesbetweenthethreeenzymeswelookedatth"
+      ]
+     },
+     "page": 8,
+     "bbox": [
+      0.2612,
+      0.0653,
+      0.867,
+      0.2751
+     ],
+     "match_score": 0.969,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig6",
+     "label": "Figure 6",
+     "caption_fingerprint": "probingthecauseofinactivationofsclpmo10dcdandcjlpmo10acdinpa",
+     "panels_from_caption": [
+      "A",
+      "B"
+     ],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "itiswellknownthatundercertainconditionslpmossufferfromautoca"
+      ]
+     },
+     "page": 8,
+     "bbox": [
+      0.2612,
+      0.4646,
+      0.867,
+      0.6348
+     ],
+     "match_score": 0.965,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig7",
+     "label": "Figure 7",
+     "caption_fingerprint": "apparenth2o2productionconsumptionandredoxpotentialashowsappa",
+     "panels_from_caption": [
+      "A",
+      "B",
+      "C"
+     ],
+     "mentions": {
+      "count": 6,
+      "paragraphs": [
+       "tofurtherassessdifferencesbetweenthethreeenzymeswelookedatth",
+       "theperoxidaserateofthethreelpmoswasmeasuredusingtheassaydesc",
+       "inaccordancewiththehighapparentoxidaseactivityandlowperoxida",
+       "anotherfactordetermininglpmoperformancemaybetheabilityofthel"
+      ]
+     },
+     "page": 9,
+     "bbox": [
+      0.2189,
+      0.6007,
+      0.9274,
+      0.7516
+     ],
+     "match_score": 0.808,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC10024689",
+   "split": "test",
+   "stratum": "chemistry_materials/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 13,
+   "figures": [
+    {
+     "jats_id": "Fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "aaqueousextractofmentharoyleanabcalcinedceonpsat400c0for2hcs",
+     "panels_from_caption": [
+      "A",
+      "B",
+      "C"
+     ],
+     "mentions": {
+      "count": 3,
+      "paragraphs": [
+       "thementharoyleanawascollectedinupperdirlatitude35122099nlong"
+      ]
+     },
+     "page": 3,
+     "bbox": [
+      0.2624,
+      0.6946,
+      0.8803,
+      0.8924
+     ],
+     "match_score": 0.971,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig2",
+     "label": "Figure 2",
+     "caption_fingerprint": "asemimageofgreensynthesizedceonpswith46to56nmsizebuvvisibles",
+     "panels_from_caption": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+     ],
+     "mentions": {
+      "count": 7,
+      "paragraphs": [
+       "inordertoconfirmthesynthesisandthecatalyticactivityofceonpss"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.2104,
+      0.0616,
+      0.9335,
+      0.7645
+     ],
+     "match_score": 0.939,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig3",
+     "label": "Figure 3",
+     "caption_fingerprint": "theantioxidantmechanismsofgreensynthesizedceonpsonnumerousor",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "thedpphantioxidantassaywasusedtoassesstheantioxidantcapacity"
+      ]
+     },
+     "page": 7,
+     "bbox": [
+      0.2588,
+      0.0635,
+      0.8356,
+      0.3947
+     ],
+     "match_score": 0.775,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig4",
+     "label": "Figure 4",
+     "caption_fingerprint": "afigureexplainthedpphradicalsinhibitionpercentageofceonpswas",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+     ],
+     "mentions": {
+      "count": 5,
+      "paragraphs": [
+       "thedpphantioxidantassaywasusedtoassesstheantioxidantcapacity",
+       "theradicalscavengingcapacityofgreensynthesizedceonpsunderpin",
+       "hydrogenperoxidegenerateshydroxylradicalsthatcauselipidperox",
+       "theabilityofoxyhemoglobinandmethemoglobintoproducehydroxylra",
+       "theceonpscontaintransitionoxidationstatebetweence4andce342th"
+      ]
+     },
+     "page": 8,
+     "bbox": [
+      0.2189,
+      0.0662,
+      0.9274,
+      0.4094
+     ],
+     "match_score": 0.585,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": "Fig5",
+     "label": "Figure 5",
+     "caption_fingerprint": "aexplainsthestandardmetformineffectsonglucoseabsorptionthegr",
+     "panels_from_caption": [
+      "a",
+      "b"
+     ],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "insulinsroleistoabsorbglucosefromthebloodandstoreitasglycoge"
+      ]
+     },
+     "page": 9,
+     "bbox": [
+      0.26,
+      0.6946,
+      0.8368,
+      0.8684
+     ],
+     "match_score": 0.934,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig6",
+     "label": "Figure 6",
+     "caption_fingerprint": "imageashowtheinhibitionpercentageofsucraseenzymeandstandardg",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c"
+     ],
+     "mentions": {
+      "count": 3,
+      "paragraphs": [
+       "allanimalsincludinghumanshavealphaamylaseintheirsalivathisen",
+       "thealphaglucosidasesusethehydrolysisofdietarycellulosecarboh",
+       "everydayhundredsofenzymesperformnumerousrolesinthehumanbodye"
+      ]
+     },
+     "page": 10,
+     "bbox": [
+      0.2612,
+      0.0644,
+      0.838,
+      0.4508
+     ],
+     "match_score": 0.838,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig7",
+     "label": "Figure 7",
+     "caption_fingerprint": "schematicrepresentationofinhibitionpotentialofceonpsagainsta",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "thealphaglucosidasesusethehydrolysisofdietarycellulosecarboh"
+      ]
+     },
+     "page": 10,
+     "bbox": [
+      0.26,
+      0.6007,
+      0.653,
+      0.8684
+     ],
+     "match_score": 0.964,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC9424280",
+   "split": "test",
+   "stratum": "chemistry_materials/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 12,
+   "figures": [
+    {
+     "jats_id": "Fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "schematicofthechiralgoldnanoparticlesandcpldetectingtransist",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 6,
+      "paragraphs": [
+       "thedeviceschematicofthecpldetectorusingchiralgoldnanoparticl",
+       "thecpldetectingtransistorisfabricatedbyformingaschottkyconta",
+       "itisknownthathotelectrongenerationisacceleratedathotspotsinp",
+       "alargerspectralbroadeningresultingfromamoreincreasedelectron"
+      ]
+     },
+     "page": 2,
+     "bbox": [
+      0.0798,
+      0.0673,
+      0.4813,
+      0.2939
+     ],
+     "match_score": 0.932,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig2",
+     "label": "Figure 2",
+     "caption_fingerprint": "photocurrentandactivationenergyoftheigzochiralgoldnanopartic",
+     "panels_from_caption": [
+      "b",
+      "c",
+      "d"
+     ],
+     "mentions": {
+      "count": 12,
+      "paragraphs": [
+       "inthedeviceconfigurationtheoutputcurveundercplilluminationis",
+       "tounderstandthedifferentphotocurrentlevelswithregardtothecir",
+       "alargerspectralbroadeningresultingfromamoreincreasedelectron",
+       "theexcitedhotelectronshavinghigherenergythantheschottkybarri",
+       "thepreviouslymeasuredactivationenergyfig2canbeexplainedbyhot"
+      ]
+     },
+     "page": 3,
+     "bbox": [
+      0.1657,
+      0.0637,
+      0.8464,
+      0.3012
+     ],
+     "match_score": 0.706,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig3",
+     "label": "Figure 3",
+     "caption_fingerprint": "simulationanalysisofachiralgoldnanoparticleandtheigzochiralg",
+     "panels_from_caption": [
+      "b",
+      "d",
+      "f"
+     ],
+     "mentions": {
+      "count": 5,
+      "paragraphs": [
+       "thephotocurrenttrendcanbecorroboratedbysimulationdatatoanaly",
+       "toanalyzethedistinctchiropticalresponsesofthechiralgoldnanop"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.0798,
+      0.0628,
+      0.4813,
+      0.5641
+     ],
+     "match_score": 0.959,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig4",
+     "label": "Figure 4",
+     "caption_fingerprint": "polarizationdependentbroadbandtransientabsorptiontadynamicsi",
+     "panels_from_caption": [
+      "c"
+     ],
+     "mentions": {
+      "count": 7,
+      "paragraphs": [
+       "tounderstandthedifferentphotocurrentlevelswithregardtothecir",
+       "figure4ashowstimeresolvedtasurfacemapsofachiralgoldnanoparti",
+       "alargerspectralbroadeningresultingfromamoreincreasedelectron"
+      ]
+     },
+     "page": 5,
+     "bbox": [
+      0.2019,
+      0.0619,
+      0.8077,
+      0.3712
+     ],
+     "match_score": 0.933,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig5",
+     "label": "Figure 5",
+     "caption_fingerprint": "photocurrentofthecpldetectingtransistorwithatunnelingoxidean",
+     "panels_from_caption": [
+      "c",
+      "d",
+      "e"
+     ],
+     "mentions": {
+      "count": 7,
+      "paragraphs": [
+       "tounderstandthedifferentphotocurrentlevelswithregardtothecir",
+       "theexcitedhotelectronshavinghigherenergythantheschottkybarri",
+       "50nmthickigzosemiconductinglayerwasdepositedbyradiofrequency"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.2019,
+      0.0619,
+      0.8077,
+      0.4049
+     ],
+     "match_score": 0.902,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig6",
+     "label": "Figure 6",
+     "caption_fingerprint": "synapticcharacteristicsofcpldetectingtransistoradeltapostsyn",
+     "panels_from_caption": [
+      "b",
+      "d"
+     ],
+     "mentions": {
+      "count": 4,
+      "paragraphs": [
+       "theapplicationsofcpldetectorcanbediverseifthedevicecanperfor",
+       "therelaxationcharacteristicsafterthelightturnsoffisimportant"
+      ]
+     },
+     "page": 7,
+     "bbox": [
+      0.2031,
+      0.061,
+      0.8089,
+      0.4058
+     ],
+     "match_score": 0.758,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig7",
+     "label": "Figure 7",
+     "caption_fingerprint": "polarizationdependentimageclassificationaartificialneuralnet",
+     "panels_from_caption": [
+      "c"
+     ],
+     "mentions": {
+      "count": 7,
+      "paragraphs": [
+       "wefurtherinvestigatedthefunctionofcpldetectorasasensoryneuro",
+       "wealsoconfirmedthefeasibilityofthedevicesforneuromorphicappl"
+      ]
+     },
+     "page": 8,
+     "bbox": [
+      0.1572,
+      0.061,
+      0.8525,
+      0.6069
+     ],
+     "match_score": 0.83,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC11720905",
+   "split": "validation",
+   "stratum": "chemistry_materials/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 10,
+   "figures": [
+    {
+     "jats_id": "fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "cytokinesisblockmicronucleusassayonhelacellsafterexposuretop",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f"
+     ],
+     "mentions": {
+      "count": 5,
+      "paragraphs": [
+       "micronucleimnaresmallnucleuslikestructuresformedfromchromoso",
+       "helacellstreatedwith100nmfig1aand100mfig1bsoonafter6hofincub"
+      ]
+     },
+     "page": 3,
+     "bbox": [
+      0.2116,
+      0.3343,
+      0.7884,
+      0.8663
+     ],
+     "match_score": 0.985,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "fig2",
+     "label": "Figure 2",
+     "caption_fingerprint": "apoptosisanalysisbycytofluorimetricannexinvfitcpiassayhelace",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "tofurtherelucidatethepossiblemechanismbehindpsnpsinducedcell"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.1349,
+      0.1541,
+      0.8638,
+      0.8634
+     ],
+     "match_score": 0.579,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": "fig3",
+     "label": "Figure 3",
+     "caption_fingerprint": "schematicrepresentationofcelldeathanalysisgraphicrepresentat",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "tofurtherelucidatethepossiblemechanismbehindpsnpsinducedcell"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.2116,
+      0.2917,
+      0.7884,
+      0.8527
+     ],
+     "match_score": 0.997,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "fig4",
+     "label": "Figure 4",
+     "caption_fingerprint": "westernblottinganalysisadnafragmentationinlowmolecularweight",
+     "panels_from_caption": [
+      "a",
+      "b"
+     ],
+     "mentions": {
+      "count": 3,
+      "paragraphs": [
+       "tofurtherelucidatethepossiblemechanismbehindpsnpsinducedcell",
+       "thetablereportsthemeanofatleast3experimentsexpressedastheper",
+       "alltheseeffectscouldbeduetoseveraldirectandindirectmechanism"
+      ]
+     },
+     "page": 7,
+     "bbox": [
+      0.295,
+      0.5068,
+      0.7037,
+      0.8411
+     ],
+     "match_score": 0.868,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC10917806",
+   "split": "test",
+   "stratum": "physics_astronomy/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 14,
+   "figures": [
+    {
+     "jats_id": "Fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "workflowforcharacterizingevsinbreastcancerusingsingleevcapab",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f"
+     ],
+     "mentions": {
+      "count": 12,
+      "paragraphs": [
+       "thestudyaccrued40participantsintotal30malignantbreastcancerp",
+       "theworkflowfromsampleretrievaltoevimagingincludingevisolatio",
+       "isolatedevcountandsizewereevaluatedbyntananosightns300malver",
+       "theexpressionofevbiomarkerswasdetectedbywesternblottingwhich",
+       "intactbreasttissueandbiofluidderivedisolatedevsfromurineands"
+      ]
+     },
+     "page": 3,
+     "bbox": [
+      0.2104,
+      0.3634,
+      0.9335,
+      0.8068
+     ],
+     "match_score": 0.825,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig2",
+     "label": "Figure 2",
+     "caption_fingerprint": "exampleimagesofevsinsituintissueandisolatedevsaexampleslamim",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c"
+     ],
+     "mentions": {
+      "count": 8,
+      "paragraphs": [
+       "intactbreasttissueandbiofluidderivedisolatedevsfromurineands",
+       "thisstudypresentsthefirstcomparisonofopticalmetabolicsignatu"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.2201,
+      0.4683,
+      0.9287,
+      0.8666
+     ],
+     "match_score": 0.896,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig3",
+     "label": "Figure 3",
+     "caption_fingerprint": "opticalmetaboliccharacterizationofcontrolbenignandmalignante",
+     "panels_from_caption": [
+      "c",
+      "e",
+      "f"
+     ],
+     "mentions": {
+      "count": 18,
+      "paragraphs": [
+       "withinisolatedevssevenmetricswereexaminedforcontrolnormalben",
+       "urinaryevsfromparticipantswithmalignantcancerexhibitedsignif",
+       "variousstudieshaveprovidedstrongevidenceforevsandrelatedpart",
+       "inexvivotissuesamplesthreeevmetricswereexaminedfromslamimage",
+       "thispreliminarystudyhadsomelimitationsprimarilythestudypopul"
+      ]
+     },
+     "page": 7,
+     "bbox": [
+      0.2201,
+      0.2006,
+      0.9287,
+      0.8519
+     ],
+     "match_score": 0.85,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig4",
+     "label": "Figure 4",
+     "caption_fingerprint": "opticalmetaboliccharacterizationofevsbycancerstageforselecte",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c"
+     ],
+     "mentions": {
+      "count": 4,
+      "paragraphs": [
+       "withinisolatedevssevenmetricswereexaminedforcontrolnormalben",
+       "variousstudieshaveprovidedstrongevidenceforevsandrelatedpart",
+       "inexvivotissuesamplesthreeevmetricswereexaminedfromslamimage",
+       "thispreliminarystudyhadsomelimitationsprimarilythestudypopul"
+      ]
+     },
+     "page": 8,
+     "bbox": [
+      0.2128,
+      0.7102,
+      0.9359,
+      0.8813
+     ],
+     "match_score": 0.611,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig5",
+     "label": "Figure 5",
+     "caption_fingerprint": "opticalmetaboliccharacterizationofevsfromdifferentsourcesthe",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h"
+     ],
+     "mentions": {
+      "count": 7,
+      "paragraphs": [
+       "inordertoassesshowopticalmetabolicsignaturesdependonevsource"
+      ]
+     },
+     "page": 10,
+     "bbox": [
+      0.2116,
+      0.0616,
+      0.9347,
+      0.7249
+     ],
+     "match_score": 0.521,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": "Fig6",
+     "label": "Figure 6",
+     "caption_fingerprint": "linearcorrelationcoefficientexaminingopticalmetabolicvariabl",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f"
+     ],
+     "mentions": {
+      "count": 3,
+      "paragraphs": [
+       "despitethesedifferencesavarietyofvariablesshowedhighlinearco"
+      ]
+     },
+     "page": 11,
+     "bbox": [
+      0.2201,
+      0.0662,
+      0.9287,
+      0.4103
+     ],
+     "match_score": 0.885,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC11332950",
+   "split": "validation",
+   "stratum": "physics_astronomy/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 13,
+   "figures": [
+    {
+     "jats_id": "pone.0309121.g001",
+     "label": "Figure 1",
+     "caption_fingerprint": "molecularstructureofrhodamine6g",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "rhodamine6grh6gisahighlywatersolublederivativeofthexanthened"
+      ]
+     },
+     "page": 2,
+     "bbox": [
+      0.3282,
+      0.1,
+      0.7576,
+      0.3055
+     ],
+     "match_score": 0.774,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0309121.g002",
+     "label": "Figure 2",
+     "caption_fingerprint": "effectofpicricacidconcentrationaandamylacetatevolumebontheab",
+     "panels_from_caption": [
+      "A",
+      "B"
+     ],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "theuseoflargeanionsascounterionstoformionicassociationcomple",
+       "thechoiceofoptimalextractantvolumeislimitedbytheprobeholesiz"
+      ]
+     },
+     "page": 5,
+     "bbox": [
+      0.3259,
+      0.0991,
+      0.7553,
+      0.2364
+     ],
+     "match_score": 0.766,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0309121.g003",
+     "label": "Figure 3",
+     "caption_fingerprint": "viewoftheextractionsystemusedforrh6gmicroextractionafterthee",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "thechoiceofoptimalextractantvolumeislimitedbytheprobeholesiz"
+      ]
+     },
+     "page": 5,
+     "bbox": [
+      0.3271,
+      0.6027,
+      0.7565,
+      0.86
+     ],
+     "match_score": 0.951,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0309121.g004",
+     "label": "Figure 4",
+     "caption_fingerprint": "influenceofdonorphasephontheextractionofrh6gaandrhbbextracti",
+     "panels_from_caption": [
+      "a",
+      "b"
+     ],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "thepkavaluesforrh6gandrhbare613and322respectively524theycorr"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.3259,
+      0.5755,
+      0.7553,
+      0.8145
+     ],
+     "match_score": 0.96,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0309121.g005",
+     "label": "Figure 5",
+     "caption_fingerprint": "dependenceofextractantphaseabsorbanceonstirringspeedaandextr",
+     "panels_from_caption": [
+      "A",
+      "B"
+     ],
+     "mentions": {
+      "count": 3,
+      "paragraphs": [
+       "stirringofthesamplephaseisnecessarytoincreasemasstransferoft",
+       "theextractiontimehasagreatinfluenceontheextractionefficiency"
+      ]
+     },
+     "page": 7,
+     "bbox": [
+      0.3282,
+      0.0991,
+      0.7576,
+      0.2245
+     ],
+     "match_score": 0.655,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0309121.g006",
+     "label": "Figure 6",
+     "caption_fingerprint": "thegreennessscoreforproceduresusedforrh6gdeterminationcombin",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "theuseofopanddirectimmersionmicroextractioncontributestotheg"
+      ]
+     },
+     "page": 10,
+     "bbox": [
+      0.3247,
+      0.0964,
+      0.7541,
+      0.4727
+     ],
+     "match_score": 0.867,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC10079764",
+   "split": "test",
+   "stratum": "physics_astronomy/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 17,
+   "figures": [
+    {
+     "jats_id": "Fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "componentssetupandfunctionalityoftheovcamolecularovccomponen",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 12,
+      "paragraphs": [
+       "anovcshouldmeasurevoltagedependentfluorescenceofanexcitablec",
+       "communicationbetweencameraandmonochromatorisprovidedbyacusto",
+       "thetandemproteinbipolescombinesdeandhyperpolarizerschrimsona",
+       "tocalibratetheovcsystemanddeterminetheactuallyaccessiblevolt",
+       "aunc13n2813mutantandwildtypeanimalsweresubjectedtoovcdepolar"
+      ]
+     },
+     "page": 3,
+     "bbox": [
+      0.1173,
+      0.0628,
+      0.8924,
+      0.5987
+     ],
+     "match_score": 0.87,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig2",
+     "label": "Figure 2",
+     "caption_fingerprint": "bidirectionalopticalclampingandcalibrationofmembranevoltagea",
+     "panels_from_caption": [
+      "G"
+     ],
+     "mentions": {
+      "count": 12,
+      "paragraphs": [
+       "tocalibratetheovcsystemanddeterminetheactuallyaccessiblevolt",
+       "theovcallowedreliableopticalvoltageclampingwewonderedifwecou",
+       "aunc13n2813mutantandwildtypeanimalsweresubjectedtoovcdepolar",
+       "egl19gofmutantswereshowntomediatelargercurrentsandslowedinac",
+       "inadditionpseudoivcurvesoftwaresupplementarycode1isavailable"
+      ]
+     },
+     "page": 5,
+     "bbox": [
+      0.1137,
+      0.0601,
+      0.9105,
+      0.6406
+     ],
+     "match_score": 0.488,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": "Fig3",
+     "label": "Figure 3",
+     "caption_fingerprint": "assessingalteredcellphysiologyinmutantsaffectingsynaptictran",
+     "panels_from_caption": [
+      "D"
+     ],
+     "mentions": {
+      "count": 8,
+      "paragraphs": [
+       "weexploredtheutilityoftheovctoassessdivergentcellphysiologyu",
+       "egl19gofmutantswereshowntomediatelargercurrentsandslowedinac"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.1197,
+      0.0628,
+      0.8948,
+      0.8025
+     ],
+     "match_score": 0.539,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": "Fig4",
+     "label": "Figure 4",
+     "caption_fingerprint": "bidirectionalclampingofvoltagedependentfluorescenceincelegan",
+     "panels_from_caption": [
+      "D",
+      "F"
+     ],
+     "mentions": {
+      "count": 3,
+      "paragraphs": [
+       "wetestediftheovcworksalsoincelegansneuronscholinergicandgaba"
+      ]
+     },
+     "page": 8,
+     "bbox": [
+      0.0992,
+      0.0619,
+      0.9129,
+      0.6033
+     ],
+     "match_score": 0.896,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig5",
+     "label": "Figure 5",
+     "caption_fingerprint": "establishingtheovcinrathippocampalpyramidalneuronsafluoresce",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 7,
+      "paragraphs": [
+       "rodentneuronsarelargermorehyperpolarizedcellsanddisplayfaste"
+      ]
+     },
+     "page": 9,
+     "bbox": [
+      0.0979,
+      0.0619,
+      0.9117,
+      0.5359
+     ],
+     "match_score": 0.694,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig6",
+     "label": "Figure 6",
+     "caption_fingerprint": "allopticalclampingofapsinpharyngealmuscleathepharynxamuscula",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 7,
+      "paragraphs": [
+       "thusfarweimposedfixedvoltagestepstocellstoseeiftheovccandyna",
+       "thisfeedingorganexhibitsperiodicca4hzaps20closingofthegrinde"
+      ]
+     },
+     "page": 10,
+     "bbox": [
+      0.104,
+      0.0692,
+      0.9008,
+      0.7398
+     ],
+     "match_score": 0.892,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig7",
+     "label": "Figure 7",
+     "caption_fingerprint": "allopticalclampingofapsintheentericmotorneurondvbagabaergicm",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 5,
+      "paragraphs": [
+       "celegansexhibitsarhythmicmotorprogramtomoveandexpelgutconten"
+      ]
+     },
+     "page": 11,
+     "bbox": [
+      0.2769,
+      0.1247,
+      0.4414,
+      0.2175
+     ],
+     "match_score": 0.774,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC10924975",
+   "split": "test",
+   "stratum": "physics_astronomy/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 17,
+   "figures": [
+    {
+     "jats_id": "Fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "theschematicofthecircularaopsconfigurationthisthreedimension",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "asalludedtoearlierinthisarticlewehavedrawnuponpreviousachiev",
+       "aftercomprehendingthegeometricparametersoftheaopsdepictedinf"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.26,
+      0.6753,
+      0.653,
+      0.8942
+     ],
+     "match_score": 0.993,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig2",
+     "label": "Figure 2",
+     "caption_fingerprint": "thennarchitectureusedforspectrumpredictionintheaopstakesasin",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 3,
+      "paragraphs": [
+       "inthisportionweevaluatetheeffectivenessofourapproachinanalyz",
+       "subsequentlyweproceededwithtrainingthennusingthegenerateddat"
+      ]
+     },
+     "page": 8,
+     "bbox": [
+      0.2189,
+      0.5998,
+      0.9274,
+      0.8528
+     ],
+     "match_score": 0.725,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig3",
+     "label": "Figure 3",
+     "caption_fingerprint": "theresultsofthenninapproximatingthespectrumathetraininglossi",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c"
+     ],
+     "mentions": {
+      "count": 3,
+      "paragraphs": [
+       "uponcompletionofthetrainingprocesstheweightsofthennwerestore",
+       "theresultspresentedinfig3bandcvisuallyunveilthenetworkscapac"
+      ]
+     },
+     "page": 9,
+     "bbox": [
+      0.1185,
+      0.0644,
+      0.9323,
+      0.2116
+     ],
+     "match_score": 0.73,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig4",
+     "label": "Figure 4",
+     "caption_fingerprint": "theperformanceoftheswitchdeviceathetransmissionspectraofthec",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c"
+     ],
+     "mentions": {
+      "count": 5,
+      "paragraphs": [
+       "figure4ahighlightsoptimalgeometricparametersforacircularnprr",
+       "toprovideenhancedvisualizationoftheaopsmechanismelectromagne"
+      ]
+     },
+     "page": 10,
+     "bbox": [
+      0.2201,
+      0.0653,
+      0.9287,
+      0.3339
+     ],
+     "match_score": 0.882,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig5",
+     "label": "Figure 5",
+     "caption_fingerprint": "thetransmissionspectrumofthecircularnprrswitchstructuresfort",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "theselectedtransmissionspectrumdeterminedthroughtheproposedm"
+      ]
+     },
+     "page": 11,
+     "bbox": [
+      0.2588,
+      0.0635,
+      0.9081,
+      0.3459
+     ],
+     "match_score": 0.896,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig6",
+     "label": "Figure 6",
+     "caption_fingerprint": "thennarchitecturedevelopedfordeterminingthedesignparameterso",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "theinversemodelsnnisshowninfig6whichtakestheaopsstransmissio"
+      ]
+     },
+     "page": 12,
+     "bbox": [
+      0.1185,
+      0.0644,
+      0.9323,
+      0.3468
+     ],
+     "match_score": 0.861,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig7",
+     "label": "Figure 7",
+     "caption_fingerprint": "theresultsofinversedesignfortheaopsbydlmethodathetraininglos",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c"
+     ],
+     "mentions": {
+      "count": 6,
+      "paragraphs": [
+       "figure7aillustratesthelossgraphduringthetrainingprocessprovi",
+       "inadditionfig7bandcdisplaythetransmissionspectraofthedesired"
+      ]
+     },
+     "page": 12,
+     "bbox": [
+      0.1185,
+      0.6937,
+      0.9323,
+      0.8418
+     ],
+     "match_score": 0.599,
+     "review_status": "needs_manual"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC10918091",
+   "split": "validation",
+   "stratum": "physics_astronomy/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 8,
+   "figures": [
+    {
+     "jats_id": "Fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "conceptualizationofwavelengthdispersiveprincipalopticalaxesi",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+     ],
+     "mentions": {
+      "count": 4,
+      "paragraphs": [
+       "res2andrese2areidealmaterialsforasymmetrydrivenphenomenasinc",
+       "neverthelessaccordingtoonsagerstheorem48theirdielectrictenso"
+      ]
+     },
+     "page": 2,
+     "bbox": [
+      0.2346,
+      0.5096,
+      0.7739,
+      0.8735
+     ],
+     "match_score": 0.95,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig2",
+     "label": "Figure 2",
+     "caption_fingerprint": "observationofwanderingwavelengthdispersiveprincipalopticalax",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h"
+     ],
+     "mentions": {
+      "count": 18,
+      "paragraphs": [
+       "tovisualizethiseffectwepreparedres2andrese2samplesfig2abands",
+       "theobservedbehavioroftheprincipalopticalaxesofres2andrese2ca",
+       "wanderingofres2andrese2principalopticalaxesopensthedoortowav",
+       "tobetterunderstandthewanderingofprincipalopticalaxesweperfor",
+       "weusedpolarizedmicrotransmittancemeasurementtechniqueimpleme"
+      ]
+     },
+     "page": 3,
+     "bbox": [
+      0.0992,
+      0.3567,
+      0.9129,
+      0.7862
+     ],
+     "match_score": 0.789,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig3",
+     "label": "Figure 3",
+     "caption_fingerprint": "realspacenanoimagingofwanderingwavelengthdispersiveprincipal",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g"
+     ],
+     "mentions": {
+      "count": 5,
+      "paragraphs": [
+       "wanderingofres2andrese2principalopticalaxesopensthedoortowav"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.0979,
+      0.647,
+      0.9117,
+      0.848
+     ],
+     "match_score": 0.914,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig4",
+     "label": "Figure 4",
+     "caption_fingerprint": "firstprinciplecalculationsofbulkres2dielectrictensorahermiti",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h"
+     ],
+     "mentions": {
+      "count": 4,
+      "paragraphs": [
+       "tobetterunderstandthewanderingofprincipalopticalaxesweperfor"
+      ]
+     },
+     "page": 5,
+     "bbox": [
+      0.1064,
+      0.0619,
+      0.9033,
+      0.3594
+     ],
+     "match_score": 0.868,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC10276837",
+   "split": "test",
+   "stratum": "physics_astronomy/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 9,
+   "figures": [
+    {
+     "jats_id": "Fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "asketchoftheexperimentalsetuptwo638nmfabryprotlaserdiodesare",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c"
+     ],
+     "mentions": {
+      "count": 6,
+      "paragraphs": [
+       "anexperimentalsetupisbasedonfabryprotlaserdiodesoperatingat6",
+       "theexperimentisdividedintothreestagespreliminarymeasurements",
+       "inourexperimentsweusefourdifferentmgfdocumentclass12ptminima",
+       "inprevioussectionswedemonstratevisiblelasersourceswithultran"
+      ]
+     },
+     "page": 3,
+     "bbox": [
+      0.1197,
+      0.0644,
+      0.9335,
+      0.3744
+     ],
+     "match_score": 0.941,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig2",
+     "label": "Figure 2",
+     "caption_fingerprint": "a34selfinjectionlockedstatesforlaserinjectioncurrentvariatio",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c"
+     ],
+     "mentions": {
+      "count": 8,
+      "paragraphs": [
+       "fabryprotlaserdiodesarespatiallysinglemodeandhaveamultifrequ",
+       "aheterodynemethodisusedforthecharacterizationofthelinewidtho",
+       "accordingtodocumentclass12ptminimalusepackageamsmathusepacka"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.1197,
+      0.0644,
+      0.9335,
+      0.3303
+     ],
+     "match_score": 0.842,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig3",
+     "label": "Figure 3",
+     "caption_fingerprint": "apowerspectraldensityofthebeatnoteoftwosillasersbdspectraoft",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f"
+     ],
+     "mentions": {
+      "count": 6,
+      "paragraphs": [
+       "thebeatnoteapproximationgivesusthelorentzianlinewidthof12khz",
+       "inprevioussectionswedemonstratevisiblelasersourceswithultran",
+       "itcanbeseeninfig3thatsilprovideslinenarrowingofeachcomblinet"
+      ]
+     },
+     "page": 5,
+     "bbox": [
+      0.1197,
+      0.0644,
+      0.9335,
+      0.4149
+     ],
+     "match_score": 0.879,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC11368080",
+   "split": "test",
+   "stratum": "environment_geo/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 25,
+   "figures": [
+    {
+     "jats_id": "fig-1",
+     "label": "Figure 1",
+     "caption_fingerprint": "samplinglocationsofdatausedinthestudyalocationsofpondssample",
+     "panels_from_caption": [
+      "A",
+      "B"
+     ],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "weobtaineddataonrtemporariareproductivesuccessandphenologyas",
+       "theconcentrationsofammoniumandnitrateionsweremeasuredfromthe"
+      ]
+     },
+     "page": 5,
+     "bbox": [
+      0.0565,
+      0.1109,
+      0.9282,
+      0.59
+     ],
+     "match_score": 0.875,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "fig-2",
+     "label": "Figure 2",
+     "caption_fingerprint": "factorsassociatedwithdifferencesinspawningdateatrendsinspawn",
+     "panels_from_caption": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+     ],
+     "mentions": {
+      "count": 5,
+      "paragraphs": [
+       "acrosssevensitesonlyt01showedasignificantnegativerelationshi",
+       "univariatecorrelationswithcorrectionsformultipletestingrevea",
+       "sitet04upperteesdalenorthpenninesexhibitedanegativetrendover"
+      ]
+     },
+     "page": 10,
+     "bbox": [
+      0.3059,
+      0.1109,
+      0.9235,
+      0.8255
+     ],
+     "match_score": 0.753,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "fig-3",
+     "label": "Figure 3",
+     "caption_fingerprint": "factorsassociatedwithvariationinhatchdateatrendsinhatchdateo",
+     "panels_from_caption": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+     ],
+     "mentions": {
+      "count": 3,
+      "paragraphs": [
+       "sitet04upperteesdalenorthpenninesexhibitedanegativetrendover",
+       "univariatecorrelationswithcorrectionsformultipletestingrevea"
+      ]
+     },
+     "page": 13,
+     "bbox": [
+      0.3071,
+      0.1145,
+      0.9129,
+      0.8164
+     ],
+     "match_score": 0.532,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": "fig-4",
+     "label": "Figure 4",
+     "caption_fingerprint": "factorsassociatedwiththepercentageofdeadspawnatrendsinpercen",
+     "panels_from_caption": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+     ],
+     "mentions": {
+      "count": 3,
+      "paragraphs": [
+       "thoughseveralsitesshowedincreasesovertimeinthepercentageofde"
+      ]
+     },
+     "page": 15,
+     "bbox": [
+      0.3071,
+      0.1136,
+      0.9376,
+      0.6618
+     ],
+     "match_score": 0.63,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC9790012",
+   "split": "validation",
+   "stratum": "environment_geo/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 10,
+   "figures": [
+    {
+     "jats_id": "Fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "summaryofresultsacommonrequirementsforgoodperformancefromqls",
+     "panels_from_caption": [
+      "a",
+      "b"
+     ],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "weshowthatexistingtechniquestoreducetheconditionnumbereither"
+      ]
+     },
+     "page": 2,
+     "bbox": [
+      0.2624,
+      0.0644,
+      0.8803,
+      0.3266
+     ],
+     "match_score": 0.949,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig2",
+     "label": "Figure 2",
+     "caption_fingerprint": "fracturesystemsfeaturecriticalbehaviorsuchaspercolationwhich",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "inacomplexfracturenetworkfracturesofmanyscalesfromkilometers"
+      ]
+     },
+     "page": 3,
+     "bbox": [
+      0.1185,
+      0.0644,
+      0.9323,
+      0.2935
+     ],
+     "match_score": 0.744,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig3",
+     "label": "Figure 3",
+     "caption_fingerprint": "2dfracturenetworksunderconsiderationontheleftfracturetypes12",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "inthisworkwestudyavarietyof2dfracturenetworkmodelsthesimples"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.1185,
+      0.0635,
+      0.9323,
+      0.2429
+     ],
+     "match_score": 0.949,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig4",
+     "label": "Figure 4",
+     "caption_fingerprint": "efficacyofthepreconditionersunderanalysistheinverselaplacian",
+     "panels_from_caption": [
+      "A"
+     ],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "infig4wenumericallyevaluatetheeffectofthecirculantspaiandinv",
+       "asdescribedinsectiontestofexistingquantumpreconditionersthed"
+      ]
+     },
+     "page": 5,
+     "bbox": [
+      0.1197,
+      0.0635,
+      0.9335,
+      0.4664
+     ],
+     "match_score": 0.723,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig5",
+     "label": "Figure 5",
+     "caption_fingerprint": "scalingofthecomponentsofthefastinverseqlsalgorithmforproblem",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "asweshowinsectionmethodsthefastinverseqlsalgorithmwithdocume"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.2636,
+      0.0653,
+      0.6651,
+      0.2879
+     ],
+     "match_score": 0.571,
+     "review_status": "needs_manual"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC10519943",
+   "split": "validation",
+   "stratum": "environment_geo/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 12,
+   "figures": [
+    {
+     "jats_id": "Fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "adailyestimatesoftotalfireradiativepowerfromcamsgfasforweste",
+     "panels_from_caption": [
+      "a",
+      "b"
+     ],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "theaimofthisarticleistodemonstratethepotentialofsatelliterem"
+      ]
+     },
+     "page": 2,
+     "bbox": [
+      0.2177,
+      0.6339,
+      0.9262,
+      0.8675
+     ],
+     "match_score": 0.974,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig2",
+     "label": "Figure 2",
+     "caption_fingerprint": "illustrationofthesmokeplumeobservedonthe17thofseptember2020t",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "inthisstudyweusedailymapsofcototalcolumnsprovidedbytheiasiin"
+      ]
+     },
+     "page": 3,
+     "bbox": [
+      0.2201,
+      0.0662,
+      0.9287,
+      0.3974
+     ],
+     "match_score": 0.939,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig3",
+     "label": "Figure 3",
+     "caption_fingerprint": "dailyevolutionofcamsaodgeoringaodiasicoandcamscoforselectedd",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 5,
+      "paragraphs": [
+       "figure3illustratesthetemporalevolutionofsmokeplumesacrossthe",
+       "satelliteretrievalsarefirstcomparedtocamsanalysesintermsofco",
+       "coandaodarecomparedinfig4dforcamsandinfig4eforthesatellitepr"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.1173,
+      0.0653,
+      0.9311,
+      0.368
+     ],
+     "match_score": 0.89,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig4",
+     "label": "Figure 4",
+     "caption_fingerprint": "ageographicaldomainsusedinthestudydailycorrelationduringthep",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+     ],
+     "mentions": {
+      "count": 6,
+      "paragraphs": [
+       "wefurtherassesstheagreementamongthefourdatasetsbyinspectingt",
+       "satelliteretrievalsarefirstcomparedtocamsanalysesintermsofco",
+       "coandaodarecomparedinfig4dforcamsandinfig4eforthesatellitepr",
+       "allabovementioneddataweremadeavailablefromthe3rdtothe26thofs"
+      ]
+     },
+     "page": 5,
+     "bbox": [
+      0.2189,
+      0.0662,
+      0.9274,
+      0.552
+     ],
+     "match_score": 0.823,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig5",
+     "label": "Figure 5",
+     "caption_fingerprint": "verticalprofileofrangecorrectedlidarsignalat532nminarbitrary",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "thearrivalofsmokeplumesineuropewasobservedinseptemberbysever"
+      ]
+     },
+     "page": 5,
+     "bbox": [
+      0.1185,
+      0.6881,
+      0.9323,
+      0.9062
+     ],
+     "match_score": 0.973,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig6",
+     "label": "Figure 6",
+     "caption_fingerprint": "abacktrajectoriesinitializedfromsmokeplumesobservedoverville",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c"
+     ],
+     "mentions": {
+      "count": 7,
+      "paragraphs": [
+       "weanalyzeairparcelbacktrajectoriesgeneratedfromthehysplitmod",
+       "figure6bcshowtheverticalfeaturemasksestimatedfromtwocalioptr"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.2588,
+      0.287,
+      0.8356,
+      0.8326
+     ],
+     "match_score": 0.896,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig7",
+     "label": "Figure 7",
+     "caption_fingerprint": "temporalevolutionofaaodbcoandctheratioofthelogarithmsofbothq",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f"
+     ],
+     "mentions": {
+      "count": 16,
+      "paragraphs": [
+       "figure7abshowthemeantemporalevolutionofaodandcofromthesatell",
+       "figure7cshowstheratioofthelogarithmsofaodandcoalongthebacktr",
+       "wefinallyanalyze200forwardtrajectoriesthatwerecomputedforair",
+       "figure7acarebasedonbacktrajectoriesinitializedfromaerosolplu"
+      ]
+     },
+     "page": 7,
+     "bbox": [
+      0.1185,
+      0.0635,
+      0.9323,
+      0.2668
+     ],
+     "match_score": 0.703,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC9794059",
+   "split": "test",
+   "stratum": "environment_geo/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 17,
+   "figures": [
+    {
+     "jats_id": "pone.0279704.g001",
+     "label": "Figure 1",
+     "caption_fingerprint": "overviewofthestudyareaandsamplesiteselectionthemapsaredownlo",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "daliyabuyioasisislocated38163837n81408220einthehinterlandoft"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.1141,
+      0.0982,
+      0.9435,
+      0.4227
+     ],
+     "match_score": 0.876,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0279704.g002",
+     "label": "Figure 2",
+     "caption_fingerprint": "kmeanclusteringresultsofsurfacewaterandgroundwaterremotesens",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "tofullyconsidertheerrorofhandheldgpsinthesampleplotpositioni"
+      ]
+     },
+     "page": 5,
+     "bbox": [
+      0.1153,
+      0.0973,
+      0.9447,
+      0.4373
+     ],
+     "match_score": 0.832,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0279704.g003",
+     "label": "Figure 3",
+     "caption_fingerprint": "resultsoflinearfittingofdistancedecaycharacteristicsofcommun",
+     "panels_from_caption": [
+      "b",
+      "c"
+     ],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "accordingtothelinearrelationshipbetweenthecommunitysimilarit"
+      ]
+     },
+     "page": 8,
+     "bbox": [
+      0.1153,
+      0.0982,
+      0.9447,
+      0.4673
+     ],
+     "match_score": 0.63,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0279704.g004",
+     "label": "Figure 4",
+     "caption_fingerprint": "resultsofrdaanalysiswithindifferentsurfacewaterandgroundwate",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "withinthegradientoflowsurfacewaterdisturbanceanddeepgroundwa"
+      ]
+     },
+     "page": 9,
+     "bbox": [
+      0.3271,
+      0.0991,
+      0.9153,
+      0.5573
+     ],
+     "match_score": 0.891,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0279704.g005",
+     "label": "Figure 5",
+     "caption_fingerprint": "resultsofrdaanalysisamongdifferentsurfacewaterandgroundwater",
+     "panels_from_caption": [
+      "b",
+      "c"
+     ],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "surfacewaterdisturbanceandgroundwaterdepthweredifferentbetwe"
+      ]
+     },
+     "page": 10,
+     "bbox": [
+      0.1153,
+      0.0964,
+      0.9447,
+      0.7373
+     ],
+     "match_score": 0.795,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0279704.g006",
+     "label": "Figure 6",
+     "caption_fingerprint": "variancepartitioningofbetadiversityanditscomponentsinthepres",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "theindividualexplanationsforenvironmentalvariablesmentioneda"
+      ]
+     },
+     "page": 11,
+     "bbox": [
+      0.1153,
+      0.0982,
+      0.9447,
+      0.3109
+     ],
+     "match_score": 0.8,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0279704.g007",
+     "label": "Figure 7",
+     "caption_fingerprint": "conceptualdiagramofthedependenceofbetadiversityamonggradient",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "comparedwithspeciesbetadiversitywithingradientsthispartofthe"
+      ]
+     },
+     "page": 12,
+     "bbox": [
+      0.1165,
+      0.5373,
+      0.9459,
+      0.8518
+     ],
+     "match_score": 0.854,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC9700714",
+   "split": "test",
+   "stratum": "environment_geo/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 16,
+   "figures": [
+    {
+     "jats_id": "Fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "alocalizationofthestudysiteinthecontextofcentraleuropebrelie",
+     "panels_from_caption": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "mentions": {
+      "count": 4,
+      "paragraphs": [
+       "theuniquesitesareconcentratedalongpredictedtraderoutesoneoft",
+       "thestudiedsiteofbezniceislocatedinthemicroregionofbechynsout",
+       "interdisciplinarystudyfig2wasprecededbythearchaeologicalrese",
+       "bezniceisasettlementwiththepresenceofanunusualtypeoflongnarr"
+      ]
+     },
+     "page": 2,
+     "bbox": [
+      0.1197,
+      0.0635,
+      0.9335,
+      0.5382
+     ],
+     "match_score": 0.887,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig2",
+     "label": "Figure 2",
+     "caption_fingerprint": "workflowdiagramoftheinterdisciplinaryresearch",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "interdisciplinarystudyfig2wasprecededbythearchaeologicalrese",
+       "drawinguponthetypologicalandradiocarbondatingitisoftenimposs"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.2189,
+      0.0672,
+      0.9274,
+      0.6946
+     ],
+     "match_score": 0.48,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": "Fig3",
+     "label": "Figure 3",
+     "caption_fingerprint": "probabilitydistributionsforthestartendandoverallspanofbeznic",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "interdisciplinarystudyfig2wasprecededbythearchaeologicalrese",
+       "remainsofwildplantswereusedforthereconstructionofthesurround"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.26,
+      0.7525,
+      0.653,
+      0.8749
+     ],
+     "match_score": 0.812,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig4",
+     "label": "Figure 4",
+     "caption_fingerprint": "bezniceandhvoanyreconstructionoftheenvironmentoftheoriginofm",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 7,
+      "paragraphs": [
+       "intotal105significanttaxawererecordedindetailsupplementaryta",
+       "arelativelylargegroupofrecordedplants25originatedfromdiffere",
+       "inhvoanyreferencesitewehaverecordeddifferentvegetationandlan",
+       "grazingtookplaceintheenclosuresandintheforestswhichweremadem",
+       "themostdominanttreespeciesdiscoveredinthetrenchlikefeaturesw",
+       "accordingtotheenvironmentalmodelagreaterproportionofspeciesi"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.2612,
+      0.0644,
+      0.6904,
+      0.2613
+     ],
+     "match_score": 0.987,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig5",
+     "label": "Figure 5",
+     "caption_fingerprint": "bezniceandhvoanydistributionofcharcoalsinsamples",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 5,
+      "paragraphs": [
+       "theanthracologicalanalysisrevealed11charcoaltaxaabiesalnusbe",
+       "wefoundseveraldifferencesinanthracologicalrecordsbetweenthes",
+       "themostdominanttreespeciesdiscoveredinthetrenchlikefeaturesw",
+       "accordingtotheenvironmentalmodelagreaterproportionofspeciesi"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.26,
+      0.3201,
+      0.89,
+      0.4876
+     ],
+     "match_score": 0.889,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig6",
+     "label": "Figure 6",
+     "caption_fingerprint": "bezniceandhvoanyamodelofsuitabilityforfieldsusedinthepredict",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 5,
+      "paragraphs": [
+       "theextentofpotentialfieldswasmodelledusingspatialanalysisand",
+       "theresultsofthepredictionwereshownonascalefrom1to100theupper",
+       "creeksalongthesettlementweremajorlandscapeelementsthesettlem",
+       "thereisapossibilitytoassumeaccordingtothescathelocationoffie",
+       "thearchaeologicalfielddatadoesnotallowustoreconstructhowmany"
+      ]
+     },
+     "page": 7,
+     "bbox": [
+      0.2624,
+      0.0662,
+      0.6518,
+      0.4397
+     ],
+     "match_score": 0.969,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig7",
+     "label": "Figure 7",
+     "caption_fingerprint": "bezniceandhvoanythemapofthesecondmilitarymappingsitecatcheme",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 3,
+      "paragraphs": [
+       "theextentofpotentialfieldswasmodelledusingspatialanalysisand",
+       "creeksalongthesettlementweremajorlandscapeelementsthesettlem",
+       "theforestwasalsoasourceofbuildingmaterialandfirewood3fromthi"
+      ]
+     },
+     "page": 8,
+     "bbox": [
+      0.2624,
+      0.0653,
+      0.6518,
+      0.402
+     ],
+     "match_score": 0.811,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig8",
+     "label": "Figure 8",
+     "caption_fingerprint": "beznicedetrendedcorrespondenceanalysisdcadisplayedsamplesand",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 7,
+      "paragraphs": [
+       "remainsofwildplantswereusedforthereconstructionofthesurround",
+       "grazingtookplaceintheenclosuresandintheforestswhichweremadem",
+       "thearchaeobotanicalanalysiscapturedmultiplegrasslandtypesbot",
+       "speciesofherbsfromdifferentforestandshrubenvironmentswereals",
+       "themostdominanttreespeciesdiscoveredinthetrenchlikefeaturesw",
+       "accordingtotheenvironmentalmodelagreaterproportionofspeciesi"
+      ]
+     },
+     "page": 9,
+     "bbox": [
+      0.2624,
+      0.0653,
+      0.6518,
+      0.4048
+     ],
+     "match_score": 0.777,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig9",
+     "label": "Figure 9",
+     "caption_fingerprint": "hvoanydetrendedcorrespondenceanalysisdcadisplayedsamplesandb",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 5,
+      "paragraphs": [
+       "remainsofwildplantswereusedforthereconstructionofthesurround",
+       "themostdominanttreespeciesdiscoveredinthetrenchlikefeaturesw",
+       "accordingtotheenvironmentalmodelagreaterproportionofspeciesi"
+      ]
+     },
+     "page": 11,
+     "bbox": [
+      0.2624,
+      0.0653,
+      0.6518,
+      0.3937
+     ],
+     "match_score": 0.7,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC10770173",
+   "split": "test",
+   "stratum": "environment_geo/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 10,
+   "figures": [
+    {
+     "jats_id": "Fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "timelineofdiseasestatesandenvironmentalriskfactorsdocumentcl",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "weassumedthatcovid19transmissiondynamicsappearedindifferentd",
+       "toestimatetheicfrwefirstretrospectivelyadjustedthedailynumbe"
+      ]
+     },
+     "page": 3,
+     "bbox": [
+      0.2177,
+      0.5667,
+      0.9262,
+      0.8537
+     ],
+     "match_score": 0.656,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig2",
+     "label": "Figure 2",
+     "caption_fingerprint": "riskofcovid19fatalityunderdifferentenvironmentalconditionsan",
+     "panels_from_caption": [
+      "A",
+      "B",
+      "C"
+     ],
+     "mentions": {
+      "count": 7,
+      "paragraphs": [
+       "usingthebestmodelobtainedintheprecedingsectionweassessedthed",
+       "furthermorewefoundthattherelationshipbetweensunlightduration",
+       "documentclass12ptminimalusepackageamsmathusepackagewasysymus",
+       "thecumulativeeffectsoftemperaturesanddocumentclass12ptminima",
+       "overallthecumulativeeffectsmeasuredbylogoroflowtemperatures6"
+      ]
+     },
+     "page": 5,
+     "bbox": [
+      0.1185,
+      0.2401,
+      0.9323,
+      0.6918
+     ],
+     "match_score": 0.847,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig3",
+     "label": "Figure 3",
+     "caption_fingerprint": "sensitivityanalysisofthebestmodelmodel6thepanelsshowthemodel",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "finallywevalidatedthebestmodelmodel6bypredictingfutureicfrse"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.1197,
+      0.6477,
+      0.9335,
+      0.8546
+     ],
+     "match_score": 0.84,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC11211412",
+   "split": "validation",
+   "stratum": "computer_science_engineering/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 11,
+   "figures": [
+    {
+     "jats_id": "Fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "designandsimulationresultsofthedevelopedsensoraanimageofthep",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ],
+     "mentions": {
+      "count": 8,
+      "paragraphs": [
+       "aphotographofthepackagedsensorisshowninfig1athecalorimetrics",
+       "thewatermassfluxisestimatedbycharacterizingthetemperaturepro",
+       "thesimulationresultsdisplayedinfig1cillustratetheinfluenceof"
+      ]
+     },
+     "page": 3,
+     "bbox": [
+      0.2624,
+      0.0653,
+      0.8803,
+      0.552
+     ],
+     "match_score": 0.96,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig2",
+     "label": "Figure 2",
+     "caption_fingerprint": "fabricationprocessofthesensingchipamicroscopicimageofthefabr",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h"
+     ],
+     "mentions": {
+      "count": 9,
+      "paragraphs": [
+       "microscopicimagesofthemicromachinedsiliconchiparedisplayedin",
+       "finallychipfabricationwascompletedbydeepreactiveionetchingsl"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.2624,
+      0.5823,
+      0.8803,
+      0.8556
+     ],
+     "match_score": 0.956,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig3",
+     "label": "Figure 3",
+     "caption_fingerprint": "experimentalsetupforthetubetestandtheresultsaschematicrepres",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ],
+     "mentions": {
+      "count": 4,
+      "paragraphs": [
+       "thefeasibilityofthenewcalorimetricflowsensordesignwasconfirm",
+       "figure3bdisplaystherelationshipbetweentheaveragedifferential"
+      ]
+     },
+     "page": 5,
+     "bbox": [
+      0.214,
+      0.5547,
+      0.9371,
+      0.8832
+     ],
+     "match_score": 0.548,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": "Fig4",
+     "label": "Figure 4",
+     "caption_fingerprint": "stemcalibrationresultsandcrosssectionalimageofatomatostemath",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c"
+     ],
+     "mentions": {
+      "count": 3,
+      "paragraphs": [
+       "regulatedupto025lmm2s1afluxthatistriplethemaximumsfdobserved",
+       "figure4bdisplaysthecalibrationresultsthatwereobtainedusingth"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.2624,
+      0.6964,
+      0.8803,
+      0.8684
+     ],
+     "match_score": 0.913,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig5",
+     "label": "Figure 5",
+     "caption_fingerprint": "fieldtestresultinthegreenhouseoveraonemonthperiodinrelationt",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "figure5displaysthecorrelationofthesfdfromoneofthefoursensors"
+      ]
+     },
+     "page": 7,
+     "bbox": [
+      0.2624,
+      0.2668,
+      0.8803,
+      0.5768
+     ],
+     "match_score": 0.778,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig6",
+     "label": "Figure 6",
+     "caption_fingerprint": "relationshipofsfdwithasolarradiationandbvaporpressuredeficit",
+     "panels_from_caption": [
+      "a",
+      "b"
+     ],
+     "mentions": {
+      "count": 3,
+      "paragraphs": [
+       "figure5displaysthecorrelationofthesfdfromoneofthefoursensors"
+      ]
+     },
+     "page": 7,
+     "bbox": [
+      0.26,
+      0.6707,
+      0.8368,
+      0.908
+     ],
+     "match_score": 0.701,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig7",
+     "label": "Figure 7",
+     "caption_fingerprint": "enlargedfieldtestresultsoffoursensorsforeachatree1btree2andc",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "e",
+      "f"
+     ],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "figure7displaystheenlargedtwodaymeasurementresultsofthefours"
+      ]
+     },
+     "page": 8,
+     "bbox": [
+      0.2624,
+      0.0653,
+      0.8803,
+      0.5511
+     ],
+     "match_score": 0.785,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC10628111",
+   "split": "test",
+   "stratum": "computer_science_engineering/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 13,
+   "figures": [
+    {
+     "jats_id": "Fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "overviewofthestudyworkflowadlbasedageestimationmodelsweredev",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 5,
+      "paragraphs": [
+       "inthisstudytogeneratelensagewefirstdevelopeddlbasedageestima",
+       "wesubsequentlyexpandedouranalysestoencompassageneralpopulati",
+       "fordiffuselightandslitlampphotographsparticipantsaged20to96y",
+       "wetrainedthedlageestimationmodelsbasedoncnnsusinglensphotogr",
+       "lensageattheindividuallevelfordiffuselightorslitlampmodewasc"
+      ]
+     },
+     "page": 3,
+     "bbox": [
+      0.2019,
+      0.0619,
+      0.8077,
+      0.7188
+     ],
+     "match_score": 0.935,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig2",
+     "label": "Figure 2",
+     "caption_fingerprint": "analysesoflensageandthelensageindexbasedoninceptionv3modelsa",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "h"
+     ],
+     "mentions": {
+      "count": 12,
+      "paragraphs": [
+       "amongthefourtrainedcnnstheinceptionv3modelsdisplayedbestover",
+       "weenhancedtheinterpretabilityofourdlageestimationmodelsbyvis",
+       "wesubsequentlyexpandedouranalysestoencompassageneralpopulati",
+       "thedistributionsofthelensageindexintheanalysisdatasetareshow",
+       "weevaluatedthelensageindexbystratifyingtheagegroupsinto20404"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.0967,
+      0.0601,
+      0.9105,
+      0.5778
+     ],
+     "match_score": 0.828,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig3",
+     "label": "Figure 3",
+     "caption_fingerprint": "theabilityofthelensageindextoevaluateagerelateddiseaserisksa",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 10,
+      "paragraphs": [
+       "amongindividualsofallagegroupsthosewithapositivelensageindex",
+       "wefurthercomparedtheabilityofthelensageindextopredicttheoccu"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.0979,
+      0.0601,
+      0.9117,
+      0.6479
+     ],
+     "match_score": 0.452,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": "Fig4",
+     "label": "Figure 4",
+     "caption_fingerprint": "survivalcurvesforallcausemortalityriskbylensageindexquartile",
+     "panels_from_caption": [
+      "a",
+      "b"
+     ],
+     "mentions": {
+      "count": 3,
+      "paragraphs": [
+       "tocomprehensivelyassessthelensageindexsabilitytoindicatebiol"
+      ]
+     },
+     "page": 7,
+     "bbox": [
+      0.2334,
+      0.0637,
+      0.7727,
+      0.5696
+     ],
+     "match_score": 0.505,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": "Fig5",
+     "label": "Figure 5",
+     "caption_fingerprint": "assessmentoflensagingusingsmartphonephotographsatheapplicati",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 4,
+      "paragraphs": [
+       "wefurtherimplementedlensagetoevaluatebiologicalagingusingsma",
+       "lensagegeneratedbythedlmodelbasedonsmartphonephotographshada"
+      ]
+     },
+     "page": 8,
+     "bbox": [
+      0.1004,
+      0.0591,
+      0.9141,
+      0.4813
+     ],
+     "match_score": 0.677,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC11020849",
+   "split": "test",
+   "stratum": "computer_science_engineering/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 17,
+   "figures": [
+    {
+     "jats_id": "pone.0300260.g001",
+     "label": "Figure 1",
+     "caption_fingerprint": "highvoltagecablecrosssectionimagesaandbaretwodifferenttypeso",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c"
+     ],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "presentlyacosteffectiveapproachinvolvesutilizingmachinevisio"
+      ]
+     },
+     "page": 2,
+     "bbox": [
+      0.3247,
+      0.6791,
+      0.9306,
+      0.8436
+     ],
+     "match_score": 0.971,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0300260.g002",
+     "label": "Figure 2",
+     "caption_fingerprint": "analysisofthecrosssectionalimageahighvoltagecablecrosssectio",
+     "panels_from_caption": [
+      "a",
+      "b"
+     ],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "therearemanytraditionaldenoisingmethods2229afteranalyzingthe"
+      ]
+     },
+     "page": 3,
+     "bbox": [
+      0.3282,
+      0.6664,
+      0.7576,
+      0.8427
+     ],
+     "match_score": 0.908,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0300260.g003",
+     "label": "Figure 3",
+     "caption_fingerprint": "multimodalfusionflowchart",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "thentheimagesofdifferentmodalitiesarefusedtogetanewimageiint"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.1471,
+      0.0982,
+      0.9447,
+      0.1782
+     ],
+     "match_score": 0.702,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0300260.g004",
+     "label": "Figure 4",
+     "caption_fingerprint": "someoftheimagesofthisdataset",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "inthisstudyanimageacquisitionplatformforcapturinghighvoltage"
+      ]
+     },
+     "page": 9,
+     "bbox": [
+      0.3282,
+      0.1018,
+      0.9165,
+      0.8109
+     ],
+     "match_score": 0.771,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0300260.g005",
+     "label": "Figure 5",
+     "caption_fingerprint": "imagesoftheeffectofeliminatingscratchtypedefectsinthecrossse",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 3,
+      "paragraphs": [
+       "someoftheexperimentalvisualisationsaredisplayedinfig5andtabl",
+       "uponathoroughexaminationoftheexperimentaloutcomespresentedin"
+      ]
+     },
+     "page": 10,
+     "bbox": [
+      0.2188,
+      0.0982,
+      0.9424,
+      0.5055
+     ],
+     "match_score": 0.981,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0300260.g006",
+     "label": "Figure 6",
+     "caption_fingerprint": "conductornumberdetectioneffectimagesfig6ashowsthedetectionef",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "someoftheexperimentalvisualisationsaredisplayedinfig6whileta",
+       "byobservingfig6itbecomesevidentthatthedirectdetectionyieldss"
+      ]
+     },
+     "page": 11,
+     "bbox": [
+      0.2188,
+      0.4409,
+      0.9424,
+      0.8482
+     ],
+     "match_score": 0.966,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0300260.g007",
+     "label": "Figure 7",
+     "caption_fingerprint": "imagesoftheeffectofeliminatingscratchtypedefectsinthecrossse",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "asillustratedinthevisualcomparisonresultsoftheablationexperi"
+      ]
+     },
+     "page": 10,
+     "bbox": [
+      0.2188,
+      0.0982,
+      0.9424,
+      0.5055
+     ],
+     "match_score": 0.98,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC10731088",
+   "split": "test",
+   "stratum": "computer_science_engineering/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 11,
+   "figures": [
+    {
+     "jats_id": "fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "bk7crauznoksprsensorforuricaciddetection",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "forthemateriallayerthegeometricalpositionofbk7crauandznodepe"
+      ]
+     },
+     "page": 3,
+     "bbox": [
+      0.2116,
+      0.6211,
+      0.7884,
+      0.9041
+     ],
+     "match_score": 0.998,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "fig2",
+     "label": "Figure 2",
+     "caption_fingerprint": "ksprreflectancecurvesobtainedforthebk7cr05nmau50nmznoairsyst",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c"
+     ],
+     "mentions": {
+      "count": 3,
+      "paragraphs": [
+       "numerousstudieshavebeenconductedtoobservetheoptimumthickness",
+       "nextthesimulationiscontinuedwithachangeofwavelengthat670nmth"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.1349,
+      0.4477,
+      0.8638,
+      0.8895
+     ],
+     "match_score": 0.811,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "fig3",
+     "label": "Figure 3",
+     "caption_fingerprint": "ksprreflectancecurvesobtainedforthebk7cr05nmau50nmzno5nmuric",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 3,
+      "paragraphs": [
+       "thefdtdsimulationiscontinuedusingtheoptimumthicknessobserved",
+       "thenfortheminimumreflectivityrminatwhichsurfaceplasmonexcita"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.2116,
+      0.0717,
+      0.7884,
+      0.4302
+     ],
+     "match_score": 0.997,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "fig4",
+     "label": "Figure 4",
+     "caption_fingerprint": "resonanceangleshiftversusconcentrationsofuricacidat670nmwave",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "thenfortheminimumreflectivityrminatwhichsurfaceplasmonexcita"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.2116,
+      0.6725,
+      0.7884,
+      0.9041
+     ],
+     "match_score": 0.921,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "fig5",
+     "label": "Figure 5",
+     "caption_fingerprint": "ksprreflectancecurvesforthebk7cr05nmau50nmzno5nmuricacidatdi",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "thesensitivityofauznoat670nmiscalculatedusingtheformulaineq2"
+      ]
+     },
+     "page": 7,
+     "bbox": [
+      0.2116,
+      0.5339,
+      0.7884,
+      0.9041
+     ],
+     "match_score": 0.997,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "fig6",
+     "label": "Figure 6",
+     "caption_fingerprint": "resonanceangleshiftversusconcentrationsofuricacidat785nmwave",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "thesensitivityofauznoat670nmiscalculatedusingtheformulaineq2"
+      ]
+     },
+     "page": 8,
+     "bbox": [
+      0.2116,
+      0.0727,
+      0.7884,
+      0.311
+     ],
+     "match_score": 0.916,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "fig7",
+     "label": "Figure 7",
+     "caption_fingerprint": "comparisonbetweentheksprreflectancecurvesofauandhybridauznof",
+     "panels_from_caption": [
+      "a",
+      "b"
+     ],
+     "mentions": {
+      "count": 3,
+      "paragraphs": [
+       "forthelastpartofthesimulationthesensingperformanceofauznoisc",
+       "nextfor785nmshowninfig7btherminvaluerecordedforbareauis00086"
+      ]
+     },
+     "page": 8,
+     "bbox": [
+      0.1362,
+      0.5029,
+      0.8651,
+      0.7112
+     ],
+     "match_score": 0.775,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC11315888",
+   "split": "validation",
+   "stratum": "computer_science_engineering/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 13,
+   "figures": [
+    {
+     "jats_id": "Fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "heterogeneousinformationnetwork",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "asimpleheterogeneousinformationnetworkisshowninfig1itcontain"
+      ]
+     },
+     "page": 2,
+     "bbox": [
+      0.2612,
+      0.6495,
+      0.6433,
+      0.9062
+     ],
+     "match_score": 0.992,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig2",
+     "label": "Figure 2",
+     "caption_fingerprint": "twodifferenthigherorderconnectivityofdocumentclass12ptminima",
+     "panels_from_caption": [
+      "a",
+      "b"
+     ],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "intheheterogeneousinformationnetworkasshowninfig2differentme"
+      ]
+     },
+     "page": 3,
+     "bbox": [
+      0.2177,
+      0.0662,
+      0.9262,
+      0.3183
+     ],
+     "match_score": 0.763,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig3",
+     "label": "Figure 3",
+     "caption_fingerprint": "interactivehigherorderdualtowerrecommendationmodelihdt",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "theihdtmodelseefig3forthearchitecturediagramisbasedoninterac",
+       "theframeworkoftheproposedmodelisshowninfig3adduserfeaturevec"
+      ]
+     },
+     "page": 3,
+     "bbox": [
+      0.2177,
+      0.5345,
+      0.9262,
+      0.919
+     ],
+     "match_score": 0.791,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Figa",
+     "label": null,
+     "caption_fingerprint": "trainingprocessofihdt",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 0,
+      "paragraphs": []
+     },
+     "page": 5,
+     "bbox": [
+      0.2878,
+      0.103,
+      0.9057,
+      0.8289
+     ],
+     "match_score": 0.808,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig4",
+     "label": "Figure 4",
+     "caption_fingerprint": "performanceunderdifferentdatasetsandrecommendedlistlengths",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "figure4showstheperformancetrendsoftheihdtmodelonmovielens1ma"
+      ]
+     },
+     "page": 8,
+     "bbox": [
+      0.2189,
+      0.5529,
+      0.9274,
+      0.7737
+     ],
+     "match_score": 0.572,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": "Fig5",
+     "label": "Figure 5",
+     "caption_fingerprint": "ihdtmodelperformanceofmovielens1mdatasetunderdifferentregula",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "deeplearningmodelsusuallyhavesuperbpredictionandfittingcapab",
+       "figure5showsthatthemodelachievedabetterresultwhentheregulari"
+      ]
+     },
+     "page": 9,
+     "bbox": [
+      0.2612,
+      0.6881,
+      0.6433,
+      0.9062
+     ],
+     "match_score": 0.954,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC11627371",
+   "split": "test",
+   "stratum": "computer_science_engineering/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 25,
+   "figures": [
+    {
+     "jats_id": "pone.0313329.g001",
+     "label": "Figure 1",
+     "caption_fingerprint": "flowchartschemeofthemlbasedmodelaimagepreprocessingbimagetra",
+     "panels_from_caption": [
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+     ],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "theimagedatasetof119conusspecieswasobtainedfromtheconoserver"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.3235,
+      0.0936,
+      0.8894,
+      0.6645
+     ],
+     "match_score": 0.708,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0313329.g002",
+     "label": "Figure 2",
+     "caption_fingerprint": "imagepreprocessingaoriginalimageoftheconusammiralisshellbhig",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "wealsoappliedsomepreprocessingtoeachhighlightedimagefirstusi"
+      ]
+     },
+     "page": 5,
+     "bbox": [
+      0.2071,
+      0.0964,
+      0.9447,
+      0.5682
+     ],
+     "match_score": 0.845,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0313329.g003",
+     "label": "Figure 3",
+     "caption_fingerprint": "imagetransformationatheoriginalimageoftheconusandremenezishe",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "imagetransformationwasperformedoneachpreprocessedimagewithth"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.3235,
+      0.0964,
+      0.8165,
+      0.5564
+     ],
+     "match_score": 0.876,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0313329.g004",
+     "label": "Figure 4",
+     "caption_fingerprint": "predictionresultsofspeciesotherthanconusspeciesacconusspecie",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "weincludedimagesofsomespeciesotherthanconesnailssuchasmiters"
+      ]
+     },
+     "page": 13,
+     "bbox": [
+      0.3247,
+      0.0964,
+      0.7541,
+      0.5555
+     ],
+     "match_score": 0.914,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0313329.g005",
+     "label": "Figure 5",
+     "caption_fingerprint": "barplotforprecisionandrecallvaluesfor119conesnailspeciesarec",
+     "panels_from_caption": [
+      "A",
+      "B"
+     ],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "therfclassificationreportindicatedasignificantproportionoftp",
+       "notablyconusanabathrumaraneosuskintokiandsanguinolentusexhib"
+      ]
+     },
+     "page": 14,
+     "bbox": [
+      0.2294,
+      0.1009,
+      0.9388,
+      0.7327
+     ],
+     "match_score": 0.839,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0313329.g006",
+     "label": "Figure 6",
+     "caption_fingerprint": "f1scoreanalysisthelinegraphsindicatetheperformancescoresfore",
+     "panels_from_caption": [
+      "A",
+      "B"
+     ],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "thef1scoreharmonicmeanrangedfrom076to1fortherfmodelrevealing"
+      ]
+     },
+     "page": 18,
+     "bbox": [
+      0.0388,
+      0.4473,
+      0.2506,
+      0.6573
+     ],
+     "match_score": 0.245,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": "pone.0313329.g007",
+     "label": "Figure 7",
+     "caption_fingerprint": "supportvaluehistogramplotitindicatesthevariationinspeciesdis",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "tocomprehendclassdistributionasupportanalysiswasperformedthe"
+      ]
+     },
+     "page": 16,
+     "bbox": [
+      0.1824,
+      0.0909,
+      0.9424,
+      0.3427
+     ],
+     "match_score": 0.971,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0313329.g008",
+     "label": "Figure 8",
+     "caption_fingerprint": "heatmapofdifferentcategoriesagainsttheprecisionrecallandf1sc",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "adeeperinsightintothemodelsperformancewasobtainedusingaheatm"
+      ]
+     },
+     "page": 17,
+     "bbox": [
+      0.3271,
+      0.0982,
+      0.9153,
+      0.4873
+     ],
+     "match_score": 0.991,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0313329.g009",
+     "label": "Figure 9",
+     "caption_fingerprint": "modelperformanceanalysisathevalidationcurveplotshyperparamet",
+     "panels_from_caption": [
+      "B",
+      "C"
+     ],
+     "mentions": {
+      "count": 4,
+      "paragraphs": [
+       "toevaluatemodelperformancebothtrainingandvalidationscoreswer",
+       "inthelearningcurveatrainingscorecloseto1or100revealedthatthe",
+       "nextweplottedaprecisionrecallprcurvewhichshowsprecisionagain"
+      ]
+     },
+     "page": 18,
+     "bbox": [
+      0.2471,
+      0.0973,
+      0.9424,
+      0.5764
+     ],
+     "match_score": 0.767,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0313329.g010",
+     "label": "Figure 10",
+     "caption_fingerprint": "theoverallmodelmetricanalysisthebluebarsrepresenttheaveragea",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "themodelsefficiencywascrossvalidatedbyincludingdatafromunrel"
+      ]
+     },
+     "page": 20,
+     "bbox": [
+      0.3259,
+      0.0991,
+      0.9141,
+      0.3718
+     ],
+     "match_score": 0.962,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC9911162",
+   "split": "test",
+   "stratum": "social_sciences/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 13,
+   "figures": [
+    {
+     "jats_id": "fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "schematicdiagramoftheparticipantpathforinpersonandonlinepart",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "theaiforcarbonneutralcitiessubprojecthad60participantswith30"
+      ]
+     },
+     "page": 2,
+     "bbox": [
+      0.1349,
+      0.5068,
+      0.8638,
+      0.9031
+     ],
+     "match_score": 0.868,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "fig2",
+     "label": "Figure 2",
+     "caption_fingerprint": "workshopcarbonemissionsassessmentprocess",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "wecalculatedtheactivitiesservicesoractionsthatgenerateco2dur"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.2116,
+      0.7035,
+      0.7884,
+      0.9041
+     ],
+     "match_score": 0.94,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "fig3",
+     "label": "Figure 3",
+     "caption_fingerprint": "carbonfootprintofonlineandinpersonworkshopsageographicaldist",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "overalltheonlineworkshopscarbonfootprintrangedfrom2063kgto22"
+      ]
+     },
+     "page": 5,
+     "bbox": [
+      0.1349,
+      0.155,
+      0.8638,
+      0.8895
+     ],
+     "match_score": 0.758,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "fig4",
+     "label": "Figure 4",
+     "caption_fingerprint": "workshopattendeesadistributionofattendeesbyeducationandprofe",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h"
+     ],
+     "mentions": {
+      "count": 8,
+      "paragraphs": [
+       "asfortheparticipantsnearly70oftheworkshopattendeesweremajori",
+       "accordingtothesurveytwothirds6613oftheattendeessaidtheywould"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.1362,
+      0.4632,
+      0.8651,
+      0.8643
+     ],
+     "match_score": 0.855,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "fig5",
+     "label": "Figure 5",
+     "caption_fingerprint": "comparisonofworkshopcarbonfootprintbytransportmodeacompariso",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+     ],
+     "mentions": {
+      "count": 4,
+      "paragraphs": [
+       "duringtheworkshoproundtriptraveldistancesrangedfrom200kmjian"
+      ]
+     },
+     "page": 7,
+     "bbox": [
+      0.1349,
+      0.4331,
+      0.8638,
+      0.8634
+     ],
+     "match_score": 0.801,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "fig6",
+     "label": "Figure 6",
+     "caption_fingerprint": "onlinevsinpersoncarbonfootprintfordifferentnumbersofdays",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "thenumberofdaysisalsoessentialforonlineandinpersonworkshopsf"
+      ]
+     },
+     "page": 8,
+     "bbox": [
+      0.2989,
+      0.6502,
+      0.6997,
+      0.9041
+     ],
+     "match_score": 0.86,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "fig7",
+     "label": "Figure 7",
+     "caption_fingerprint": "influencingfactorsforonlineandinpersonworkshopsainfluencingf",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "wecountedtheimpactofvariouselementsofworkshoppreparationexec"
+      ]
+     },
+     "page": 9,
+     "bbox": [
+      0.1362,
+      0.0727,
+      0.8651,
+      0.2984
+     ],
+     "match_score": 0.945,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "fig8",
+     "label": "Figure 8",
+     "caption_fingerprint": "compositionofcarbonfootprintindifferentscenarios",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "fig8showsthecompositionofcarbonfootprintindifferentscenarios"
+      ]
+     },
+     "page": 9,
+     "bbox": [
+      0.3003,
+      0.6919,
+      0.7011,
+      0.9031
+     ],
+     "match_score": 0.723,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "fig9",
+     "label": "Figure 9",
+     "caption_fingerprint": "thebalanceofthecarbonfootprintofdifferentapproachestothework",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "asshowninfig9thispaperusesamultipleregressionmodeltoconstruc"
+      ]
+     },
+     "page": 10,
+     "bbox": [
+      0.0833,
+      0.0746,
+      0.9127,
+      0.439
+     ],
+     "match_score": 0.677,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "fig10",
+     "label": "Figure 10",
+     "caption_fingerprint": "participantsfeedbackontheonlineworkshopversustheinpersonwork",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "overallfig10atheparticipantsreceivedtheonlineworkshopformatw",
+       "inthefeedbackwordcloudfig10bparticipantsidentifiedthemainwor"
+      ]
+     },
+     "page": 10,
+     "bbox": [
+      0.1362,
+      0.7297,
+      0.8651,
+      0.8905
+     ],
+     "match_score": 0.868,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC11432874",
+   "split": "validation",
+   "stratum": "social_sciences/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 21,
+   "figures": [
+    {
+     "jats_id": "pone.0307613.g001",
+     "label": "Figure 1",
+     "caption_fingerprint": "overviewofthestudyareathemapofchinaisderivedfromthestandardm",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "hubeiprovincelocatedwithinthemiddlereachesoftheyangtzeriver1"
+      ]
+     },
+     "page": 7,
+     "bbox": [
+      0.1494,
+      0.1055,
+      0.8118,
+      0.4673
+     ],
+     "match_score": 0.326,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": "pone.0307613.g002",
+     "label": "Figure 2",
+     "caption_fingerprint": "thehpdforthefourhighwaygradeswithdifferentpixelsizesafreeway",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "thedataforeachofthefourhighwaygradeswereconvertedintorasteri"
+      ]
+     },
+     "page": 6,
+     "bbox": [
+      0.1588,
+      0.4127,
+      0.94,
+      0.85
+     ],
+     "match_score": 0.566,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": "pone.0307613.g003",
+     "label": "Figure 3",
+     "caption_fingerprint": "thehighwaynighttimelightmapinfebruary2020thebackgroundbasema",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "thedataforeachofthefourhighwaygradeswereconvertedintorasteri"
+      ]
+     },
+     "page": 14,
+     "bbox": [
+      0.1694,
+      0.1109,
+      0.6082,
+      0.2964
+     ],
+     "match_score": 0.46,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": "pone.0307613.g004",
+     "label": "Figure 4",
+     "caption_fingerprint": "economicdeclinedegreeofcitiesinfebruary2020aandmay2020bthepr",
+     "panels_from_caption": [
+      "a",
+      "b"
+     ],
+     "mentions": {
+      "count": 4,
+      "paragraphs": [
+       "fig4offersevidencepertainingtotheextentofeconomicdownturnexp",
+       "bymay2020itbecameapparentduringtheunblockingphasetheeconomic",
+       "tocomprehendthedynamicsofurbaneconomicfluctuationsintheperio"
+      ]
+     },
+     "page": 9,
+     "bbox": [
+      0.1588,
+      0.6055,
+      0.94,
+      0.8509
+     ],
+     "match_score": 0.693,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0307613.g005",
+     "label": "Figure 5",
+     "caption_fingerprint": "economicdeclineindicesofeachcityintheepidemicperiod",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "bymay2020itbecameapparentduringtheunblockingphasetheeconomic"
+      ]
+     },
+     "page": 11,
+     "bbox": [
+      0.1565,
+      0.1,
+      0.9376,
+      0.6591
+     ],
+     "match_score": 0.893,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0307613.g006",
+     "label": "Figure 6",
+     "caption_fingerprint": "economicrecoverydegreeofcitiesinfebruary2021aandmay2021bthep",
+     "panels_from_caption": [
+      "a",
+      "b"
+     ],
+     "mentions": {
+      "count": 5,
+      "paragraphs": [
+       "fig6providesavisualrepresentationofthespatialheterogeneityin",
+       "bymay2021asignificantimprovementineconomicrecoverywasevident",
+       "tocomprehendthedynamicsofurbaneconomicfluctuationsintheperio",
+       "abivariatechoroplethmapfig8offersacomprehensivedepictionofth"
+      ]
+     },
+     "page": 12,
+     "bbox": [
+      0.1565,
+      0.1,
+      0.9376,
+      0.3455
+     ],
+     "match_score": 0.628,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0307613.g007",
+     "label": "Figure 7",
+     "caption_fingerprint": "economicrecoveryindicesofeachcityinthepostepidemicperiod",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "bymay2021asignificantimprovementineconomicrecoverywasevident"
+      ]
+     },
+     "page": 13,
+     "bbox": [
+      0.1565,
+      0.0991,
+      0.9376,
+      0.6582
+     ],
+     "match_score": 0.873,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0307613.g008",
+     "label": "Figure 8",
+     "caption_fingerprint": "bivariatechoroplethsfortheeconomicdeclineindexandrecoveryind",
+     "panels_from_caption": [
+      "a",
+      "b"
+     ],
+     "mentions": {
+      "count": 4,
+      "paragraphs": [
+       "tocomprehendthedynamicsofurbaneconomicfluctuationsintheperio",
+       "abivariatechoroplethmapfig8offersacomprehensivedepictionofth"
+      ]
+     },
+     "page": 14,
+     "bbox": [
+      0.1588,
+      0.0991,
+      0.94,
+      0.3927
+     ],
+     "match_score": 0.801,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0307613.g009",
+     "label": "Figure 9",
+     "caption_fingerprint": "thefourquadrantdiagramofeconomicresistanceandrecoverabilitya",
+     "panels_from_caption": [
+      "a",
+      "b"
+     ],
+     "mentions": {
+      "count": 4,
+      "paragraphs": [
+       "buildinguponthetheoreticalframeworkofeconomicresiliencethiss",
+       "furthermoreggebiplotinrstudio52wasutilizedtographicallyrankt"
+      ]
+     },
+     "page": 13,
+     "bbox": [
+      0.0518,
+      0.8764,
+      0.22,
+      0.9464
+     ],
+     "match_score": 0.358,
+     "review_status": "needs_manual"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC10042159",
+   "split": "test",
+   "stratum": "social_sciences/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 24,
+   "figures": [
+    {
+     "jats_id": "fig-1",
+     "label": "Figure 1",
+     "caption_fingerprint": "workflowdepictingthedatacollectionandfilteringprocesstheexpa",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 11,
+      "paragraphs": [
+       "weusedafourstepproceduretocollateandprocesstheglobaleconomic",
+       "secondwecarefullycheckedthedatatoiremoveoverlappingorduplica",
+       "finallytheresultingsubsetwithannualizedcostentriesfig1cappen",
+       "ouranalysesrevealedthatinvasiverodentshavealreadycosttheglob",
+       "invasiverodentshaveconservativelycosttheglobaleconomyatleast",
+       "thehighcostsevidencedherestillobviouslyrepresentamassiveunde",
+       "weconsideredatheexpandedsubsetandbtheconservativesubsetseefi"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.3,
+      0.1082,
+      0.8882,
+      0.5291
+     ],
+     "match_score": 0.977,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "fig-2",
+     "label": "Figure 2",
+     "caption_fingerprint": "temporaltrendofglobalrodentinvasioncostsinmillionsof2017usbe",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "ouranalysesrevealedthatinvasiverodentshavealreadycosttheglob"
+      ]
+     },
+     "page": 7,
+     "bbox": [
+      0.3059,
+      0.1127,
+      0.8835,
+      0.3864
+     ],
+     "match_score": 0.731,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "fig-3",
+     "label": "Figure 3",
+     "caption_fingerprint": "taxonomicbiasinthecostsofinvasiverodentsinvasiverodentspecie",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 4,
+      "paragraphs": [
+       "invasioncostswerereportedfor15individualrodentspeciesinourco",
+       "thirdabouttwothirdsofknowninvasiverodentshadnoinvasioncostsr"
+      ]
+     },
+     "page": 8,
+     "bbox": [
+      0.3129,
+      0.1164,
+      0.8259,
+      0.7855
+     ],
+     "match_score": 0.894,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "fig-4",
+     "label": "Figure 4",
+     "caption_fingerprint": "costdistributionsacrossspeciesaccordingtoacosttypebgeographi",
+     "panels_from_caption": [
+      "A",
+      "B",
+      "C"
+     ],
+     "mentions": {
+      "count": 3,
+      "paragraphs": [
+       "mostcosts87correspondedtodamagesorlossesus31billion337millio",
+       "regionallymostcostswereincurredinasia60us22billionn109follow",
+       "regardingimpactedsectorsmostcostswereincurredbytheagricultur"
+      ]
+     },
+     "page": 10,
+     "bbox": [
+      0.3024,
+      0.1073,
+      0.92,
+      0.4082
+     ],
+     "match_score": 0.722,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "fig-5",
+     "label": "Figure 5",
+     "caption_fingerprint": "costestimateslog10scaleaccordingtothetypeofdamageormanagemen",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "regionallymostcostswereincurredinasia60us22billionn109follow"
+      ]
+     },
+     "page": 11,
+     "bbox": [
+      0.3082,
+      0.1109,
+      0.8859,
+      0.4136
+     ],
+     "match_score": 0.937,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC10434887",
+   "split": "test",
+   "stratum": "social_sciences/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 13,
+   "figures": [
+    {
+     "jats_id": "pone.0290174.g001",
+     "label": "Figure 1",
+     "caption_fingerprint": "specialtyofclinicianswhoprovidedfullresponsesatotalof92clini",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "atotalof92cliniciansrespondedtothesurvey913werebreastsurgeon"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.3259,
+      0.0982,
+      0.7647,
+      0.3255
+     ],
+     "match_score": 1.0,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0290174.g002",
+     "label": "Figure 2",
+     "caption_fingerprint": "durationofadditionalovarianfunctionsuppressionofsincombinati",
+     "panels_from_caption": [
+      "a",
+      "b"
+     ],
+     "mentions": {
+      "count": 2,
+      "paragraphs": [
+       "thesurveyalsoconsistedofquestionsonthedurationofofsincombina"
+      ]
+     },
+     "page": 8,
+     "bbox": [
+      0.2165,
+      0.0991,
+      0.94,
+      0.7336
+     ],
+     "match_score": 0.928,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "pone.0290174.g003",
+     "label": "Figure 3",
+     "caption_fingerprint": "decisionontamoxifentmxextensionversusswitchingtoaromataseinh",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "inresponsetothequestionofthedecisionoftmxextensionversusswit"
+      ]
+     },
+     "page": 9,
+     "bbox": [
+      0.3271,
+      0.0991,
+      0.8929,
+      0.2809
+     ],
+     "match_score": 0.923,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC10673845",
+   "split": "test",
+   "stratum": "social_sciences/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 9,
+   "figures": [
+    {
+     "jats_id": "Fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "worldmapofadaptationconstraintproxiescountrylevelassignmentt",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "tomeasurehowadaptationconstraintsmayevolveandbeovercomeapres"
+      ]
+     },
+     "page": 3,
+     "bbox": [
+      0.2201,
+      0.069,
+      0.9287,
+      0.2879
+     ],
+     "match_score": 0.928,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig2",
+     "label": "Figure 2",
+     "caption_fingerprint": "socioeconomicindicatorsperconstraintlevelboxplotsshowinggdpp",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 5,
+      "paragraphs": [
+       "constraintstoadaptationarecloselyintertwinedwithsocioeconomi",
+       "thechoiceofanalysingadaptationconstraintsatthenationallevelt",
+       "firstlywelookatthetimescalesneededforthemedianvalueofthecoun"
+      ]
+     },
+     "page": 3,
+     "bbox": [
+      0.26,
+      0.4499,
+      0.7884,
+      0.8565
+     ],
+     "match_score": 0.686,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig3",
+     "label": "Figure 3",
+     "caption_fingerprint": "timescalesofsocioeconomicdimensionsreachingmediumconstraintl",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c"
+     ],
+     "mentions": {
+      "count": 8,
+      "paragraphs": [
+       "mappingconstraintsagainstsocioeconomicindicatorsallowsustoil",
+       "usingthisillustrativeapproachwefindthatitisonlyunderthessp1s",
+       "firstlywelookatthetimescalesneededforthemedianvalueofthecoun"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.127,
+      0.4259,
+      0.9238,
+      0.8454
+     ],
+     "match_score": 0.649,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig4",
+     "label": "Figure 4",
+     "caption_fingerprint": "timescalesofcountriesconstraintlevelspiechartsshowingthenumb",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 4,
+      "paragraphs": [
+       "furthermorewecanthenidentifyillustrativepointsintimewhenindi"
+      ]
+     },
+     "page": 5,
+     "bbox": [
+      0.2588,
+      0.0616,
+      0.8356,
+      0.4581
+     ],
+     "match_score": 0.849,
+     "review_status": "auto"
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC10397266",
+   "split": "validation",
+   "stratum": "social_sciences/born_digital",
+   "pdf_kind": "born_digital",
+   "pages": 15,
+   "figures": [
+    {
+     "jats_id": "Fig1",
+     "label": "Figure 1",
+     "caption_fingerprint": "schemeoftheindustrialscalesmbplant",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 5,
+      "paragraphs": [
+       "inthisresearchoneoftheexistingeluxylpetrochemicalplantwasuti",
+       "dataconcludedfromexperimentsandconfigurationdataofthesmbtowe"
+      ]
+     },
+     "page": 4,
+     "bbox": [
+      0.1197,
+      0.0644,
+      0.9335,
+      0.3413
+     ],
+     "match_score": 0.844,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig2",
+     "label": "Figure 2",
+     "caption_fingerprint": "isothermresultsofamxboxcebdpdebcomponentsat185documentclass1",
+     "panels_from_caption": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "responsesurfacemethodrsmisastatisticalmethodtodefineexperime"
+      ]
+     },
+     "page": 7,
+     "bbox": [
+      0.2116,
+      0.0626,
+      0.9347,
+      0.5179
+     ],
+     "match_score": 0.414,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": "Fig3",
+     "label": "Figure 3",
+     "caption_fingerprint": "breakthroughcurveresultsat185documentclass12ptminimalusepack",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "responsesurfacemethodrsmisastatisticalmethodtodefineexperime"
+      ]
+     },
+     "page": 7,
+     "bbox": [
+      0.2612,
+      0.6311,
+      0.867,
+      0.9052
+     ],
+     "match_score": 0.795,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig4",
+     "label": "Figure 4",
+     "caption_fingerprint": "dynamicframeworkoptimizationforobtainingoptimumoperationalco",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "dataconcludedfromexperimentsandconfigurationdataofthesmbtowe"
+      ]
+     },
+     "page": 8,
+     "bbox": [
+      0.2576,
+      0.0635,
+      0.6554,
+      0.3229
+     ],
+     "match_score": 0.686,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig5",
+     "label": "Figure 5",
+     "caption_fingerprint": "concentrationprofilesattheendofswitchingtimeintervalundercss",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "dataconcludedfromexperimentsandconfigurationdataofthesmbtowe"
+      ]
+     },
+     "page": 9,
+     "bbox": [
+      0.2092,
+      0.0626,
+      0.9323,
+      0.368
+     ],
+     "match_score": 0.443,
+     "review_status": "needs_manual"
+    },
+    {
+     "jats_id": "Fig6",
+     "label": "Figure 6",
+     "caption_fingerprint": "directandindirectsequence",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "separationofthreecomponentmixtureusingdistillationiftheboili"
+      ]
+     },
+     "page": 10,
+     "bbox": [
+      0.2612,
+      0.0653,
+      0.867,
+      0.379
+     ],
+     "match_score": 0.948,
+     "review_status": "auto"
+    },
+    {
+     "jats_id": "Fig7",
+     "label": "Figure 7",
+     "caption_fingerprint": "variationofthemxoxandebboilingpointswithpressure",
+     "panels_from_caption": [],
+     "mentions": {
+      "count": 1,
+      "paragraphs": [
+       "separationofthreecomponentmixtureusingdistillationiftheboili"
+      ]
+     },
+     "page": 10,
+     "bbox": [
+      0.2612,
+      0.4489,
+      0.867,
+      0.69
+     ],
+     "match_score": 0.824,
+     "review_status": "auto"
+    }
+   ]
+  }
+ ]
+}

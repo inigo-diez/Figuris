@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" width="960" height="400" role="img" aria-labelledby="t d" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+<title id="t">Estructura de una explicación</title><desc id="d">Cada afirmación tiene un tipo y cita su evidencia: la región o el panel de la figura, una cita literal del pie o de un párrafo con su página, o un valor impreso en la figura. El validador comprueba cada cita antes de mostrarla.</desc>
+<rect width="960" height="400" fill="#FFFFFF"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#17212B"/></marker></defs>
+<text x="22" y="30" font-size="14" fill="#17212B" font-weight="600" text-anchor="start">Afirmaciones tipadas</text>
+<text x="600" y="30" font-size="14" fill="#17212B" font-weight="600" text-anchor="start">Evidencia que cita cada una</text>
+<rect x="22" y="70" width="420" height="56" rx="6" fill="#FFFFFF" stroke="#17212B" stroke-width="1.1"/>
+<rect x="34" y="80" width="72.8" height="20" rx="3" fill="#FFFFFF" stroke="#176B67" stroke-width="1.2"/>
+<text x="70.4" y="94" font-size="11.5" fill="#176B67" font-weight="600" text-anchor="middle">observado</text>
+<text x="34" y="117" font-size="12.5" fill="#17212B" font-weight="400" text-anchor="start">La curva de circDIDO1 cae a partir del día 3.</text>
+<rect x="22" y="144" width="420" height="56" rx="6" fill="#FFFFFF" stroke="#17212B" stroke-width="1.1"/>
+<rect x="34" y="154" width="130.4" height="20" rx="3" fill="#FFFFFF" stroke="#3E6B89" stroke-width="1.2"/>
+<text x="99.2" y="168" font-size="11.5" fill="#3E6B89" font-weight="600" text-anchor="middle">según los autores</text>
+<text x="34" y="191" font-size="12.5" fill="#17212B" font-weight="400" text-anchor="start">«CircDIDO1 inhibe la progresión del cáncer»</text>
+<rect x="22" y="218" width="420" height="56" rx="6" fill="#FFFFFF" stroke="#17212B" stroke-width="1.1"/>
+<rect x="34" y="228" width="80.0" height="20" rx="3" fill="#FFFFFF" stroke="#9A5B12" stroke-width="1.2"/>
+<text x="74.0" y="242" font-size="11.5" fill="#9A5B12" font-weight="600" text-anchor="middle">inferencia</text>
+<text x="34" y="265" font-size="12.5" fill="#17212B" font-weight="400" text-anchor="start">El efecto parece depender de la dosis.</text>
+<rect x="22" y="292" width="420" height="56" rx="6" fill="#FFFFFF" stroke="#17212B" stroke-width="1.1"/>
+<rect x="34" y="302" width="65.6" height="20" rx="3" fill="#FFFFFF" stroke="#66717D" stroke-width="1.2"/>
+<text x="66.8" y="316" font-size="11.5" fill="#66717D" font-weight="600" text-anchor="middle">incierto</text>
+<text x="34" y="339" font-size="12.5" fill="#17212B" font-weight="400" text-anchor="start">No se puede leer el valor exacto del panel h.</text>
+<rect x="600" y="70" width="338" height="56" rx="6" fill="#FFFFFF" stroke="#17212B" stroke-width="1.1"/>
+<text x="616" y="95" font-size="13" fill="#17212B" font-weight="600" text-anchor="start">Región o panel de la figura</text>
+<text x="616" y="114" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="start">panel c, ampliado en el visor</text>
+<rect x="600" y="144" width="338" height="56" rx="6" fill="#FFFFFF" stroke="#17212B" stroke-width="1.1"/>
+<text x="616" y="169" font-size="13" fill="#17212B" font-weight="600" text-anchor="start">Cita literal del pie</text>
+<text x="616" y="188" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="start">comprobada carácter a carácter</text>
+<rect x="600" y="218" width="338" height="56" rx="6" fill="#FFFFFF" stroke="#17212B" stroke-width="1.1"/>
+<text x="616" y="243" font-size="13" fill="#17212B" font-weight="600" text-anchor="start">Cita literal de un párrafo</text>
+<text x="616" y="262" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="start">con su página y su sección</text>
+<rect x="600" y="292" width="338" height="56" rx="6" fill="#EEF5F4" stroke="#17212B" stroke-width="1.1"/>
+<text x="616" y="317" font-size="13" fill="#17212B" font-weight="600" text-anchor="start">Valor impreso en la figura</text>
+<text x="616" y="336" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="start">localizado por el texto PDF u OCR</text>
+<path d="M442 98 C520 98 520 98 598 98" fill="none" stroke="#66717D" stroke-width="1" marker-end="url(#arrow)"/>
+<path d="M442 98 C520 98 520 320 598 320" fill="none" stroke="#66717D" stroke-width="1" marker-end="url(#arrow)"/>
+<path d="M442 172 C520 172 520 172 598 172" fill="none" stroke="#66717D" stroke-width="1" marker-end="url(#arrow)"/>
+<path d="M442 172 C520 172 520 246 598 246" fill="none" stroke="#66717D" stroke-width="1" marker-end="url(#arrow)"/>
+<path d="M442 246 C520 246 520 98 598 98" fill="none" stroke="#66717D" stroke-width="1" marker-end="url(#arrow)"/>
+<path d="M442 246 C520 246 520 246 598 246" fill="none" stroke="#66717D" stroke-width="1" marker-end="url(#arrow)"/>
+<path d="M442 320 C520 320 520 98 598 98" fill="none" stroke="#66717D" stroke-width="1" marker-end="url(#arrow)"/>
+<rect x="22" y="356" width="916" height="30" rx="4" fill="#FBFCFA" stroke="#DDE1DC" stroke-width="1.2"/>
+<text x="34" y="375" font-size="12" fill="#17212B" font-weight="400" text-anchor="start">Validador: una cita que no aparece literalmente en su fuente, un panel inexistente o una referencia rota marcan la explicación como «no fiable».</text>
+</svg>

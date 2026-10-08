@@ -1,0 +1,170 @@
+{
+ "schema": "sfi-judge-checks/1",
+ "judge": "GPT-5 Codex",
+ "packet": "data/local/revision_ia/2026-10-07 (13 explicaciones, 135 afirmaciones; claves.json)",
+ "checked_by": "Claude (asistente de desarrollo): cada objeción comprobada contra la imagen de la figura, el pie, los fragmentos y el texto del PDF",
+ "checked_at": "2026-10-07",
+ "summary": {
+  "objections": 18,
+  "confirmed": 5,
+  "partly_confirmed": 4,
+  "rejected": 9,
+  "confirmed_errors_high_confidence": "4 de 123 (0,033)",
+  "explanations_with_confirmed_critical_error": "4 de 13"
+ },
+ "checks": [
+  {
+   "item": "E02",
+   "file": "PMC6291436.pdf",
+   "figure": "Figure 5",
+   "claim": "c4",
+   "judge": "contradiccion",
+   "verdict": "confirmed",
+   "reason": "La lesión del panel a está arriba a la derecha de la imagen; la afirmación dice «izquierda de la imagen». Probablemente confunde la convención radiológica (derecha de la imagen = izquierda del paciente)."
+  },
+  {
+   "item": "E03",
+   "file": "PMC9608490.pdf",
+   "figure": "Figure 5",
+   "claim": "c2",
+   "judge": "contradiccion",
+   "verdict": "confirmed",
+   "reason": "El compuesto 3 (rodeado en rojo) no tiene IC50 impreso; la afirmación dice que todos lo tienen. La propia explicación lo reconoce en c15."
+  },
+  {
+   "item": "E09",
+   "file": "PMC1971548.pdf",
+   "figure": "Figure 1",
+   "claim": "c3",
+   "judge": "contradiccion",
+   "verdict": "confirmed",
+   "reason": "10.9 y 10.3 rotulan el segmento de tumor de Wilms; las barras siguen con un segmento rayado, así que no son tasas totales. El recorte de la figura corta el borde derecho, donde están los totales (fallo de extracción que contribuye)."
+  },
+  {
+   "item": "E10",
+   "file": "PMC7786143.pdf",
+   "figure": "Figure 1",
+   "claim": "c4",
+   "judge": "contradiccion",
+   "verdict": "confirmed",
+   "reason": "En Office Hours (verde ~59 %, gris ~30 %) y Online Textbooks (~37 % frente a ~33 %) el verde es mayor que el gris; solo en OnlineMedEd es menor."
+  },
+  {
+   "item": "E05",
+   "file": "PMC8448759.pdf",
+   "figure": "Figure 2",
+   "claim": "c1",
+   "judge": "corrección 1",
+   "verdict": "confirmed",
+   "reason": "Desde la región causal salen también líneas finas grises, no solo rojas. Error menor."
+  },
+  {
+   "item": "E11",
+   "file": "PMC10368530.pdf",
+   "figure": "Figure 3",
+   "claim": "c13",
+   "judge": "referencia_inventada",
+   "verdict": "rejected",
+   "reason": "El modelo sí recibió la nota «The caption may be truncated» (aviso caption_may_continue); el paquete de revisión no la incluía. Problema real distinto: la nota se envía aunque la continuación del pie ya se recuperó, y genera una duda innecesaria."
+  },
+  {
+   "item": "E02",
+   "file": "PMC6291436.pdf",
+   "figure": "Figure 5",
+   "claim": "c11",
+   "judge": "cita 1 (página)",
+   "verdict": "rejected",
+   "reason": "La cita está en la página 7 del PDF, como indica el sistema; el fragmento empieza en la 6."
+  },
+  {
+   "item": "E11",
+   "file": "PMC10368530.pdf",
+   "figure": "Figure 3",
+   "claim": "c6",
+   "judge": "cita 1 (página)",
+   "verdict": "rejected",
+   "reason": "La cita está en la página 7 del PDF, como indica el sistema; el fragmento empieza en la 6."
+  },
+  {
+   "item": "E02",
+   "claim": "c13",
+   "judge": "respaldo 0, cita 0",
+   "verdict": "rejected",
+   "reason": "Afirmación «incierta»: por diseño no lleva evidencia. El paquete no lo explicaba."
+  },
+  {
+   "item": "E03",
+   "claim": "c15",
+   "judge": "respaldo 0, cita 0",
+   "verdict": "rejected",
+   "reason": "Afirmación «incierta» sin evidencia por diseño."
+  },
+  {
+   "item": "E04",
+   "claim": "c12",
+   "judge": "respaldo 0, cita 0",
+   "verdict": "rejected",
+   "reason": "Afirmación «incierta» sin evidencia por diseño."
+  },
+  {
+   "item": "E08",
+   "claim": "c12",
+   "judge": "respaldo 0, cita 0",
+   "verdict": "rejected",
+   "reason": "Afirmación «incierta» sin evidencia por diseño."
+  },
+  {
+   "item": "E09",
+   "claim": "c10",
+   "judge": "respaldo 0, cita 0",
+   "verdict": "rejected",
+   "reason": "Afirmación «incierta» sin evidencia por diseño; el recorte que señala es real."
+  },
+  {
+   "item": "E12",
+   "claim": "c9",
+   "judge": "respaldo 0, cita 0",
+   "verdict": "rejected",
+   "reason": "Afirmación «incierta» sin evidencia por diseño."
+  },
+  {
+   "item": "E07",
+   "claim": "c8",
+   "judge": "corrección 1, respaldo 0",
+   "verdict": "partly_confirmed",
+   "reason": "La falta de evidencia es por diseño (incierta), pero la duda está exagerada: los diagramas químicos sí muestran átomos y grupos."
+  },
+  {
+   "item": "E06",
+   "claim": "c7",
+   "judge": "tipo 1",
+   "verdict": "partly_confirmed",
+   "reason": "Discutible: mezcla atribución textual y comparación con la figura; la discrepancia 2001/2002 es real."
+  },
+  {
+   "item": "E06",
+   "claim": "c8",
+   "judge": "respaldo 1, cita 1",
+   "verdict": "partly_confirmed",
+   "reason": "Debería citar también la figura para el recorte."
+  },
+  {
+   "item": "E03",
+   "claim": "c14",
+   "judge": "cita 1",
+   "verdict": "partly_confirmed",
+   "reason": "El pie citado no respalda la comparación numérica, que sale de la figura."
+  }
+ ],
+ "system_findings": [
+  "Errores de lectura visual en afirmaciones «observado» de confianza alta: segmentos frente a totales en barras apiladas, izquierda/derecha de la imagen, comparaciones entre segmentos y generalizaciones («cada uno»).",
+  "Ningún error confirmado en las 60 afirmaciones atribuidas a los autores: citas literales y páginas correctas.",
+  "La nota de pie truncado se envía aunque la continuación ya se haya recuperado.",
+  "En PMC1971548 (escaneado) el recorte de la figura corta el borde derecho, y eso contribuye a un error de lectura."
+ ],
+ "packet_fixes": [
+  "Incluir las notas de extracción que recibió el modelo.",
+  "Explicar que las afirmaciones «incierto» no llevan evidencia por diseño y cómo puntuarlas.",
+  "Mostrar la página de inicio del fragmento y la de la cita sin ambigüedad."
+ ]
+}

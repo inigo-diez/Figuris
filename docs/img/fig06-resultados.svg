@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 340" width="960" height="340" role="img" aria-labelledby="t d" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+<title id="t">Resultados en SFI-48: desarrollo frente a test</title><desc id="d">Gráfico de puntos. Para cada métrica, valor en dev + validation y en test, con el umbral del plan. Las cajas de figura, los pies y las pérdidas bajan en test por los escaneados.</desc>
+<rect width="960" height="340" fill="#FFFFFF"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#17212B"/></marker></defs>
+<text x="22" y="30" font-size="14" fill="#17212B" font-weight="600" text-anchor="start">Extracción y contexto en SFI-48</text>
+<circle cx="560" cy="25" r="5.5" fill="#00998A"/>
+<text x="572" y="30" font-size="12" fill="#17212B" font-weight="400" text-anchor="start">dev + validation (24 artículos, 150 figuras)</text>
+<circle cx="560" cy="45" r="5.5" fill="#D96C4D"/>
+<text x="572" y="50" font-size="12" fill="#17212B" font-weight="400" text-anchor="start">test (24 artículos, 142 figuras, evaluado una vez)</text>
+<line x1="250.0" y1="84" x2="250.0" y2="292" stroke="#E8EBE6" stroke-width="1"/>
+<text x="250.0" y="310" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="middle">0,80</text>
+<line x1="412.49999999999983" y1="84" x2="412.49999999999983" y2="292" stroke="#E8EBE6" stroke-width="1"/>
+<text x="412.49999999999983" y="310" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="middle">0,85</text>
+<line x1="575.0" y1="84" x2="575.0" y2="292" stroke="#E8EBE6" stroke-width="1"/>
+<text x="575.0" y="310" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="middle">0,90</text>
+<line x1="737.4999999999998" y1="84" x2="737.4999999999998" y2="292" stroke="#E8EBE6" stroke-width="1"/>
+<text x="737.4999999999998" y="310" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="middle">0,95</text>
+<line x1="900.0" y1="84" x2="900.0" y2="292" stroke="#E8EBE6" stroke-width="1"/>
+<text x="900.0" y="310" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="middle">1,00</text>
+<text x="22" y="114" font-size="13" fill="#17212B" font-weight="400" text-anchor="start">F1 de cajas de figura</text>
+<line x1="490.4999999999999" y1="110" x2="867.5" y2="110" stroke="#DDE1DC" stroke-width="3"/>
+<line x1="575.0" y1="97" x2="575.0" y2="123" stroke="#17212B" stroke-width="1.6"/>
+<circle cx="867.5" cy="110" r="6" fill="#00998A" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="490.4999999999999" cy="110" r="6" fill="#D96C4D" stroke="#FFFFFF" stroke-width="2"/>
+<text x="480.4999999999999" y="100" font-size="11.5" fill="#17212B" font-weight="400" text-anchor="end">0,874</text>
+<text x="865.5" y="100" font-size="11.5" fill="#17212B" font-weight="400" text-anchor="end">0,990</text>
+<text x="22" y="166" font-size="13" fill="#17212B" font-weight="400" text-anchor="start">Asociación figura–pie</text>
+<line x1="724.4999999999998" y1="162" x2="851.25" y2="162" stroke="#DDE1DC" stroke-width="3"/>
+<line x1="737.4999999999998" y1="149" x2="737.4999999999998" y2="175" stroke="#17212B" stroke-width="1.6"/>
+<circle cx="851.25" cy="162" r="6" fill="#00998A" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="724.4999999999998" cy="162" r="6" fill="#D96C4D" stroke="#FFFFFF" stroke-width="2"/>
+<text x="714.4999999999998" y="152" font-size="11.5" fill="#17212B" font-weight="400" text-anchor="end">0,946</text>
+<text x="849.25" y="152" font-size="11.5" fill="#17212B" font-weight="400" text-anchor="end">0,985</text>
+<text x="22" y="218" font-size="13" fill="#17212B" font-weight="400" text-anchor="start">Contexto: Recall@5</text>
+<line x1="685.5000000000001" y1="214" x2="734.2499999999998" y2="214" stroke="#DDE1DC" stroke-width="3"/>
+<line x1="575.0" y1="201" x2="575.0" y2="227" stroke="#17212B" stroke-width="1.6"/>
+<circle cx="734.2499999999998" cy="214" r="6" fill="#00998A" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="685.5000000000001" cy="214" r="6" fill="#D96C4D" stroke="#FFFFFF" stroke-width="2"/>
+<text x="675.5000000000001" y="204" font-size="11.5" fill="#17212B" font-weight="400" text-anchor="end">0,934</text>
+<text x="744.2499999999998" y="204" font-size="11.5" fill="#17212B" font-weight="400" text-anchor="start">0,949</text>
+<text x="22" y="270" font-size="13" fill="#17212B" font-weight="400" text-anchor="start">Etiquetas de figura (F1)</text>
+<line x1="688.7500000000001" y1="266" x2="887.0" y2="266" stroke="#DDE1DC" stroke-width="3"/>
+<line x1="575.0" y1="253" x2="575.0" y2="279" stroke="#17212B" stroke-width="1.6"/>
+<circle cx="887.0" cy="266" r="6" fill="#00998A" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="688.7500000000001" cy="266" r="6" fill="#D96C4D" stroke="#FFFFFF" stroke-width="2"/>
+<text x="678.7500000000001" y="256" font-size="11.5" fill="#17212B" font-weight="400" text-anchor="end">0,935</text>
+<text x="885.0" y="256" font-size="11.5" fill="#17212B" font-weight="400" text-anchor="end">0,996</text>
+<line x1="560" y1="59" x2="560" y2="71" stroke="#17212B" stroke-width="1.6"/>
+<text x="572" y="69" font-size="12" fill="#17212B" font-weight="400" text-anchor="start">umbral del plan para esa métrica</text>
+</svg>

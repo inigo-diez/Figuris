@@ -1,0 +1,71 @@
+{
+ "schema": "sfi-judge-checks/1",
+ "judge": "GPT-5 Codex",
+ "packet": "data/local/revision_ia/2026-10-07-validation (24 explicaciones de validation, 2 por artículo, semilla 20261007; prompt figure-explain/0.4; 233 afirmaciones; claves.json)",
+ "checked_by": "Claude (asistente de desarrollo): cada objeción comprobada contra la imagen de la figura y el resto de la explicación",
+ "checked_at": "2026-10-07",
+ "summary": {
+  "objections": 4,
+  "confirmed": 3,
+  "partly_confirmed": 0,
+  "rejected": 1,
+  "confirmed_errors_high_confidence": "3 de 207 (0,0145; IC 95 % Wilson 0,005-0,042)",
+  "explanations_with_confirmed_error": "2 de 24",
+  "author_stated_errors": "0 de 92"
+ },
+ "checks": [
+  {
+   "item": "E10",
+   "file": "PMC10397266.pdf",
+   "figure": "Figure 3",
+   "claim": "c10",
+   "judge": "contradiccion",
+   "verdict": "confirmed",
+   "reason": "Afirmación «incierta» que dice que la figura no indica qué componente tiene las concentraciones iniciales altas; el símbolo de PDEB de la leyenda las identifica y la propia explicación lo dice en otra afirmación. Duda falsa."
+  },
+  {
+   "item": "E20",
+   "file": "PMC11720905.pdf",
+   "figure": "Figure 3",
+   "claim": "c2",
+   "judge": "contradiccion",
+   "verdict": "confirmed",
+   "reason": "A las 6 h, en «late apoptotic cell» la barra más alta es 100uM (~11,5), no 100nM (~8). Las tres concentraciones se dibujan en grises parecidos."
+  },
+  {
+   "item": "E20",
+   "file": "PMC11720905.pdf",
+   "figure": "Figure 3",
+   "claim": "c3",
+   "judge": "contradiccion",
+   "verdict": "confirmed",
+   "reason": "A las 24 h, en «late» y «early apoptotic cell» la barra más alta es 100uM, no 100nM; solo en «necrotic cell» acierta."
+  },
+  {
+   "item": "E12",
+   "file": "PMC11720905.pdf",
+   "figure": "Figure 2",
+   "claim": "c11",
+   "judge": "utilidad 1",
+   "verdict": "rejected",
+   "reason": "La afirmación es correcta; el revisor solo la considera poco útil. No es un error."
+  }
+ ],
+ "system_findings": [
+  "Ningún error de los tipos corregidos en el prompt 0.4 (segmentos frente a totales, comparaciones dudosas, izquierda/derecha, generalizaciones).",
+  "Errores nuevos: confundir series dibujadas en grises parecidos, y una duda falsa que contradice la leyenda y a la propia explicación.",
+  "Ningún error en las 92 afirmaciones atribuidas a los autores."
+ ],
+ "limits": [
+  "Solo se comprueban las objeciones del revisor: los errores que no detectó no aparecen. El revisor objetó 4 de 233 afirmaciones.",
+  "24 explicaciones: el intervalo de confianza es amplio y no permite afirmar que se cumple el umbral de 0,02."
+ ],
+ "spot_check": {
+  "what": "Revisión independiente de explicaciones que el revisor dio por perfectas, para estimar los errores que se le escapan",
+  "items": [
+   "E09 (PMC11315888 Figure 4, 12 afirmaciones)",
+   "E24 (PMC11211412 Figure 7, 11 afirmaciones)"
+  ],
+  "result": "23 afirmaciones comprobadas contra la imagen y el texto: ningún error que el revisor no viera"
+ }
+}

@@ -1,0 +1,551 @@
+{
+  "schema_version": "stage0-expected/0.1",
+  "status": "draft: written by inspecting rendered pages; pending human review",
+  "notes": [
+    "Pages are 1-based PDF page indices, not printed page numbers.",
+    "'author_stated' items must be supported by caption or body text; 'must_observe' items must be visible in the image.",
+    "'must_mark_uncertain' lists things the explanation must not state as fact; 'must_not_claim' lists concrete hallucination traps.",
+    "Extraction expectations apply to Stage 1; analysis expectations apply to Stages 2-3.",
+    "'expected_labels' overrides the JATS figure list where JATS is incomplete (scanned articles)."
+  ],
+  "articles": {
+    "PMC10368530": {
+      "expected_figures": 16,
+      "note": "Author manuscript: main and Extended Data figures are collected after the references (pages 37-49); captions run onto the following page; a vertical 'Author Manuscript' banner sits in the left margin of every page."
+    },
+    "PMC8359101": {
+      "expected_figures": 8
+    },
+    "PMC6291436": {
+      "expected_figures": 5,
+      "note": "Springer layout with captions beside the figure (left column)."
+    },
+    "PMC9608490": {
+      "expected_figures": 7,
+      "note": "Plus 1 Scheme. PDF contains ~1200 image objects: figures are tiled, so native image extraction alone will fail."
+    },
+    "PMC7270115": {
+      "expected_figures": 6
+    },
+    "PMC6599010": {
+      "expected_figures": 4
+    },
+    "PMC7280498": {
+      "expected_figures": 5
+    },
+    "PMC8913360": {
+      "expected_figures": 11,
+      "note": "6 main + 5 Extended Data.",
+      "license_review": "Fig. 1 and Fig. 6 credit non-author contributors (Hans Sell, Michelle O'Reilly); keep out of public screenshots/demos until reviewed."
+    },
+    "PMC10290119": {
+      "expected_figures": 4,
+      "note": "Vector figures: fewer embedded images than figures."
+    },
+    "PMC7786143": {
+      "expected_figures": 1,
+      "note": "Only one figure; 11 tables. Useful to test that tables are not reported as figures."
+    },
+    "PMC1971560": {
+      "expected_figures": 7,
+      "note": "Scanned 1990 article with PMC OCR layer. JATS omits Figure 2 and has empty captions; figures 2-5 share page 3.",
+      "expected_labels": [
+        "Figure 1",
+        "Figure 2",
+        "Figure 3",
+        "Figure 4",
+        "Figure 5",
+        "Figure 6",
+        "Figure 7"
+      ]
+    },
+    "PMC1971548": {
+      "expected_figures": 3,
+      "note": "Scanned 1990 article. JATS declares 0 figures; Table 1 is part of the page image.",
+      "expected_labels": [
+        "Figure 1",
+        "Figure 2",
+        "Figure 3"
+      ]
+    }
+  },
+  "figures": [
+    {
+      "id": "PMC7270115-F2",
+      "pmcid": "PMC7270115",
+      "label": "Figure 2",
+      "page": 3,
+      "figure_type": [
+        "chart",
+        "spectrum"
+      ],
+      "extraction": {
+        "panels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "caption_starts_with": "(A,B) XRD pattern indicating presence of ZnO peaks.",
+        "hazards": [
+          "Figure 1 is on the same page directly above; the two must not be merged."
+        ]
+      },
+      "analysis": {
+        "must_observe": [
+          "A and B are XRD patterns: Intensity vs 2 Theta, x axis 0-90.",
+          "The strongest XRD peak in A and B is labelled (101); (100) and (002) are the neighbouring labelled peaks.",
+          "C and D are FTIR spectra: Transmittance (%) vs Wavenumber cm-1, x axis 2500 to 500.",
+          "D shows a deep minimum labelled 1000."
+        ],
+        "author_stated": [
+          "A,B: XRD peaks indicate ZnO (caption).",
+          "A,C: Cassia fistula mediated; B,D: Melia azadarach mediated (caption).",
+          "C,D: FTIR indicates functional groups involved in synthesis (caption)."
+        ],
+        "must_mark_uncertain": [
+          "Crystallite size or phase purity cannot be read from the figure alone.",
+          "Which functional group each FTIR band corresponds to unless the body text states it."
+        ],
+        "must_not_claim": [
+          "Numeric intensity values of peaks beyond reading the axis scale.",
+          "That XRD and FTIR were measured on the same sample batch, unless stated in text."
+        ]
+      }
+    },
+    {
+      "id": "PMC7270115-F4",
+      "pmcid": "PMC7270115",
+      "label": "Figure 4",
+      "page": 5,
+      "figure_type": [
+        "electron_microscopy"
+      ],
+      "extraction": {
+        "panels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F"
+        ],
+        "caption_starts_with": "SEM images of ZnO particles showing their morphology at three different resolutions."
+      },
+      "analysis": {
+        "must_observe": [
+          "Six SEM micrographs in a 2 x 3 grid.",
+          "Scale bars: A 30 µm, B 1 µm, C 200 nm, D 20 µm, E 2 µm, F 300 nm.",
+          "Red dotted circles in C and F."
+        ],
+        "author_stated": [
+          "A-C Cassia fistula, D-F Melia azadarach mediated NPs (caption).",
+          "Magnifications 500x, 16,000x, 65,000x (A-C) and 800x, 8,000x, 30,000x (D-F) (caption).",
+          "Red circles indicate the NPs circumference (caption).",
+          "NPs are 'more or less spherical' and clustered (body text, page 5)."
+        ],
+        "must_mark_uncertain": [
+          "Individual particle size distribution: not measurable reliably from these images."
+        ],
+        "must_not_claim": [
+          "Particle diameters not stated in the paper.",
+          "That the caption's 'resolutions' are instrument resolutions (they are magnifications)."
+        ]
+      }
+    },
+    {
+      "id": "PMC6599010-F3",
+      "pmcid": "PMC6599010",
+      "label": "Fig. 3",
+      "page": 5,
+      "figure_type": [
+        "electron_microscopy",
+        "chart"
+      ],
+      "extraction": {
+        "panels": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e"
+        ],
+        "caption_starts_with": "Photovoltaic performance of solar cells.",
+        "hazards": [
+          "Table 1 sits directly below the caption and must not be included in the figure crop."
+        ]
+      },
+      "analysis": {
+        "must_observe": [
+          "a: cross-sectional image with layer labels (Glass, ITO, TiO2, Cs0.25FA0.75PbI3, CsPbI3, Spiro-OMeTAD, MoOx, Al) and a 200 nm scale bar.",
+          "b, d: Current density (mA cm-2) vs Potential (V) curves.",
+          "c, e: Current density and Efficiency (%) vs Time (s), annotated 'SPO at 0.95V' and 'Light'.",
+          "b and c compare thickness ratios 0:4, 1:3, 2:2, 3:1, 4:0."
+        ],
+        "author_stated": [
+          "a is a STEM-HAADF image (caption).",
+          "b, c: J-V curves by reverse scan and SPO at 0.95 V for different thickness ratios of Cs0.25FA0.75PbI3 to CsPbI3 (caption).",
+          "Best device in Table 1 is the 1:3 ratio with PCE 17.39% (Table 1, same page)."
+        ],
+        "must_mark_uncertain": [
+          "Exact Voc/Jsc of each curve if read only from the plot: values must come from Table 1 or be marked approximate."
+        ],
+        "must_not_claim": [
+          "A PCE value not present in Table 1 or text."
+        ]
+      }
+    },
+    {
+      "id": "PMC7280498-F2",
+      "pmcid": "PMC7280498",
+      "label": "Figure 2",
+      "page": 4,
+      "figure_type": [
+        "map"
+      ],
+      "extraction": {
+        "panels": [
+          "(a) 1995",
+          "(b) 2001",
+          "(c) 2004",
+          "(d) 2013"
+        ],
+        "caption_starts_with": "LULC classification maps in Dongting Lake area in 1995, 2001, 2004 and 2013.",
+        "hazards": [
+          "The lower two maps are cut off in the published PDF: their panel labels, scale bars and the bottom of their legends are not visible.",
+          "Table 2 is real text directly below the caption."
+        ]
+      },
+      "analysis": {
+        "must_observe": [
+          "Four classified maps with north arrows.",
+          "Upper legends list: riparian forest, paddy field, dry land, built-up land, forest land, reed beach land, marsh land, mud beach, water body.",
+          "Upper-left scale bar in km (0-80).",
+          "Lower maps are visibly truncated."
+        ],
+        "author_stated": [
+          "Maps correspond to 1995, 2001, 2004 and 2013 (caption)."
+        ],
+        "must_mark_uncertain": [
+          "Labels of the lower two maps: the 2004/2013 assignment comes from the caption order, not from visible labels.",
+          "Area changes between years must come from the text/Figure 3, not from visual estimation of colours."
+        ],
+        "must_not_claim": [
+          "Specific area values (km2) read from the maps."
+        ]
+      }
+    },
+    {
+      "id": "PMC8913360-F4",
+      "pmcid": "PMC8913360",
+      "label": "Fig. 4",
+      "page": 4,
+      "figure_type": [
+        "complex_chart"
+      ],
+      "extraction": {
+        "panels": "grid of 21 regional sub-plots without letter labels",
+        "caption_starts_with": "Regional-scale changes following Black Death in four BDP pollen indicators.",
+        "hazards": [
+          "Fig. 3 occupies the top half of the same page."
+        ]
+      },
+      "analysis": {
+        "must_observe": [
+          "Each sub-plot shows four indicators (Slow succession, Fast succession, Herding, Cereals) with point estimates and intervals on a 'Mean difference' axis.",
+          "Each region carries a sample size, e.g. Baltic: South (n = 275), Russia (n = 20).",
+          "Colour legend: grey = less than 90%, blue = CI 90%, red = CI 95%."
+        ],
+        "author_stated": [
+          "Difference between means of 1250-1350 and 1351-1450 CE, with standard deviation (caption).",
+          "Significance based on bootstrap estimates (caption).",
+          "Rows ordered from significant increases to significant declines in cereal pollen (caption)."
+        ],
+        "must_mark_uncertain": [
+          "Demographic interpretation per region (that is the authors' inference and must be attributed)."
+        ],
+        "must_not_claim": [
+          "A causal mortality figure for any region derived from this plot alone."
+        ]
+      }
+    },
+    {
+      "id": "PMC8359101-F4",
+      "pmcid": "PMC8359101",
+      "label": "Fig. 4",
+      "page": 9,
+      "figure_type": [
+        "western_blot",
+        "fluorescence_microscopy",
+        "protein_structure",
+        "dense_multipanel"
+      ],
+      "extraction": {
+        "panels": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e"
+        ],
+        "caption_starts_with": "DIDO1-529aa interacts with PARP1."
+      },
+      "analysis": {
+        "must_observe": [
+          "a: co-IP blots with IgG/Flag lanes; probed for PARP1, Flag and GAPDH input.",
+          "b: immunofluorescence in HGC-27 and MGC-803 cells: DAPI, DIDO1-529aa-Flag, PARP1, Merge.",
+          "c: PARP1 domain map (BDB, AMD, BRCT) and deletion constructs 1-1014, 1-372, 373-524, 525-1014 with blots and docking structures.",
+          "d: DAPI, DIDO1-529aa-Flag and gamma-H2AX staining in vector vs overexpression for MGC-803 and HGC-27.",
+          "e: blots for cleaved caspase3, caspase3, cleaved PARP1, PARP1, GAPDH."
+        ],
+        "author_stated": [
+          "Scale bars: 25 µm in b, 50 µm in d (caption; values are not printed on the image).",
+          "DIDO1-529aa interacts with PARP1 (caption title)."
+        ],
+        "must_mark_uncertain": [
+          "Band intensity quantification: no densitometry shown in this figure.",
+          "Which PARP1 fragment binds, unless taken from text."
+        ],
+        "must_not_claim": [
+          "Fold-change values for any band."
+        ],
+        "known_issue": "Caption contains the typo 'PRPA1' for PARP1; explanation should not propagate it as a different protein."
+      }
+    },
+    {
+      "id": "PMC6291436-F3",
+      "pmcid": "PMC6291436",
+      "label": "Fig. 3",
+      "page": 5,
+      "figure_type": [
+        "medical_imaging"
+      ],
+      "extraction": {
+        "panels": "2 x 3 grid without letter labels; columns 'No / Manual / Automated segmentation', rows T1-CE and FLAIR",
+        "caption_starts_with": "A 53-year-old woman with a meningioma grade II in the left frontal lobe",
+        "hazards": [
+          "Caption is in a narrow column to the LEFT of the image, not below it."
+        ]
+      },
+      "analysis": {
+        "must_observe": [
+          "Axial brain MRI slices; top row labelled T1-CE, bottom row FLAIR.",
+          "Middle and right columns show a red overlay on the lesion.",
+          "In the FLAIR row the overlay covers a larger area than in the T1-CE row."
+        ],
+        "author_stated": [
+          "Manual and automated segmentation correlate very well (caption).",
+          "Dice 0.92 for TTV and 0.95 for T1CE TV for this patient (body text, page 5, cites Fig. 3)."
+        ],
+        "must_mark_uncertain": [
+          "Left/right orientation and lesion size in cm: not given by the image."
+        ],
+        "must_not_claim": [
+          "Any diagnosis or clinical recommendation beyond what the paper states."
+        ]
+      }
+    },
+    {
+      "id": "PMC9608490-F1",
+      "pmcid": "PMC9608490",
+      "label": "Figure 1",
+      "page": 4,
+      "figure_type": [
+        "molecular_structure"
+      ],
+      "extraction": {
+        "panels": [],
+        "caption_starts_with": "Molecular structure of 4-(t-Bu)-N′-(2-hydroxy-3-methoxybenzylidene)benzohydrazide (5).",
+        "hazards": [
+          "Figure is assembled from many image tiles: native extraction yields fragments; render the region instead.",
+          "Table 2 directly below."
+        ]
+      },
+      "analysis": {
+        "must_observe": [
+          "Ball-and-stick structure with atom labels C1-C19, N1, N2, O1-O4 and colour key C (grey), H (white), N (blue), O (red).",
+          "Dotted lines O4-H...O3 (red) and O1-H...N1 (blue).",
+          "O4 is a separate atom not covalently bonded to the molecule."
+        ],
+        "author_stated": [
+          "Compound 5 crystallizes in monoclinic Cc; Figure 1 shows the asymmetric unit (text, page 4).",
+          "Empirical formula C19H24N2O4 (Table 2)."
+        ],
+        "acceptable_inferences": [
+          "O4 is likely a co-crystallized water molecule (formula has one O and two H more than the drawn molecule) — must be labelled as inference."
+        ],
+        "must_not_claim": [
+          "Bond lengths not given in text or tables."
+        ]
+      }
+    },
+    {
+      "id": "PMC10290119-F4",
+      "pmcid": "PMC10290119",
+      "label": "Fig. 4",
+      "page": 10,
+      "figure_type": [
+        "architecture_diagram"
+      ],
+      "extraction": {
+        "panels": [
+          "a",
+          "b",
+          "c"
+        ],
+        "caption_starts_with": "Spec2Mol architecture.",
+        "hazards": [
+          "Vector graphics: there may be no embedded raster image for this figure."
+        ]
+      },
+      "analysis": {
+        "must_observe": [
+          "a: SMILES -> SMILES Encoder (GRU) -> Zs -> SMILES Decoder (GRU) -> SMILES.",
+          "b: MS/MS spectra -> Spectra Encoder (CNN) -> ZM, objective min||ZM - ZS||.",
+          "c: Spec2Mol = Spectra Encoder (CNN) + SMILES Decoder (GRU), from spectra to SMILES."
+        ],
+        "author_stated": [
+          "Encoder and decoder trained separately, sharing the embedding space (caption).",
+          "Spectra encoder uses two 1-D CNN layers and two fully connected layers (text, page 10)."
+        ],
+        "acceptable_inferences": [
+          "The example SMILES Cn1cnc2c1c(=O)n(C)c(=O)n2C corresponds to caffeine — the paper does not name it here; must be labelled as inference."
+        ],
+        "must_not_claim": [
+          "Model accuracy figures not stated near this figure."
+        ]
+      }
+    },
+    {
+      "id": "PMC7786143-F1",
+      "pmcid": "PMC7786143",
+      "label": "Fig. 1",
+      "page": 5,
+      "figure_type": [
+        "chart"
+      ],
+      "extraction": {
+        "panels": [],
+        "caption_starts_with": "Perceptions regarding the value of various remote learning resources",
+        "hazards": [
+          "Caption is inside the figure frame.",
+          "Table 3 on the same page must not be detected as a figure."
+        ]
+      },
+      "analysis": {
+        "must_observe": [
+          "100% stacked horizontal bars for 12 resources, each with its n (e.g. Laptop n=99, Aquifer n=17).",
+          "Categories: Strongly Agree or Agree (green), Neutral (grey), Disagree or Strongly Disagree (blue).",
+          "Laptop has the largest agree share; Aquifer shows no visible agree segment."
+        ],
+        "author_stated": [
+          "Pre-clinical students at UC San Diego, March-April 2020 (caption)."
+        ],
+        "must_mark_uncertain": [
+          "Exact percentages: the bars have no data labels, so values are visual estimates."
+        ],
+        "must_not_claim": [
+          "Precise percentages presented as exact."
+        ]
+      }
+    },
+    {
+      "id": "PMC1971560-F2",
+      "pmcid": "PMC1971560",
+      "label": "Figure 2",
+      "page": 3,
+      "figure_type": [
+        "chart"
+      ],
+      "extraction": {
+        "panels": [],
+        "caption_starts_with": "First order pharmacokinetic plot of the plasma concentrations of CCI-103F",
+        "hazards": [
+          "Scanned page: one raster per page; four figures (2-5) share page 3.",
+          "Figure 2 is missing from the JATS XML."
+        ]
+      },
+      "analysis": {
+        "must_observe": [
+          "Plasma [CCI-103F] (µM) on a logarithmic y axis vs Time post-injection (Hours), 0-24 h.",
+          "Points with error bars and a straight fitted line declining over time."
+        ],
+        "author_stated": [
+          "Points are mean plasma concentrations for nine dogs (caption).",
+          "Plasma half-life of 7.9 h (caption and text)."
+        ],
+        "must_mark_uncertain": [
+          "Exact concentrations per time point: values must be read approximately from a scanned log scale."
+        ],
+        "must_not_claim": [
+          "A half-life different from 7.9 h."
+        ]
+      }
+    },
+    {
+      "id": "PMC1971560-F3",
+      "pmcid": "PMC1971560",
+      "label": "Figure 3",
+      "page": 3,
+      "figure_type": [
+        "microscopy"
+      ],
+      "extraction": {
+        "panels": [],
+        "caption_starts_with": "Immunoperioxidase labelled section of an excised canine mast cell tumour",
+        "hazards": [
+          "Scanned, low contrast. Original caption contains the typo 'Immunoperioxidase'."
+        ]
+      },
+      "analysis": {
+        "must_observe": [
+          "Greyscale histology section with arrows and an unlabelled scale bar."
+        ],
+        "author_stated": [
+          "Bar = 250 µm (caption).",
+          "Labelled cells at 10-12 cell diameters from blood vessels identified by arrows (caption)."
+        ],
+        "must_mark_uncertain": [
+          "Which cells are labelled: hard to discern in the scanned greyscale image."
+        ],
+        "must_not_claim": [
+          "Hypoxic fraction values."
+        ]
+      }
+    },
+    {
+      "id": "PMC1971548-F1",
+      "pmcid": "PMC1971548",
+      "label": "Figure 1",
+      "page": 2,
+      "figure_type": [
+        "chart"
+      ],
+      "extraction": {
+        "panels": [],
+        "caption_starts_with": "Age-standardised annual incidence rates per million",
+        "hazards": [
+          "Scanned; not declared in JATS.",
+          "Table 1 above is also part of the page raster and is not a figure."
+        ]
+      },
+      "analysis": {
+        "must_observe": [
+          "Horizontal bars per registry, x axis 'Age-standardised rate (per million)' 0-12.",
+          "Two segments: Wilms' tumour (open) and Other and unspecified (hatched).",
+          "Top registry: United States, Black, 10.9 / 11.4; lowest shown: Chinese, 2.5 / 3.1."
+        ],
+        "author_stated": [
+          "Both sexes combined, excluding carcinoma (caption).",
+          "Asterisks mark combined registries (caption)."
+        ],
+        "must_mark_uncertain": [
+          "OCR of small scanned labels (e.g. 'FRG, Children's Registry')."
+        ],
+        "must_not_claim": [
+          "Rates for registries not shown."
+        ]
+      }
+    }
+  ]
+}

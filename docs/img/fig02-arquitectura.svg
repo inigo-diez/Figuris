@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 470" width="960" height="470" role="img" aria-labelledby="t d" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+<title id="t">Arquitectura de Figuris</title><desc id="d">Diez etapas en dos filas. La extracción, la evidencia, los paneles, el contexto y la validación son locales y deterministas, salvo el OCR, que usa redes neuronales locales. Solo la explicación llama a un modelo multimodal remoto.</desc>
+<rect width="960" height="470" fill="#FFFFFF"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#17212B"/></marker></defs>
+<text x="22" y="30" font-size="14" fill="#17212B" font-weight="600" text-anchor="start">Procesamiento del documento</text>
+<text x="22" y="50" font-size="12" fill="#66717D" font-weight="400" text-anchor="start">Local y reproducible: el mismo PDF da siempre el mismo resultado</text>
+<text x="22" y="252" font-size="14" fill="#17212B" font-weight="600" text-anchor="start">Explicación y control</text>
+<text x="22" y="272" font-size="12" fill="#66717D" font-weight="400" text-anchor="start">Una sola llamada a un modelo remoto por figura, vigilada por reglas</text>
+<rect x="28" y="92" width="164" height="96" rx="6" fill="#FFFFFF" stroke="#17212B" stroke-width="1.4"/>
+<circle cx="46" cy="112" r="10" fill="#176B67"/>
+<text x="46" y="116" font-size="11" fill="#FFFFFF" font-weight="700" text-anchor="middle">1</text>
+<text x="62" y="117" font-size="13.5" fill="#17212B" font-weight="600" text-anchor="start">Ingesta</text>
+<text x="40" y="144" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="start">Validación del PDF</text>
+<text x="40" y="161" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="start">y huella SHA-256</text>
+<line x1="192" y1="140.0" x2="213" y2="140.0" stroke="#17212B" stroke-width="1.2" marker-end="url(#arrow)"/>
+<rect x="214" y="92" width="164" height="96" rx="6" fill="#FFFFFF" stroke="#17212B" stroke-width="1.4"/>
+<circle cx="232" cy="112" r="10" fill="#176B67"/>
+<text x="232" y="116" font-size="11" fill="#FFFFFF" font-weight="700" text-anchor="middle">2</text>
+<text x="248" y="117" font-size="13.5" fill="#17212B" font-weight="600" text-anchor="start">Maquetación</text>
+<text x="226" y="144" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="start">pdfium: líneas de texto</text>
+<text x="226" y="161" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="start">y elementos gráficos</text>
+<line x1="378" y1="140.0" x2="399" y2="140.0" stroke="#17212B" stroke-width="1.2" marker-end="url(#arrow)"/>
+<rect x="400" y="92" width="164" height="96" rx="6" fill="#FFFFFF" stroke="#17212B" stroke-width="1.4"/>
+<circle cx="418" cy="112" r="10" fill="#176B67"/>
+<text x="418" y="116" font-size="11" fill="#FFFFFF" font-weight="700" text-anchor="middle">3</text>
+<text x="434" y="117" font-size="13.5" fill="#17212B" font-weight="600" text-anchor="start">Figuras y pies</text>
+<text x="412" y="144" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="start">Rejilla de ocupación;</text>
+<text x="412" y="161" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="start">región ↔ pie más cercano</text>
+<line x1="564" y1="140.0" x2="585" y2="140.0" stroke="#17212B" stroke-width="1.2" marker-end="url(#arrow)"/>
+<rect x="586" y="92" width="164" height="96" rx="6" fill="#EEF5F4" stroke="#17212B" stroke-width="1.4"/>
+<circle cx="604" cy="112" r="10" fill="#176B67"/>
+<text x="604" y="116" font-size="11" fill="#FFFFFF" font-weight="700" text-anchor="middle">4</text>
+<text x="620" y="117" font-size="13.5" fill="#17212B" font-weight="600" text-anchor="start">Capa de evidencia</text>
+<text x="598" y="144" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="start">Texto del PDF + OCR</text>
+<text x="598" y="161" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="start">PP-OCRv6 (ONNX)</text>
+<line x1="750" y1="140.0" x2="771" y2="140.0" stroke="#17212B" stroke-width="1.2" marker-end="url(#arrow)"/>
+<rect x="772" y="92" width="164" height="96" rx="6" fill="#FFFFFF" stroke="#17212B" stroke-width="1.4"/>
+<circle cx="790" cy="112" r="10" fill="#176B67"/>
+<text x="790" y="116" font-size="11" fill="#FFFFFF" font-weight="700" text-anchor="middle">5</text>
+<text x="806" y="117" font-size="13.5" fill="#17212B" font-weight="600" text-anchor="start">Paneles</text>
+<text x="784" y="144" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="start">Cortes por huecos y</text>
+<text x="784" y="161" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="start">anclas en las letras</text>
+<rect x="28" y="300" width="164" height="96" rx="6" fill="#FFFFFF" stroke="#17212B" stroke-width="1.4"/>
+<circle cx="46" cy="320" r="10" fill="#176B67"/>
+<text x="46" y="324" font-size="11" fill="#FFFFFF" font-weight="700" text-anchor="middle">6</text>
+<text x="62" y="325" font-size="13.5" fill="#17212B" font-weight="600" text-anchor="start">Texto y menciones</text>
+<text x="40" y="352" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="start">Párrafos con página;</text>
+<text x="40" y="369" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="start">«Fig. 2b», «Figs. 3–5»</text>
+<line x1="192" y1="348.0" x2="213" y2="348.0" stroke="#17212B" stroke-width="1.2" marker-end="url(#arrow)"/>
+<rect x="214" y="300" width="164" height="96" rx="6" fill="#FFFFFF" stroke="#17212B" stroke-width="1.4"/>
+<circle cx="232" cy="320" r="10" fill="#176B67"/>
+<text x="232" y="324" font-size="11" fill="#FFFFFF" font-weight="700" text-anchor="middle">7</text>
+<text x="248" y="325" font-size="13.5" fill="#17212B" font-weight="600" text-anchor="start">Contexto</text>
+<text x="226" y="352" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="start">Párrafos que citan la</text>
+<text x="226" y="369" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="start">figura, con presupuesto</text>
+<line x1="378" y1="348.0" x2="399" y2="348.0" stroke="#17212B" stroke-width="1.2" marker-end="url(#arrow)"/>
+<rect x="400" y="300" width="164" height="96" rx="6" fill="#FFFFFF" stroke="#D96C4D" stroke-width="1.4" stroke-dasharray="5 3"/>
+<circle cx="418" cy="320" r="10" fill="#D96C4D"/>
+<text x="418" y="324" font-size="11" fill="#FFFFFF" font-weight="700" text-anchor="middle">8</text>
+<text x="434" y="325" font-size="13.5" fill="#17212B" font-weight="600" text-anchor="start">Explicación</text>
+<text x="412" y="352" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="start">Modelo multimodal;</text>
+<text x="412" y="369" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="start">JSON con esquema estricto</text>
+<line x1="564" y1="348.0" x2="585" y2="348.0" stroke="#17212B" stroke-width="1.2" marker-end="url(#arrow)"/>
+<rect x="586" y="300" width="164" height="96" rx="6" fill="#FFFFFF" stroke="#17212B" stroke-width="1.4"/>
+<circle cx="604" cy="320" r="10" fill="#176B67"/>
+<text x="604" y="324" font-size="11" fill="#FFFFFF" font-weight="700" text-anchor="middle">9</text>
+<text x="620" y="325" font-size="13.5" fill="#17212B" font-weight="600" text-anchor="start">Validación</text>
+<text x="598" y="352" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="start">Citas literales, paneles</text>
+<text x="598" y="369" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="start">y números comprobados</text>
+<line x1="750" y1="348.0" x2="771" y2="348.0" stroke="#17212B" stroke-width="1.2" marker-end="url(#arrow)"/>
+<rect x="772" y="300" width="164" height="96" rx="6" fill="#FFFFFF" stroke="#17212B" stroke-width="1.4"/>
+<circle cx="790" cy="320" r="10" fill="#176B67"/>
+<text x="790" y="324" font-size="11" fill="#FFFFFF" font-weight="700" text-anchor="middle">10</text>
+<text x="806" y="325" font-size="13.5" fill="#17212B" font-weight="600" text-anchor="start">Almacén e interfaz</text>
+<text x="784" y="352" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="start">SQLite + archivos; caché</text>
+<text x="784" y="369" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="start">por contenido; Figuris</text>
+<path d="M854.0 188 V210 H16 V348.0 H27" fill="none" stroke="#17212B" stroke-width="1.2" marker-end="url(#arrow)"/>
+<text x="846.0" y="204" font-size="11" fill="#66717D" font-weight="400" text-anchor="end">figuras, pies, paneles y texto de cada figura</text>
+<rect x="22" y="426" width="16" height="14" rx="3" fill="#FFFFFF" stroke="#17212B" stroke-width="1.2"/>
+<text x="46" y="438" font-size="12" fill="#17212B" font-weight="400" text-anchor="start">Determinista (reglas y geometría)</text>
+<rect x="272" y="426" width="16" height="14" rx="3" fill="#EEF5F4" stroke="#17212B" stroke-width="1.2"/>
+<text x="296" y="438" font-size="12" fill="#17212B" font-weight="400" text-anchor="start">Red neuronal local (OCR)</text>
+<rect x="478" y="426" width="16" height="14" rx="3" fill="#FFFFFF" stroke="#D96C4D" stroke-width="1.2" stroke-dasharray="4 2"/>
+<text x="502" y="438" font-size="12" fill="#17212B" font-weight="400" text-anchor="start">Modelo multimodal remoto (API)</text>
+</svg>

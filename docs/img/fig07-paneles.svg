@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" width="960" height="300" role="img" aria-labelledby="t d" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+<title id="t">Separación de paneles: AP50 frente a las cajas humanas</title><desc id="d">Barras horizontales. El método mejora de 0,54 a 0,83 en las figuras usadas para diseñarlo, pero da 0,61 en las 34 figuras nuevas de validation. Umbral 0,85.</desc>
+<rect width="960" height="300" fill="#FFFFFF"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#17212B"/></marker></defs>
+<text x="22" y="30" font-size="14" fill="#17212B" font-weight="600" text-anchor="start">Paneles bien localizados (AP con IoU ≥ 0,5)</text>
+<rect x="560" y="18" width="12" height="12" rx="2" fill="#00998A"/>
+<text x="578" y="29" font-size="12" fill="#17212B" font-weight="400" text-anchor="start">figuras usadas para diseñar el método</text>
+<rect x="560" y="38" width="12" height="12" rx="2" fill="#D96C4D"/>
+<text x="578" y="49" font-size="12" fill="#17212B" font-weight="400" text-anchor="start">figuras nuevas (34, validation)</text>
+<line x1="250" y1="66" x2="250" y2="248" stroke="#E8EBE6" stroke-width="1"/>
+<text x="250" y="266" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="middle">0,00</text>
+<line x1="407.5" y1="66" x2="407.5" y2="248" stroke="#E8EBE6" stroke-width="1"/>
+<text x="407.5" y="266" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="middle">0,25</text>
+<line x1="565.0" y1="66" x2="565.0" y2="248" stroke="#E8EBE6" stroke-width="1"/>
+<text x="565.0" y="266" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="middle">0,50</text>
+<line x1="722.5" y1="66" x2="722.5" y2="248" stroke="#E8EBE6" stroke-width="1"/>
+<text x="722.5" y="266" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="middle">0,75</text>
+<line x1="880.0" y1="66" x2="880.0" y2="248" stroke="#E8EBE6" stroke-width="1"/>
+<text x="880.0" y="266" font-size="11.5" fill="#66717D" font-weight="400" text-anchor="middle">1,00</text>
+<text x="22" y="94" font-size="13" fill="#17212B" font-weight="400" text-anchor="start">Cortes por huecos (base)</text>
+<path d="M250 78H586.2a4 4 0 0 1 4 4v14a4 4 0 0 1 -4 4H250z" fill="#00998A"/>
+<text x="598.2" y="94" font-size="12.5" fill="#17212B" font-weight="600" text-anchor="start">0,54</text>
+<text x="22" y="138" font-size="13" fill="#17212B" font-weight="400" text-anchor="start">Anclas en letras 0.1</text>
+<path d="M250 122H661.8a4 4 0 0 1 4 4v14a4 4 0 0 1 -4 4H250z" fill="#00998A"/>
+<text x="673.8" y="138" font-size="12.5" fill="#17212B" font-weight="600" text-anchor="start">0,66</text>
+<text x="22" y="182" font-size="13" fill="#17212B" font-weight="400" text-anchor="start">Anclas 0.2 · diseño (dev)</text>
+<path d="M250 166H768.9a4 4 0 0 1 4 4v14a4 4 0 0 1 -4 4H250z" fill="#00998A"/>
+<text x="793.5" y="182" font-size="12.5" fill="#17212B" font-weight="600" text-anchor="start">0,83</text>
+<text x="22" y="226" font-size="13" fill="#17212B" font-weight="400" text-anchor="start">Anclas 0.2 · nuevas (validation)</text>
+<path d="M250 210H630.3a4 4 0 0 1 4 4v14a4 4 0 0 1 -4 4H250z" fill="#D96C4D"/>
+<text x="642.3" y="226" font-size="12.5" fill="#17212B" font-weight="600" text-anchor="start">0,61</text>
+<line x1="785.5" y1="58" x2="785.5" y2="248" stroke="#17212B" stroke-width="1.6"/>
+<text x="791.5" y="68" font-size="11.5" fill="#17212B" font-weight="400" text-anchor="start">umbral 0,85</text>
+</svg>

@@ -1,0 +1,22 @@
+{
+  "corpus": "SFI-12",
+  "allowed_licenses": ["CC BY"],
+  "articles": [
+    {"pmcid": "PMC10368530", "discipline": "biomedicine", "pdf_kind": "born_digital", "target_figure_types": ["microscopy", "multipanel", "chart"]},
+    {"pmcid": "PMC8359101", "discipline": "biomedicine", "pdf_kind": "born_digital", "target_figure_types": ["western_blot", "dense_multipanel", "chart"]},
+    {"pmcid": "PMC6291436", "discipline": "biomedicine", "pdf_kind": "born_digital", "target_figure_types": ["medical_imaging", "chart"]},
+    {"pmcid": "PMC9608490", "discipline": "chemistry", "pdf_kind": "born_digital", "target_figure_types": ["molecular_structure", "chart"]},
+    {"pmcid": "PMC7270115", "discipline": "materials", "pdf_kind": "born_digital", "target_figure_types": ["electron_microscopy", "spectrum", "chart"]},
+    {"pmcid": "PMC6599010", "discipline": "physics", "pdf_kind": "born_digital", "target_figure_types": ["device_diagram", "chart", "electron_microscopy"]},
+    {"pmcid": "PMC7280498", "discipline": "environmental", "pdf_kind": "born_digital", "target_figure_types": ["map", "chart"]},
+    {"pmcid": "PMC8913360", "discipline": "environmental", "pdf_kind": "born_digital", "target_figure_types": ["map", "complex_chart"]},
+    {"pmcid": "PMC10290119", "discipline": "computer_science", "pdf_kind": "born_digital", "target_figure_types": ["architecture_diagram", "chart"]},
+    {"pmcid": "PMC7786143", "discipline": "social_science", "pdf_kind": "born_digital", "target_figure_types": ["chart"]},
+    {"pmcid": "PMC1971560", "discipline": "biomedicine", "pdf_kind": "scanned", "target_figure_types": ["microscopy", "table_image"]},
+    {"pmcid": "PMC1971548", "discipline": "biomedicine", "pdf_kind": "scanned", "target_figure_types": ["chart", "table_image"]}
+  ],
+  "reserve": [
+    {"pmcid": "PMC8448759", "discipline": "computer_science", "pdf_kind": "born_digital", "target_figure_types": ["diagram", "chart"], "reason": "redundant with PMC10290119 (vector diagrams); no annotated figure"},
+    {"pmcid": "PMC4887260", "discipline": "materials", "pdf_kind": "unknown", "target_figure_types": ["electron_microscopy", "chart"], "reason": "CC0, not CC BY as required for SFI-12"}
+  ]
+}
